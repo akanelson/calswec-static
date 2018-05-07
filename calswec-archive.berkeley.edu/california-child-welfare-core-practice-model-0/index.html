@@ -1,0 +1,578 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/california-child-welfare-core-practice-model-0 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:13:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>California Child Welfare Core Practice Model | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"yN9jK_OguGctQm3pRhgo-D2kU8Plq3F18Jm20Ud9KOg","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/california-child-welfare-core-practice-model-0":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1864 node-type-generic-page section-california-child-welfare-core-practice-model-0" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/california-child-welfare-core-practice-model-0" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-MN8D_MfezdlbjjYhUIp1XlSjjzK3rJG_u7R9SfJ6UsQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../programs-initiatives/index.html">Programs &amp; Initiatives</a> / </li><li><a href="../child-welfare/index.html" class="active-trail">Child Welfare</a> / </li><li><a href="../service-training-coordination/index.html" title="In-Service Training Coordination" class="active-trail">In-Service Training Coordination</a> / </li><li>California Child Welfare Core Practice Model</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">California Child Welfare Core Practice Model</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-1864" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>The California Child Welfare Core Practice Model is a project of the <a href="http://www.cwda.org/" title="County Welfare Directors Association (CWDA) of California">County Welfare Directors Association (CWDA) of California</a>&nbsp;with support from the <a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="California Department of Social Services">California Department of Social Services</a>, the <a href="http://www.cfpic.org/" title="Child and Family Policy Institute of California">Child and Family Policy Institute of California</a>, CalSWEC, and the <a href="http://calswec.berkeley.edu/service-training-partners" title="Regional Training Academies">Regional Training Academies</a>.</p>
+
+<ul>
+	<li><strong><em><span style="color:rgb(255, 0, 0)">NEW&nbsp;</span></em></strong><a href="http://calswec.berkeley.edu/webinar-cpm-organizational-readiness-building-what-it-and-why-it-matters-march-15-2018" title="Webinar: CPM Organizational Readiness Building—What It Is and Why It Matters! | March 15, 2018">Webinar: CPM Organizational Readiness Building—What It Is and Why It Matters! | March 15, 2018</a></li>
+	<li><strong><em><span style="color:#FF0000">NEW</span></em>&nbsp;</strong><a href="http://calswec.berkeley.edu/cpm-implementation-planning-materials" title="CPM Implementation Planning Materials">CPM Implementation Planning Materials</a></li>
+	<li><strong><span style="color:#FF0000"><strong><em>NEW</em></strong></span>&nbsp;</strong><a href="http://calswec.berkeley.edu/webinar-cpm-implementation-planning-designing-road-ahead-february-15-2018" title="Webinar: CPM Implementation Planning ">Webinar: CPM Implementation Planning&nbsp;| February&nbsp;15, 2018</a></li>
+</ul>
+
+<p><strong><a href="http://calswec.berkeley.edu/message-executive-director-virginia-rondero-hernandez-0" target="_blank" title="RELATED: Read the Message from CalSWEC Executive Director Virginia Rondero Hernandez, who gives an overview of the Core Practice Model">RELATED: Read the Message from CalSWEC Executive Director Virginia Rondero Hernandez, who gives an overview of the Core Practice Model</a></strong></p>
+
+<p>Practice Model Elements</p>
+
+<ul>
+	<li><a href="https://vimeo.com/143159309" title="Webinar Overview of the California Child Welfare Core Practice Model">Webinar Overview of the California Child Welfare Core Practice Model</a></li>
+	<li><span style="color:#0000CD"><em><strong>Updated:&nbsp;</strong></em></span><a href="../sites/default/files/uploads/cpm_packet_rev0816_p7/index.pdf" title="Practice Model Overview">California Child Welfare Core Practice Model Overview</a></li>
+	<li><a href="../sites/default/files/uploads/practice_behaviors_final_8_17_15/index.docx" title="California Child Welfare Core Practice Model Practice Behaviors">California Child Welfare Core Practice Model Practice Behaviors</a></li>
+	<li><span style="color:#0000CD"><em><strong>New:</strong></em></span> <a href="../sites/default/files/uploads/practice_behaviors_061816_leadership_p2/index.docx" title="Practice Behaviors for Leadership">Practice Behaviors for Leadership</a></li>
+	<li><a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-background-materials" title="Background info">Additional background information about the model</a></li>
+	<li><a href="https://www.youtube.com/watch?v=-Vx_N29hy4k&amp;list=UUV0YoKMl6wkbtYI1PbJXPSA" title="We Believe video">We Believe video</a></li>
+	<li><a href="../sites/default/files/uploads/cpm_theories_infographic_p3/index.pdf" title="Theoretical Framework Graphic">Theoretical Framework Graphic</a></li>
+	<li><a href="../sites/default/files/uploads/theoriesoverviewandapplication091614/index.docx" title="Theories Overview">Theories Overview and Case Application</a></li>
+	<li><a href="../sites/default/files/uploads/orgfactorsmatrix051016/index.docx" title="Organizational Factors Matrix">Organizational Factors Matrix</a></li>
+	<li><a href="http://calswec.berkeley.edu/sites/default/files/uploads/california_practice_model_faq_2.14.14.pdf" title="FAQ">FAQ</a></li>
+	<li><a href="../sites/default/files/uploads/cpmquickguide/index.pdf" title="CPM Quick Guide">CPM Quick Guide</a> (developed by San Francisco County)</li>
+</ul>
+
+<h3>How Counties Are Using the Materials</h3>
+
+<p>Counties can and should use the model overview and practice behaviors to inform&nbsp;and prepare staff for the upcoming implementation, but must keep in mind that the model won't stand alone outside the support of the full implementation strategy that includes incorporation of the organizational factors still in development.</p>
+
+<p>The links below highlight how some counties are already building the model into county practice.&nbsp;They provide tools and ideas for other counties to use in the preparation process.</p>
+
+<ul>
+	<li><a href="http://calswec.berkeley.edu/san-franciscos-use-practice-model-workforce-development" title="San Francisco Resources">San Francisco</a></li>
+	<li><a href="../sites/default/files/uploads/new_poste_2_1/index.pdf" title="Riverside">Riverside</a>&nbsp;Implementation Pyramid</li>
+</ul>
+
+<h3>2017 Director's Institute</h3>
+
+<p>Throughout 2017 the CPM faculty provided a number of activities to support counties in their preparation for implementing the CPM. 4&nbsp; Directors Learning Sessions and numerous webinars, conference calls and in person meetings constituted the work of the Development Circles. These are described in the attachments below.</p>
+
+<ul>
+	<li><a href="../sites/default/files/uploads/cpm_directors_institute_p11/index.pdf" style="cursor: auto;" title="Directors Institute Description">Directors Institute Description</a></li>
+	<li><a href="../sites/default/files/uploads/dirinstit_cpm_devcircles_rtas_011817/index.docx" style="cursor: auto;" title="Development Circles Description">Development Circles Description</a></li>
+</ul>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+<div id="block-views-menu-child-teasers-block" class="block block-views last even ">
+
+      
+<div class="content"> 
+    <div class="view view-menu-child-teasers view-id-menu_child_teasers view-display-id-block view-dom-id-5ba681bc41d985d83308e9b7f6781e9a">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
+    <div id="node-2377" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../about-core-practice-model/index.html">About the Core Practice Model</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><strong>What is the CPM?</strong></p>
+
+<p>The <a href="../sites/default/files/uploads/_cpm_packet_rev0816_p7/index.pdf">California Child Welfare Core Practice Model</a>  (CPM) is a statewide effort, led by the counties, to develop and implement a framework to support child welfare practice and allow child welfare professionals to be more effective in their roles. The CPM is intended to guide practice, service delivery, and decision-making. </p></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-2 views-row-even clearfix">
+    <div id="node-2378" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../directors-institute/index.html">Directors Institute</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><strong>What is the Director's Institute?</strong></p>
+
+<p>The purpose of the <a href="../sites/default/files/uploads/docx/CalSWEC/cpm_directors_institute_overview/index.pdf">Directors Institute</a> is:</p></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-3 views-row-odd clearfix">
+    <div id="node-2380" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../core-practice-model-implementation-planning/index.html">Core Practice Model Implementation Planning</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Here you’ll find guidance, tools, and templates for county CPM Implementation Planning.<br /><br /><a href="../sites/default/files/uploads/docx/CalSWEC/cpm_impl_planning_guide_final_2.14.18/index.pdf">Implementation Planning Guide (PDF)</a></p>
+
+<p><strong>Implementation Planning Overview:</strong></p>
+
+<p><em>CPM Implementation Planning: A Goal-Oriented Approach</em></p></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-4 views-row-even clearfix">
+    <div id="node-2381" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../core-practice-model-implementation-toolkits/index.html">Core Practice Model Implementation Toolkits</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><table align="center" border="2" cellpadding="15" cellspacing="15" dir="ltr" style="height:200px; width:600px"><tbody><tr><td style="background-color:rgb(255, 204, 0); text-align:center; vertical-align:middle; width:140px"><a href="http://calswec.berkeley.edu/organizational-readiness-building-toolkit-0" title="Organizational Readiness Building Toolkit"><span style="font-family:verdana,geneva,sans-serif">Organizational<br />
+			Readiness<br />
+			Building Toolkit</span></a></td></tr></tbody></table></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-5 views-row-odd clearfix">
+    <div id="node-2397" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../cpm-implementation-planning-materials/index.html">CPM Implementation Planning Materials</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Here&nbsp;you’ll find guidance, tools, and templates for county CPM Implementation Planning.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-6 views-row-even clearfix">
+    <div id="node-2386" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../reference-materials/index.html">Reference Materials</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><strong>Theoretical Framework:</strong></p>
+
+<p><a href="../sites/default/files/uploads/docx/CalSWEC/theoretical_framework_ppt_anita_barbee/index.ppt">Developing a CA Integrative Theoretical Framework Powerpoint</a><br /><a href="../sites/default/files/uploads/docx/CalSWEC/cpm_theories_infographic_p3/index.pdf">Graphic</a><br /><a href="../sites/default/files/uploads/docx/CalSWEC/summary_of_org_theories_1-2014/index.docx">Summary of Organizational Theories</a><br /><a href="https://vimeo.com/83814687">Webinar</a><br />
+Case example</p>
+
+<p><strong>Implementation Science:</strong></p></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-7 views-row-odd clearfix">
+    <div id="node-2237" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../development-circles-kickoff-april-24-2017/index.html">Development Circles Kickoff | April 24, 2017</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Here you'll find materials from the Core Practice Model Implementation Development Circles Kickoff that occurred on April 24, 2017, at the Long Beach Marriott Hotel.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-8 views-row-even clearfix">
+    <div id="node-2238" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../child-welfare-core-practice-model-directors-institute-learning-sessions/index.html">Child Welfare Core Practice Model Directors Institute Learning Sessions</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Here you'll find information and documentation about the Directors Institute Learning Sessions.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-9 views-row-odd clearfix">
+    <div id="node-2071" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../core-practice-model-symposium-june-23-24-2016/index.html">Core Practice Model Symposium | June 23–24, 2016</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>This page serves as a repository for documents and work products related to the Core Practice Model Implementation Symposium:&nbsp;<em>Science, Systems, and Leadership: Building Readiness for Core Practice Model Implementation</em>.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last clearfix">
+    <div id="node-2120" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../fresno-countys-use-practice-model-concepts-cqi-and-supervisor-development/index.html">Fresno County&#039;s Use of Practice Model Concepts in CQI and Supervisor Development</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Here you'll find documentation for Fresno County's use&nbsp;the Practice Model in CQI and supervisor development.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+    <!--</div>-->
+  
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="index1.html?page=1">2</a></li>
+<li class="pager-next"><a title="Go to next page" href="index1.html?page=1">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="index1.html?page=1">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-1cecfb11152db9465490be122010dc49">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img src="../sites/default/files/styles/medium/public/cpmodel/index.png?itok=HwiDESTl" width="300" height="175" alt="" /></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../programs-initiatives/index.html" class="active-trail">Programs &amp; Initiatives</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-436"><a href="../child-welfare/index.html" class="menu__link is-active-trail active-trail">Child Welfare</a><ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-483"><a href="../service-training-coordination/index.html" title="In-Service Training Coordination" class="menu__link is-active-trail active-trail">In-Service Training Coordination</a><ul class="menu"><li class="menu__item is-active is-active-trail is-expanded first expanded active-trail active menu-mlid-2989"><a href="index.html" class="menu__link is-active-trail active-trail active">California Child Welfare Core Practice Model</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-3760"><a href="../about-core-practice-model/index.html" title="About the Core Practice Model" class="menu__link">About the Core Practice Model</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3763"><a href="../directors-institute/index.html" title="Directors Institute" class="menu__link">Directors Institute</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3764"><a href="../core-practice-model-implementation-planning/index.html" title="Core Practice Model Implementation Planning" class="menu__link">Core Practice Model Implementation Planning</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3775"><a href="../cpm-implementation-planning-materials/index.html" title="CPM Implementation Planning Materials" class="menu__link">CPM Implementation Planning Materials</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3765"><a href="../core-practice-model-implementation-toolkits/index.html" title="Core Practice Model Implementation Toolkits" class="menu__link">Core Practice Model Implementation Toolkits</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3770"><a href="../reference-materials/index.html" title="Reference Materials" class="menu__link">Reference Materials</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3475"><a href="../development-circles-kickoff-april-24-2017/index.html" title="Development Circles Kickoff | April 24, 2017" class="menu__link">Development Circles Kickoff | April 24, 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3476"><a href="../child-welfare-core-practice-model-directors-institute-learning-sessions/index.html" title="Child Welfare Core Practice Model Directors Institute Learning Sessions" class="menu__link">Child Welfare Core Practice Model Directors Institute Learning Sessions</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3253"><a href="../core-practice-model-symposium-june-23-24-2016/index.html" title="Core Practice Model Symposium | June 23–24, 2016" class="menu__link">Core Practice Model Symposium | June 23–24, 2016</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3365"><a href="../fresno-countys-use-practice-model-concepts-cqi-and-supervisor-development/index.html" title="Fresno County&#039;s Use of Practice Model Concepts in CQI and Supervisor Development" class="menu__link">Fresno</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3092"><a href="../san-franciscos-use-practice-model-workforce-development/index.html" title="San Francisco&#039;s Use of the Practice Model in Workforce Development" class="menu__link">San Francisco</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2450"><a href="../background-materials-related-practice-model/index.html" title="Practice Model Background Materials" class="menu__link">Background Materials Related to the Practice Model</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-1330"><a href="../about-child-welfare-service-training-program/index.html" title="About the Child Welfare In-Service Training Program" class="menu__link">About the Child Welfare In-Service Training Program</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-515"><a href="../statewide-training-and-education-committee-stec-10/index.html" title="Statewide Education and Training Committee (STEC)" class="menu__link">Statewide Education and Training Committee (STEC)</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-766"><a href="../fairness-and-equity-issues-child-welfare-training/index.html" title="Fairness and Equity Issues in Child Welfare Training" class="menu__link">Fairness and Equity Issues in Child Welfare Training</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-504"><a href="../evidence-based-practice/index.html" title="Evidence-Based Practice" class="menu__link">Evidence-Based Practice</a></li>
+</ul></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-482"><a href="../title-iv-e-child-welfare-training-program/index.html" title="Title IV-E Child Welfare Training Program" class="menu__link">Title IV-E Child Welfare Training Program</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-437"><a href="../integrated-behavioral-health-program/index.html" class="menu__link">Integrated Behavioral Health Program</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-438"><a href="../aging/index.html" class="menu__link">Aging</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail is-active-trail active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":192,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/california-child-welfare-core-practice-model-0 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:13:59 GMT -->
+</html>

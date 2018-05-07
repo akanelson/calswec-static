@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/integrated-care-conference-library-june-2013 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:30:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="../../www.w3.org/1999/xhtml/vocab.1/index.delayed">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="../node/1376/index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Integrated Care Conference Library | June 2013 | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"9tO5UaIkseZzDDmGPtw9dJX4AwK4EhhAzqJFUFyPIto","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/integrated-care-conference-library-june-2013":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1376 node-type-generic-page section-integrated-care-conference-library-june-2013" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/integrated-care-conference-library-june-2013" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-IbI2NdsKUNLyzjI3KPZRPVcAxId_HvcoyNmBtOXNBn4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link is-active-trail active-trail">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-7224d0e0f1e1662349988151cbd782c7">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../resources/index.html" title="Resources">Resources</a> / </li><li><a href="../affordable-care-act/index.html" title="Affordable Care Act" class="active-trail">Affordable Care Act</a> / </li><li>Integrated Care Conference Library | June 2013</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Integrated Care Conference Library | June 2013</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-1376" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><div>The resources in this section were compiled for a 2013 CalSWEC co-sponsored conference,<em>&nbsp;<a href="http://calswec.berkeley.edu/2013-integrated-care-conference-roadmap-future-workforce">Integrated Care: A Roadmap for the Future Workforce&mdash;Building Momentum for Change In Graduate Education.</a></em></div><ul><li><strong><a href="#Policy Framework" title="Policy Framework">Policy Framework</a></strong></li><li><strong><a href="#Integration - Collaborative Models" title="Integration - Collaborative Models">Integration - Collaborative Models</a></strong></li><li><strong><a href="#Curriculum Resources" title="Curriculum Resources">Curriculum Resources</a></strong></li><li><strong><a href="#Reports and Other Resources" title="Reports and Other Resources">Reports and Other Resources</a></strong></li></ul><p>_________________________________</p><div><p><strong><a name="Policy Framework">Policy Framework</a></strong></p></div><ul><li><a href="../sites/default/files/uploads/aca_summary_chart_10-22-10/index.html" title="Summary of the Major Provisions in the Patient Protection and Affordable Health Care Act">Summary of the Major Provisions in the Patient Protection and Affordable Health Care Act</a></li><li><a href="../sites/default/files/uploads/apha_acaoverview_aug2012/index.html" title="Affordable Care Act - Overview Selected Provisions (August 2012)">Affordable Care Act - Overview Selected Provisions (August 2012</a>)</li><li><a href="../sites/default/files/uploads/business_case_for_bidirectional_integrated_care_7-13-10/index.html" title="The Business Case for Bidirectional Integrated Care">The Business Case for Bidirectional Integrated Care</a></li><li><a href="../sites/default/files/uploads/cswe_analysis_of_aca_2011/index.html" title="Patient Protection and Affordable Care Act of 2010 | A Resource Guide for Social Workers">Patient Protection and Affordable Care Act of 2010 | A Resource Guide for Social Workers</a>&nbsp;(<a href="http://www.cswe.org/" title="Council on Social Work Education (CSWE)">CSWE</a>)</li><li><a href="../sites/default/files/uploads/excellence_in_mental_health_act-section-by-section_summary/index.html" title="Excellence in Mental Health Act | Senator Debbie Stabenow, Senator Jack Reed Section-by-Section Summary">Excellence in Mental Health Act &nbsp;- &nbsp;Senator Debbie Stabenow, Senator Jack Reed Section-by-Section Summary</a></li><li><a href="../sites/default/files/uploads/guiding_principles_for_workforce_development/index.html" title="Primary and Behavioral Health Care Integration: Guiding Principles for Workforce Development ">Primary and Behavioral Health Care Integration: Guiding Principles for Workforce Development</a>&nbsp;<a href="http://www.integration.samhsa.gov/" title="SAMHSA - HRSA Center for Integrated Health Solutions">(SAMHSA - HRSA&nbsp;Center for Integrated Health Solutions</a>)</li><li><a href="../sites/default/files/uploads/hcr_summary_chart_10-22-10/index.html" title="Summary of the Major Provisions in the Patient Protection and Affordable Health Care Act">Summary of the Major Provisions in the Patient Protection and Affordable Health Care Act</a>&nbsp;(<a href="http://www.thenationalcouncil.org/" title="National Council for Community Behavioral Healthcare">National Council for Community Behavioral Healthcare</a>)</li><li><a href="../sites/default/files/uploads/healthbill04/index.html" title="The Patient Protection and Affordable Care Act - Detailed Summary (Responsible Reform for the Middle Class)">The Patient Protection and Affordable Care Act - Detailed Summary</a>&nbsp;(<a href="../sites/default/files/uploads/healthbill04/index.html" title="The Patient Protection and Affordable Care Act - Detailed Summary (Responsible Reform for the Middle Class)">Responsible Reform for the Middle Class</a>)</li><li><a href="../sites/default/files/uploads/nasmhd_policy_and_financial_issues/index.html" title="Integrating Behavioral Health and Primary Care Services: Opportunities and Challenges for State Mental Health Authorities">Integrating Behavioral Health and Primary Care Services: Opportunities and Challenges for State Mental Health Authorities</a> <a href="http://www.nasmhpd.org/Publications/NASMHPDMedicalDirectorsCouncil.aspx" title="National Association of State Mental Health Program Directors [NASMHPD] Medical Directors Council">(National Association of State Mental Health Program Directors [NASMHPD] Medical Directors Council)</a></li><li><a href="../sites/default/files/uploads/mhp-rainwater_calswec2011/index.html" title="Health Care Reform and the Field of Social Work">Health Care Reform and the Field of Social Work&nbsp;</a></li></ul><h4><a name="Integration - Collaborative Models"><strong>Integration - Collaborative Models</strong></a></h4><ul><li><a href="../sites/default/files/uploads/cihs_health_homes_core_clinical_features/index.html" title="Behavioral Health Homes for People With Mental Health &amp; Substance Use Conditions - The Core Clinical Features | May 2012 ">Behavioral Health Homes for People With Mental Health &amp; Substance Use Conditions - The Core Clinical Features | May 2012&nbsp;</a><a href="http://www.integration.samhsa.gov/" title="SAMHSA - HRSA Center for Integrated Health Solutions">(SAMHSA - HRSA&nbsp;Center for Integrated Health Solutions</a>)</li><li><a href="../sites/default/files/uploads/cihs_innovations_addictions_tx/index.html" title="Innovations in Addictions Treatment - Addiction Treatment Providers Working with Integrated Primary Care Services">Innovations in Addictions Treatment - Addiction Treatment Providers Working with Integrated Primary Care Services</a></li><li><a href="../sites/default/files/uploads/cpca_county_collaboration_examples/index.html" title="Collaborations of California’s Community Clinics and Health Centers and County Departments of Mental Health">Collaborations of California&rsquo;s Community Clinics and Health Centers&nbsp;and County Departments of Mental Health</a>&nbsp;<a href="http://www.cpca.org/" title="Caifornia Primary Care Association">(Caifornia Primary Care Association)</a></li><li><a href="../sites/default/files/uploads/ibhp_interagency_collaboration_tool_kit_2013/index.html" title="Partners in Health - Mental Health, Primary Care and Substance Use Interagency Collaboration Toolkit (2nd Edition, 2013)">Partners in Health - Mental Health, Primary Care and Substance Use Interagency Collaboration Toolkit (2nd Edition, 2013)</a></li><li><div><a href="../sites/default/files/uploads/integratedservicesreport-rwjf-feb07/index.html" title="Integrating Publicly Funded Physical and Behavioral Health Services: A Description of Selected Initiatives FINAL REPORT (Health Management Associates, February 2007)">Integrating Publicly Funded Physical and Behavioral Health Services: A Description of Selected Initiatives FINAL REPORT (Health Management Associates, February 2007)</a></div></li><li><div><a href="../sites/default/files/uploads/integrating_mh_in_primary_care/index.html" title="Applied Policy Project: Integrating Mental Health in Community Clinics (April 15, 2005, UCLA School of Public Affairs Department of Public Policy)">Applied Policy Project: Integrating Mental Health in Community Clinics (April 15, 2005, UCLA&nbsp;School&nbsp;of Public Affairs&nbsp;Department of Public Policy)</a></div></li><li><div><a href="../sites/default/files/uploads/mh-pc_integration_options_chart_1/index.html" title="MH/Primary Care Integration Options">MH/Primary Care Integration Options</a></div></li><li><div><a href="../sites/default/files/uploads/modelsofevolvingcare/index.html" title="Evolving Models of Behavioral Health Integration in Primary Care">Evolving Models of Behavioral Health Integration in Primary Care</a></div></li><li><div><a href="../sites/default/files/uploads/raising_the_bar/index.html" title="Raising the Bar: Moving toward the Integration of Healthcare">Raising the Bar: Moving toward the Integration of Healthcare</a></div></li></ul><h4><a name="Curriculum Resources"><strong>Curriculum Resources</strong></a></h4><ul><li><a href="../sites/default/files/uploads/cswe_advancedclinicalsocialworkpracticeinintegratedhealthcare/index.html" title="Advanced Clinical Social Work Practice in Integrated Healthcare">Advanced Clinical Social Work Practice in Integrated Healthcare</a></li><li><a href="../sites/default/files/uploads/cswe_integ_health_policy_services_100412_0/index.html" title="Integrated Health Policy &amp; Services">Integrated Health Policy &amp; Services</a></li><li><a href="../sites/default/files/uploads/cswe-integ-behav-health-curr-/index.pdf" title="Integrated Health Policy &amp; Services (PowerPoint)">Integrated Health Policy &amp; Services</a>&nbsp;(PowerPoint)</li><li><a href="../sites/default/files/uploads/curriculum_resources/index.html" title="Curriculum Resources">Curriculum Resources</a></li><li><a href="../sites/default/files/uploads/evidencebasedpracticefinal/index.html" title="Partnerships to Integrate Evidence-Based Mental Health Practices into Social Work Education ">Partnerships to Integrate Evidence-Based Mental Health Practices into Social Work Education&nbsp;</a>(Report from April 12, 2007 Symposium Sponsored by the<a href="http://www.nimh.nih.gov/index.shtml" title=" National Institute of Mental Health">&nbsp;National Institute of Mental Health</a>)</li><li><a href="../sites/default/files/uploads/pcbh_brochure_final_5_11_2011/index.html" title="Certificate Program in Primary Care Behavioral Health">Certificate Program in Primary Care Behavioral Health</a> (<a href="http://www.umassmed.edu/index.aspx" title="U Mass Medical School">U Mass Medical School</a>)</li><li><a href="../sites/default/files/uploads/samhsa_course_for_addiction_professionals/index.html" title="New 5-Hour Online Primary Care Course for Substance Abuse Professionals">New 5-Hour Online Primary Care Course for Substance Abuse Professionals</a></li></ul><h4><a name="Reports and Other Resources"><strong>Reports and Other Resources</strong></a></h4><ul><li><a href="../sites/default/files/uploads/allied_health_workforce_and_services_iom/index.html" title="Allied Health Workforce and Services | Workshop Summary">Allied Health Workforce and Services | Workshop Summary</a></li><li><a href="../sites/default/files/uploads/apa_primary-care-training/index.html" title="Recommendations for Education and Training in Primary Care Psychology">Recommendations for Education and Training in Primary Care Psychology</a></li><li><a href="../sites/default/files/uploads/career_pathway_subcmte_reportfinal120711_0/index.html" title="Office of Statewide Health Planning and Development  | California Workforce Investment Board Health Workforce Development Council Career Pathway Sub-Committee - Final Report | September 2011">Office of Statewide Health Planning and Development &nbsp;| California Workforce Investment Board Health Workforce Development Council Career Pathway Sub-Committee - Final Report | September 2011</a></li><li><a href="../sites/default/files/uploads/cimh_business_case_for_integration_6-30-2010_final/index.html" title="The Business Case for Bidirectional Integrated Care: Mental Health and Substance Use Services in Primary Care Settings and Primary Care Services in Specialty Mental Health and Substance Use Settings">The Business Case for Bidirectional Integrated Care: Mental Health and Substance Use Services in Primary Care Settings and Primary Care Services in Specialty Mental Health and Substance Use Settings</a></li><li><a href="../sites/default/files/uploads/integration_workforce_overview_71912/index.html" title="Integrated Care for Persons with Co-occurring and Complex Health, Mental Health and/or Substance Use Disorders: Implications for Workforce Development">Integrated Care for Persons with Co-occurring and Complex Health, Mental Health and/or Substance Use Disorders: Implications for Workforce Development</a></li><li><a href="../sites/default/files/uploads/mind-body-reunited_mauer/index.html" title=" Mind and Body Reunited: Improving Care at the Behavioral and Primary Healthcare Interface">Mind and Body Reunited: Improving Care at the Behavioral and Primary Healthcare Interface</a></li><li><a href="../sites/default/files/uploads/samhsa-bh_workforce/index.html" title="Report to Congress on the Nation’s Substance Abuse and Mental Health Workforce Issues | January 24, 2013 ">Report to Congress on the Nation&rsquo;s Substance Abuse and Mental Health Workforce Issues |&nbsp;January 24, 2013&nbsp;</a></li><li><a href="../sites/default/files/uploads/social_works_role_in_health_care_reform/index.html" title=" Social Work’s Role In Health Care Reform Summary">Social Work&rsquo;s Role In Health Care Reform Summary</a> (<a href="http://calswec.berkeley.edu/" title="CalSWEC">CalSWEC</a>)</li><li><a href="../sites/default/files/uploads/swpi_integ_care_resources/index.html" title="Social Work in Health and Behavioral Health Care: Visioning the Future | Background Resources">Social Work in Health and Behavioral Health Care: Visioning the Future | Background Resources</a> (<a href="http://www.socialworkpolicy.org/" title="Social Work Policy Institute">Social Work Policy Institute</a>)</li><li><a href="../sites/default/files/uploads/website_list/index.html" title="Comprehensive Websites for Integrated Behavioral Health Resources">Comprehensive Websites for Integrated Behavioral Health Resources</a></li><li><a href="../sites/default/files/uploads/wf_regional_focus_groups_2011/index.html" title="Healthcare Workforce Development Regional Focus Groups and Follow-Up Survey -  Final Report">Healthcare Workforce Development Regional Focus Groups and Follow-Up Survey -&nbsp;Final Report</a></li><li><a href="../sites/default/files/uploads/who-integratingmentalhealthintoprimarycare/index.html" title="Integrating Mental Health into Primary Care: A Global Perspective">Integrating Mental Health into Primary Care: <em>A Global Perspective</em></a>&nbsp;(<a href="http://www.who.int/en/" title="WHO">WHO</a>&nbsp;| <a href="http://www.who.int/workforcealliance/members_partners/member_list/wonca/en/index.html" title="WONCA">WONCA</a>)</li></ul></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-5b3d24dc523185576e5bb156528da8d9">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img src="../sites/default/files/styles/medium/public/integ-health-art_2/index.html?itok=BqFUT_F4" width="300" height="175" alt="" /></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../resources/index.html" title="Resources" class="active-trail">Resources</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-2297"><a href="../affordable-care-act/index.html" title="Affordable Care Act" class="menu__link is-active-trail active-trail">Affordable Care Act</a><ul class="menu"><li class="menu__item is-active is-active-trail is-leaf first last leaf active-trail active menu-mlid-2298"><a href="index.html" title="Integrated Care Conference Library | June 2013" class="menu__link is-active-trail active-trail active">Integrated Care Conference Library | June 2013</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2336"><a href="../child-welfare-0/index.html" title="Child Welfare" class="menu__link">Child Welfare</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2337"><a href="../behavioral-health/index.html" title="Behavioral Health" class="menu__link">Behavioral Health</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2338"><a href="../aging-0/index.html" title="Aging" class="menu__link">Aging</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2475"><a href="../research-and-evaluation/index.html" title="Research and Evaluation" class="menu__link">Research and Evaluation</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2331"><a href="../videos-and-recordings/index.html" title="Videos and Recordings" class="menu__link">Videos and Recordings</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3445"><a href="../calswec-network-hub-0/index.html" title="CalSWEC Network Hub" class="menu__link">CalSWEC Network Hub</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link is-active-trail is-active-trail active-trail active-trail">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":201,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/integrated-care-conference-library-june-2013 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:30:34 GMT -->
+</html>

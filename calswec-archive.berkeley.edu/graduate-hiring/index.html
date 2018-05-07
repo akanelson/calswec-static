@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/graduate-hiring by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:10:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Graduate Hiring | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"R7UN7UDkp0FG5a2jgCvhsin86Aw3utwhsu-DVRNo9n8","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/graduate-hiring":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-973 node-type-generic-page section-graduate-hiring" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/graduate-hiring" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-U9vwB3b1uBSOlB5ZyKs5HrcTBlr3qvR6w7QkLTiSkSA" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../programs-initiatives/index.html">Programs &amp; Initiatives</a> / </li><li><a href="../child-welfare/index.html" class="active-trail">Child Welfare</a> / </li><li><a href="../title-iv-e-child-welfare-training-program/index.html" title="Title IV-E Child Welfare Training Program" class="active-trail">Title IV-E Child Welfare Training Program</a> / </li><li>Graduate Hiring</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Graduate Hiring</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-973" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>All graduates who are awarded stipends, including part-time and full-time, are required to search for and secure employment that fulfills their obligation for a specific length of time.</p>
+
+<ol>
+	<li>BASW graduates must complete one year of full-time employment in a county public child welfare agency performing the duties of a social worker. &nbsp;</li>
+	<li>MSW stipend recipients who are attending the two-year full-time program or the three-year part-time program must search for and complete two years in a child welfare social worker position in a county public child welfare position.</li>
+</ol>
+
+<p><strong>Employment Obligation for Part-Time Students</strong></p>
+
+<p><strong>If an MSW/BASW IV-E student is already employed in a county public social services agency position or a <a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="California Department of Social Services (CDSS) ">California Department of Social Services (CDSS) </a>position,</strong> the student must return to that agency and render one calendar year of continuous and satisfactory full-time employment for each year of stipend award in a position at least at a level appropriate to a new MSW/BASW in child welfare services. &nbsp;</p>
+
+<p>Appointment to and continuation in all such positions shall be subject to all applicable County Civil Service rules and departmental policies.</p>
+
+<ul>
+	<li>
+	<p>The student shall report to work at the assigned position within six (6) months of graduation from the university with an MSW degree (if current employee).</p>
+	</li>
+	<li>
+	<p>If the county department is unable to provide appropriate employment within the six-(6) month period after graduation, the student shall seek employment in a county public CWS agency within 75 miles of his/her home.</p>
+	</li>
+	<li>
+	<p>If no county public CWS position is available within a 75-mile radius, the student shall seek employment within the state of California in a county public CWS agency for the next six (6) months and provide full documentation of the search.&nbsp;</p>
+	</li>
+</ul>
+
+<ul>
+	<li>
+	<p>If, after a thorough, comprehensive statewide search,&nbsp;there is no qualifying county public CWS position available within the state of California, the student may then petition for permission to seek employment in a non-profit agency serving IV-E clients. Such a request must be submitted in writing to the Title IV-E Project Coordinator at the university and the <strong>student must provide documentation of a comprehensive employment search of all relevant agencies within the state of California for the next six months.</strong><br />
+	<br />
+	If the student is approved by their Project Coordinator as having completed a thorough, comprehensive search statewide and is given permission to search in&nbsp;qualifying non-profits, the student&nbsp;<em>must continue to search in county&nbsp;public child welfare until a qualifying non-profit position is obtained</em>.&nbsp;</p>
+	</li>
+	<li>
+	<p>If no qualifying position in a county public CWS agency or in CDSS/CWD or within the state of California or in a non-profit agency serving county IV-E child welfare clients be available within 18 months of graduation, the student may petition for a waiver of employment payback requirements. Such a petition must be submitted in writing to the Title IV-E Project Coordinator at the university and&nbsp;must provide documentation of a comprehensive employment search of all relevant agencies.</p>
+	</li>
+</ul>
+
+<p><strong>Employment Obligation for Full-Time Students</strong></p>
+
+<p><strong>If the student is not&nbsp;employed in a county public social services agency position or <a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="CDSS">CDSS</a>,</strong> the student’s employment search may begin during the last semester or quarter prior to graduation. For a continuous period of six (6) months after graduation, the graduate&nbsp;must apply for and accept employment in a county public CWS agency, in a CDSS/CWD in a position at least at a level appropriate to a new MSW in child welfare services, or a Tribal&nbsp;agency&nbsp;within a radius of 75 miles from&nbsp;the graduate's&nbsp;home.&nbsp;</p>
+
+<ul>
+	<li>Should no such qualifying position be available within six (6) months after&nbsp;graduation, the&nbsp;graduate shall seek employment throughout the&nbsp;state of California in a county public CWS agency&nbsp;or&nbsp;in a CDSS/CWD for the next six (6) months and provide full documentation of the search.&nbsp;</li>
+	<li>
+	<p>If, after a 12-month search,&nbsp;there is no qualifying county child welfare position available within the state of California, the&nbsp;graduate may then petition for permission to seek employment in a non-profit agency serving IV-E clients. Such a request must be submitted in writing to the Title IV-E Project Coordinator at the university and the<strong> student must provide documentation of a comprehensive employment search of all relevant agencies within the state of California for the next six (6) months.</strong><br />
+	<br />
+	If the student receives approval of the comprehensive search and seeks employment in a qualifying non-profit agency, s/he must continue to also&nbsp;seek employment statewide in a county CWS agency. If a county position is offered prior to obtaining a position in a qualifying non-profit, the graduate must accept the county offer.</p>
+	</li>
+	<li>
+	<p>If no qualifying position in a county public CWS agency or in CDSS/CWD or within the state of California or in a non-profit agency serving county IV-E child welfare clients be available within 18 months of graduation, the student may apply for a waiver of employment obligation&nbsp;requirements. Such a request must be submitted in writing to the Title IV-E Project Coordinator at the university and <strong>the student must provide documentation of a comprehensive employment search of all relevant agencies.</strong></p>
+	</li>
+	<li>
+	<p>Graduates must accept the first qualifying child welfare position they are offered and be employed for two years post-graduation for the MSW (one year for BASW). Graduates may apply for other qualifying county or&nbsp;<strong><a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="CDSS">CDSS</a></strong>&nbsp;child welfare positions in other counties while fulfilling their employment obligation. In order for a graduate to move from one qualifying position in a county to a different county, the graduate must notify the Project Coordinator, have been offered the position, and accepted in the new county. Then, the graduate's employment obligation timeline will continue in the new position. If a graduate quits the qualifying position without another qualifying position being offered and accepted, the graduate will go into immediate repayment.&nbsp;</p>
+	</li>
+	<li>If during a graduate's fulfilling of the employment obligation, a medical or maternity leave is approved and granted by the employing agency,&nbsp;the leave time is not considered part of the employment obligation period, unless it is taken as paid sick leave or paid vacation. When the graduate returns to work in the position, the employment obligation timeline is extended to meet the required time.</li>
+</ul>
+
+<p><strong>As alternatives to California CWS, Title IV-E graduates </strong>may complete their work commitment in the following Native American Tribal child welfare settings regardless of tribal affiliation:</p>
+
+<ul>
+	<li>A reservation or rancheria providing CWS in California;</li>
+	<li>An urban Indian agency in California serving IV-E eligible children and families</li>
+</ul>
+
+<p><strong>Native American IV-E graduates who are registered </strong>with a federally recognized tribe may complete their employment obligation in a Tribal or an Urban Indigenous organization providing CWS out of state if the organization can be considered a public assistance program.</p>
+
+
+
+<p><strong>IV-E PROGRAM REQUIREMENTS AND RESPONSIBILITIES</strong></p>
+
+<p>As stated in the guidelines above, the student has the responsibility of searching and securing a job in a public child welfare in a position that is appropriate for an entering MSW or BASW graduate.</p>
+
+<p>Please keep in mind that:</p>
+
+<ol>
+	<li>
+	<p>Your school is responsible for assisting your students in any way to secure employment that will satisfy their employment obligation.&nbsp;</p>
+	</li>
+	<li>
+	<p>You must ask the student to keep all documents pertaining to his/her&nbsp;job search. It is encouraged that contact occur with the student&nbsp;at least every three months during the search period.</p>
+	</li>
+	<li>
+	<p>Once a student has secured employment, it is your responsibility to fill out the employment verification form and send it to CalSWEC’s central office.&nbsp;</p>
+	</li>
+	<li>
+	<p>Once a student has fulfilled his/her employment obligation, it is your responsibility to fill out the employment completion form and send it to CalSWEC’s central office.</p>
+	</li>
+	<li>
+	<p>Each school must contact its graduates at least once a year, and preferably every six months (even after the graduates secure a public CWS position) &nbsp;to ensure that the full work requirement is met. When a particular student has fulfilled the work requirement, the school must update its Student Information System and forward the information to CalSWEC’s central office.</p>
+	</li>
+	<li>To assist your students in their job search, there are three other resources available to them in addition to your local assistance.</li>
+</ol>
+
+<ul>
+	<li>CalSWEC’s central office will forward information it receives about job openings by 1) notifying Project Coordinators by email and 2) by posting the information to the CalSWEC Facebook and Twitter pages.&nbsp;However, it is the responsibility of the student to search within the required geographic areas for openings as they occur.<br />
+	&nbsp;</li>
+	<li><a href="http://www.mss.ca.gov/">Merit System (Cooperative Personnel Services)</a> serves the 30 small counties. Recruitments and openings in these counties are posted on the Merit Systems&nbsp;website. Application information&nbsp;for&nbsp;the&nbsp;openings is available on the&nbsp;website.&nbsp;<br />
+	&nbsp;</li>
+	<li>Many counties, including <a href="http://www.mss.ca.gov/" title="Merit Systems">Merit Systems</a>, provide an "electronic interest card" for students to complete so that they are automatically notified by email when recruitments are posted.<br />
+	&nbsp;</li>
+</ul>
+
+<p>Due to the statewide fiscal crisis from 2008-2012 resulting in lay-offs and hiring freezes among many counties and state agencies,&nbsp;the CalSWEC Board took steps to temporarily modify the job search and employment obligation requirements for the graduate cohorts during that&nbsp;period. For the 2010, 2011, and 2012 cohorts, a Hiring Option Policy provided an alternative search option for graduates. Graduates needed to make the choice to follow the Hiring Option or stay with the original contract by ttheir graduation date. This policy was reconsidered for each year's cohort and applied only to that year's cohort. A list of Frequently Asked Questions was also developed for each Hiring Option. Following are links to each document:</p>
+
+<p><strong>Hiring Option Documents:</strong></p>
+
+<p>Information about Hiring Options for 2011 and 2012 cohorts of Title IV-E graduates can be found on the <a href="http://calswec.berkeley.edu/part-viii-templates-and-forms#hiringoption">Templates and Forms</a> page.</p>
+
+<p>Revised April, 2016</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-74708e8b5d3dc03e47a0c2977c6029d7">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../programs-initiatives/index.html" class="active-trail">Programs &amp; Initiatives</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-436"><a href="../child-welfare/index.html" class="menu__link is-active-trail active-trail">Child Welfare</a><ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-482"><a href="../title-iv-e-child-welfare-training-program/index.html" title="Title IV-E Child Welfare Training Program" class="menu__link is-active-trail active-trail">Title IV-E Child Welfare Training Program</a><ul class="menu"><li class="menu__item is-collapsed first collapsed menu-mlid-3595"><a href="../calswec-title-iv-e-summit/index.html" title="CalSWEC Title IV-E Summit" class="menu__link">CalSWEC Title IV-E Summit</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2933"><a href="../news-about-iv-e-stipend-schools/index.html" title="Newsletters about IV-E Stipend Schools" class="menu__link">News about  IV-E Stipend Schools</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-486"><a href="../title-iv-e-stipend-program/index.html" title="Stipend Program" class="menu__link">Stipend Program</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-746"><a href="../serve-indigenous-community-social-workers-change/index.html" title="SERVE (formerly American Indian Recruitment Program)" class="menu__link">SERVE: Indigenous Community Social Workers for Change (formerly American Indian Recruitment Program)</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-747"><a href="../field-instruction-initiative/index.html" title="Field Instruction Initiative" class="menu__link">Field Instruction Initiative</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3752"><a href="../calswec-graduate-and-alumni-stories-0/index.html" title="CalSWEC Graduate and Alumni Stories" class="menu__link">CalSWEC Graduate and Alumni Stories</a></li>
+</ul></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-483"><a href="../service-training-coordination/index.html" title="In-Service Training Coordination" class="menu__link">In-Service Training Coordination</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-437"><a href="../integrated-behavioral-health-program/index.html" class="menu__link">Integrated Behavioral Health Program</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-438"><a href="../aging/index.html" class="menu__link">Aging</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail is-active-trail active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":203,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/graduate-hiring by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:10:36 GMT -->
+</html>

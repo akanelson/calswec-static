@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/rosie-i-hernandez-realizes-her-goal-supporting-vulnerable-latino-communities by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:20:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Rosie I. Hernandez Realizes Her Goal of Supporting Vulnerable Latino Communities | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"_DvB-nLSvsxN404fF6nTQ95BM9MwHAl4bjjOdi-d-44","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/rosie-i-hernandez-realizes-her-goal-supporting-vulnerable-latino-communities":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-2388 node-type-generic-page section-rosie-i-hernandez-realizes-her-goal-supporting-vulnerable-latino-communities" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link is-active-trail active-trail">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/rosie-i-hernandez-realizes-her-goal-supporting-vulnerable-latino-communities" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-RH5FkBrXXZYVwfutdTUREdBbewcGkk2HWi5AE7dTU0E" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../news/index.html" title="News">News</a> / </li><li><a href="../calswec-news-january-april-2018/index.html" class="active-trail">CalSWEC News | January - April 2018</a> / </li><li>Rosie I. Hernandez Realizes Her Goal of Supporting Vulnerable Latino Communities</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Rosie I. Hernandez Realizes Her Goal of Supporting Vulnerable Latino Communities</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-2388" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><em>January 22, 2017</em></p>
+
+<p>“A couple of adoptions in my family” and advice from a mentor inspired Rosie I. Hernandez to become a social worker. When considering career possibilities, she says, it was Lupe Gallegos-Diaz who suggested “the opportunities to help and support my Latino community.&nbsp;I then realized that this was my opportunity to help and support younger and more vulnerable populations as well as underprivileged communities.”</p>
+
+<p>In pursuit of that goal, Rosie earned her BA in Social Welfare and Chicano Studies at UC Berkeley and continued at her alma mater as a recipient of the <a href="http://calswec.berkeley.edu/title-iv-e-stipend-program" title="Title IV-E MSW Stipend">Title IV-E MSW Stipend</a>. Fondly recalling her experience at Berkeley Social Welfare, she says, “I really enjoyed and benefited from being Title IV-E. I don’t think I would have been able to attend graduate school without the stipend.” For her, it was “perfect,” she says, noting that she’s remained in child Welfare for over 13 years.</p>
+
+<p><img alt="" src="../sites/default/files/uploads/rose_hernandez/index.png" style="border-style:solid; border-width:1px; float:right; height:300px; margin:5px 8px; width:255px" title="color head shot of Rosie I. Hernandez" /><a href="http://calswec.berkeley.edu/title-iv-e-stipend-program" title=" Read more about the Title IV-E Stipend Program"><strong>Read more about the Title IV-E Stipend Program</strong></a></p>
+
+<p>At the time, Shaaron Gilson was the Project Coordinator, “and the amount of support I received was incredible,” says Rosie. “I received the academic and emotional support that I needed in order to complete the MSW program.” That experience made an indelible impression on her. “This is why I continue to return to the <a href="http://socialwelfare.berkeley.edu/4Estipend" title="Berkeley Title IV-E MSW Program ">Berkeley Title IV-E MSW Program</a> and help with Title IV-E interviews and mock oral interviews,” she explains.&nbsp;“I’m just so grateful for all the help I received.”</p>
+
+<p><strong>Helping the Latino Community</strong></p>
+
+<p>Fluent in Spanish and armed with her degrees, Rosie throughout her career has assisted the populations she intended to, most recently as the Bilingual Senior Child Welfare Worker–Court Officer at Marin County Children and Family Services, a position she’s held for the past four years.</p>
+
+<p>Working primarily with the Latino community in child welfare, Rosie says,&nbsp;“Both my knowledge of the Spanish language and of Latino cultures is crucial in being able to offer culturally sensitive and competent services.</p>
+
+<p>“I am Chicana, of Mexican descent, and the Latino population in Marin County is mostly composed of families from El Salvador and Guatemala.&nbsp;Knowledge about Indigenous Mayan traditions and even some knowledge of the Mayan dialects, which I learned in Chicano Studies, was instrumental in working with that community.” She recalls, “Years ago, I worked with a teen who spoke Quiche and Spanish and was Mayan. The minute I talked to him about the Popol Vuh, we connected and he was able to trust me and build rapport.”</p>
+
+<p><strong>‘I love court!’</strong></p>
+
+<p>In her current position, Rosie is intimately familiar with the law.&nbsp;“My W&amp;I Code is all tabbed up, and I constantly attend law update trainings and read up on new case law,” she says. “Then there are updates on regulations, such as ICWA, that I have to become very familiar with and develop new protocol for my agency in order to be in compliance.” She notes that having worked in both the Emergency Response and Ongoing Units is a plus because she knows the child welfare process through both units.&nbsp;</p>
+
+<p>“I love court!” says Rosie. “Not many social workers feel this way, but I truly enjoy the court atmosphere and process.&nbsp;I love the interaction with the judicial officer and all the attorneys.&nbsp;We are truly a team, despite having differences in opinion.&nbsp;It does become challenging when cases drag on and the permanency of a child is affected. Also, as was the case several years ago in our county, when there is a contentious and hostile court environment, that is never good for anyone and, most of all, for the families we work with.”</p>
+
+<p><strong>Wide Experience as Bilingual Child Welfare Worker</strong></p>
+
+<p>Prior to this position, Rosie held three different posts as a Child Welfare Worker II Bilingual-Spanish/English over almost 10 years. The first was the out-stationed worker in West Marin doing both Emergency Response and Ongoing (FM, FR, PP). “This was very challenging,” Rosie remembers. “It takes a very special person to fit in with that community and I never was that person.” She transferred to the main office and was in Ongoing (FM, FR, PP) for over two years.&nbsp;“This, too, became challenging for me; I didn’t really like having cases for so long,” she says.&nbsp;<br />
+<br />
+<img alt="" src="../sites/default/files/uploads/rosie_hernandez-quote/index.png" style="border-style:solid; border-width:1px; float:left; height:435px; margin:5px 8px; width:355px" />This was followed by the Emergency Response (ER) Unit, where she stayed the longest. “I loved it!” she says.&nbsp;She was able to develop professionally in a position that fit her personality and work style.&nbsp;“I loved having referrals for a short amount of time and to offer resources to families.&nbsp;I just felt like I was able to do ’real social work’ and connect families to services and offer crisis intervention.”</p>
+
+<p>She adds, “I also had the opportunity to be a forensic interviewer in our multi-disciplinary center, the Jeannette Prandi Center.&nbsp;I truly enjoyed my time in ER and I had an amazing supervisor, Raul Munoz, who was very supportive.”&nbsp;</p>
+
+<p><strong><a href="http://calswec.berkeley.edu/calswec-graduate-and-alumni-stories" title="Read stories about other CalSWEC alumni">Read stories about other CalSWEC alumni</a></strong></p>
+
+<p>After Rosie had her first son, Angel, the ER schedule was challenging.&nbsp;“ER is very unpredictable,” she notes. “When I had my second son, Joel, I couldn’t be a mom to them.” The Court Officer position was one she had her eyes on, and when it opened, “I went for it,” she says. “This position is a lot more flexible for my family and my sons’ activities, and I love and really enjoy court,” she reiterates.</p>
+
+<p>Reflecting on her experience, Rosie says, “After over 13 years in child welfare, I think I have had a long career and still have a long time to go.&nbsp;I have been fortunate enough to work in different units and mature and develop professionally.&nbsp;I started working in Marin County when I had just turned 24 years old; I was such an inexperienced baby! &nbsp;</p>
+
+<p>“Through the years here, and when I became a mother myself, I feel like I have been able to help and support my community and other underprivileged communities, which was the reason why I wanted to be a social worker in the first place,” says Rosie.&nbsp;</p>
+
+<p>“I have a long road ahead because I plan on retiring from this county and this type of work. Being a social worker is my calling, part of my identity, and I plan on continuing to help and support children and families.”</p>
+
+<p><strong>Life beyond Work</strong></p>
+
+<p>Rosie’s extracurricular activities keep her busy as well. She has always loved soccer, and so do her sons. She is secretary for the San Pablo United Youth Soccer Club Board and manages two soccer teams, the U-9 San Pablo Lions and the U-8 San Pablo Dragons, for which she is also an assistant coach. Her husband Benny coaches the Lions.&nbsp;Son Angel is a Lion and the younger Joel is a Dragon. The boys started playing Pee Wee soccer “when they were both 2 years old and still in diapers,” says Rosie. “I’m very active with my sons and we’re always on the move.”</p>
+
+<p>Sigma Pi Alpha Sorority, Inc. (ELLA), a Chicana/Latina sorority, which she joined as an undergraduate, also occupies Rosie’s time. She is currently Director of its Northern California Alumnae Association. She is also involved with the Founding/Alpha Chapter at UC Berkeley.</p>
+
+<p>“It has become challenging to be as active as I would like in my sorority because of work and all my children’s activities, but my sorority and sisterhood are very important to me and are a huge part of my life,” says Rosie. “I actually met my husband through my sorority and his fraternity, Nu Alpha Kappa Fraternity, Inc.”</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-5e12c6b043047464410e9130fbad02c1">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img src="../sites/default/files/styles/medium/public/ucb_-_alum_2/index.png?itok=fpRDonMZ" width="300" height="175" alt="" /></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-4" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../news/index.html" title="News" class="active-trail">News</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-4 menu-name-menu-secondary-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-3756"><a href="../calswec-news-january-april-2018/index.html" class="menu__link is-active-trail active-trail">CalSWEC News | January - April 2018</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-3757"><a href="../rose-chahla-title-iv-e-stipend-program-assistant-director/index.html" title="Rose Chahla Is Title IV-E Stipend Program Assistant Director" class="menu__link">Rose Chahla Is Title IV-E Stipend Program Assistant Director</a></li>
+<li class="menu__item is-active is-active-trail is-leaf leaf active-trail active menu-mlid-3771"><a href="index.html" title="Rosie I. Hernandez Realizes Her Goal of Supporting Vulnerable Latino Communities" class="menu__link is-active-trail active-trail active">Rosie I. Hernandez Realizes Her Goal of Supporting Vulnerable Latino Communities</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3773"><a href="../calswec-inside-out/index.html" title="CalSWEC from the Inside Out" class="menu__link">CalSWEC from the Inside Out</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3774"><a href="../daniel-wilson-helps-improve-lives-both-social-worker-and-change-leader/index.html" title="Daniel Wilson Helps to Improve Lives Both as Social Worker and Change Leader" class="menu__link">Daniel Wilson Helps to Improve Lives Both as Social Worker and Change Leader</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3780"><a href="../infographic-contest-focuses-milestones-us-social-welfare/index.html" title="Infographic Contest Focuses on Milestones in U.S. Social Welfare" class="menu__link">Infographic Contest Focuses on Milestones in U.S. Social Welfare</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3785"><a href="../message-executive-director-virginia-rondero-hernandez-2/index.html" title="Message from Executive Director Virginia Rondero Hernandez" class="menu__link">Message from Executive Director Virginia Rondero Hernandez</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3391"><a href="../calswec-news-january-april-2017/index.html" title="CalSWEC News | January - April 2017" class="menu__link">CalSWEC News | January - April 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3473"><a href="../calswec-news-may-august-2017/index.html" title="CalSWEC News | May - August 2017" class="menu__link">CalSWEC News | May - August 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3619"><a href="../calswec-news-september-december-2017/index.html" title="CalSWEC News | September - December 2017" class="menu__link">CalSWEC News | September - December 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3087"><a href="../calswec-news-january-april-2016/index.html" title="CalSWEC News | January - April 2016" class="menu__link">CalSWEC News | January - April 2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3246"><a href="../calswec-news-may-august-2016/index.html" title="CalSWEC News | May - August  2016" class="menu__link">CalSWEC News | May - August  2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3359"><a href="../calswec-news-september-december-2016/index.html" title="CalSWEC News | September - December 2016" class="menu__link">CalSWEC News | September - December 2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2991"><a href="../calswec-news-january-april-2015/index.html" title="CalSWEC News: January - April 2015" class="menu__link">CalSWEC News: January - April 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3027"><a href="../calswec-news-may-august-2015/index.html" title="CalSWEC News: May - August 2015" class="menu__link">CalSWEC News: May - August 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3086"><a href="../calswec-news-september-december-2015/index.html" title="CalSWEC News: September–December 2015" class="menu__link">CalSWEC News: September–December 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2577"><a href="../calswec-news-january-april-2014/index.html" title="CalSWEC News: January - April 2014" class="menu__link">CalSWEC News: January - April 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2616"><a href="../calswec-news-may-august-2014/index.html" title="CalSWEC News: May - August 2014" class="menu__link">CalSWEC News: May - August 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2760"><a href="../calswec-news-september-december-2014/index.html" title="CalSWEC News: September - December 2014" class="menu__link">CalSWEC News: September - December 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2202"><a href="../calswec-news-january-april-2013/index.html" title="CalSWEC News: January - April 2013" class="menu__link">CalSWEC News: January - April 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2303"><a href="../calswec-news-may-august-2013/index.html" title="CalSWEC News: May - August 2013" class="menu__link">CalSWEC News: May - August 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2469"><a href="../calswec-news-september-december-2013/index.html" title="CalSWEC News: September - December 2013" class="menu__link">CalSWEC News: September - December 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1546"><a href="../calswec-news-january-april-2012/index.html" title="CalSWEC News: January - April 2012" class="menu__link">CalSWEC News: January - April 2012</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1596"><a href="../calswec-news-may-august-2012/index.html" title="CalSWEC News: May - August 2012" class="menu__link">CalSWEC News: May - August 2012</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-2147"><a href="../calswec-news-september-december-2012/index.html" title="CalSWEC News: September - December 2012" class="menu__link">CalSWEC News: September - December 2012</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link is-active-trail is-active-trail active-trail active-trail">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":197,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/rosie-i-hernandez-realizes-her-goal-supporting-vulnerable-latino-communities by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:20:10 GMT -->
+</html>

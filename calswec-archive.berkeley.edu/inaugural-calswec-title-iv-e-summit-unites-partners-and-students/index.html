@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/inaugural-calswec-title-iv-e-summit-unites-partners-and-students by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:21:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Inaugural CalSWEC Title IV-E Summit Unites Partners and Students  | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"4tZGZt2ZPhdqVDMcJzFamgMhffkkSSHOHlS0xIOHGcQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/inaugural-calswec-title-iv-e-summit-unites-partners-and-students":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-2234 node-type-generic-page section-inaugural-calswec-title-iv-e-summit-unites-partners-and-students" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link is-active-trail active-trail">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/inaugural-calswec-title-iv-e-summit-unites-partners-and-students" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-ZZsa6qs9ajcwbX0y1M_2Z6nvKXdkOj8mP5ZUa190wKU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../news/index.html" title="News">News</a> / </li><li><a href="../calswec-news-may-august-2017/index.html" title="CalSWEC News | May - August 2017" class="active-trail">CalSWEC News | May - August 2017</a> / </li><li>Inaugural CalSWEC Title IV-E Summit Unites Partners and Students </li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Inaugural CalSWEC Title IV-E Summit Unites Partners and Students </h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-2234" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h5><strong><em>Combining Student Day and Field Institute Yields Benefits for Everyone</em></strong></h5>
+
+<p class="rtecenter"><em>“The event was outstanding!”</em></p>
+
+<p class="rtecenter"><em>"Spending time with Title IV-E students and partners across the state brought us together—impresses upon us the reason we chose this field, and rejuvenates us with passion for what we do.”</em></p>
+
+<p>The inaugural <a href="http://calswec.berkeley.edu/2017-calswec-iv-e-summit" title="CalSWEC Title IV-E Summit">CalSWEC Title IV-E Summit</a> on April 20-21 generated comments like these from among its more than 350 participants, who included Title IV-E partners, students, and agencies, and Tribal and community partners from throughout the state.</p>
+
+<p><img alt="" src="../sites/default/files/uploads/iv-esummit2017/index.png" style="border-style:solid; border-width:1px; float:left; height:238px; margin:5px; width:250px" title="color logo of 2017 CalSWEC Title IV-E Summit" />The <a href="http://calswec.berkeley.edu/2017-calswec-iv-e-summit" title="CalSWEC Title IV-E Summit">IV-E Summit</a> combined the <a href="http://calswec.berkeley.edu/student-day" title="Title IV-E Student Day">Title IV-E Student Day</a> and the <a href="http://calswec.berkeley.edu/title-iv-e-summer-field-institute-0" title="Title IV-E Field Institute">Title IV-E Field Institute</a> for project coordinators, formerly held as two separate events, to gain a richer understanding of the child welfare landscape and to broaden statewide perspectives. It continued the two events’ practice of having keynote speakers, offering networking opportunities, and centering the conference around a child welfare theme.</p>
+
+<p>Additionally, it introduced new features, the “StoryCorps” video booth for participants to share their IV-E experiences and the Public Child Welfare Resource Zone, which offered enhanced tabling opportunities for practice partners to share organizational, practice, hiring, and other relevant information with the statewide audience of students and professionals.</p>
+
+<p><strong>Year-Long Planning Pays Off</strong></p>
+
+<p>After a year of planning and support from their sponsors, the Title IV-E Summit Planning Committee and Student Coordinators, with their respective Committees of Student Representatives, shared in the culminating product of their collaborative process.<em>&nbsp;<img alt="" src="../sites/default/files/uploads/studentday2017/index.png" style="border-style:solid; border-width:1px; float:right; height:225px; margin:5px 8px; width:432px" title="color photo of Welcome Committee " /></em></p>
+
+<hr />
+<p><em><span style="font-size:14px"><span style="font-family:georgia,serif">Pictured are Welcome Committee&nbsp;members, led by Chair Ariel Richards of <a href="http://www.csueastbay.edu/class/departments/socialwork/" title="California State University, East Bay">CSU, East Bay</a>, far right.</span></span></em></p>
+
+<hr />
+<p>”I loved every phase of the collaborative, creative process due to the meaningful interactions I’ve had with others committed to child welfare,” said Title IV-E MSW student Veronica Tong of <a href="http://www.csusm.edu/socialwork/calswec_titleiv.html" title="California State University, San Marcos">CSU, San Marcos</a>, a student representative on the Social Media Committee who was integral in developing and producing the creative and inclusive Summit logo.</p>
+
+<p><strong>Theme and Goals Frame the Discourse</strong></p>
+
+<p><em>Social Justice in Child Welfare Today: Enhancing Equity for Tomorrow </em>was the theme for the child welfare-focused conference. The following event goals guided the keynote address and workshop selections:</p>
+
+<ul>
+	<li>To enhance equity for diverse communities by supporting skill building for holistic practice, addressing implicit bias, and working with intersectionality.</li>
+	<li>To learn from individuals impacted by the child welfare system and their perspectives on creating change to enhance equity.</li>
+	<li>To support implementation of the California Child Welfare Core Practice Model.</li>
+</ul>
+
+<p class="rtecenter"><em>&nbsp;“The keynote speaker was awesome. She engaged the audience, provided resources and shared experiences.” </em>(Summit attendee)</p>
+
+<p><a href="http://calswec.berkeley.edu/sites/default/files/uploads/pdf/CalSWEC/rita_cameron_wedding_bio_-_keynote.pdf" title="Dr. Rita Cameron Wedding">Dr. Rita Cameron Wedding</a>, Sacramento State University Department of Women’s Studies chair and professor of Ethnic Studies, nationally recognized authority on implicit bias, and developer of the widely used <em>Implicit Bias</em><em>-Impact on Decision-Making </em>curriculum, delivered the high-energy keynote address.</p>
+
+<p><img alt="" src="../sites/default/files/uploads/cameron_wedding/index.png" style="border-style:solid; border-width:1px; float:left; height:216px; margin:5px 8px; width:175px" title="color head shot of Dr. Rita Cameron Wedding" />She shifted the audience’s cognitive space through an impromptu dance party in order to facilitate a discussion that often elicits discomfort—race and implicit bias. The discussion touched upon societal repercussions of implicit bias and, ultimately, the repercussions that manifest as disproportionality in the child welfare system.</p>
+
+<p>Through her discussion of implicit bias, <a href="http://calswec.berkeley.edu/sites/default/files/uploads/pdf/CalSWEC/rita_cameron_wedding_bio_-_keynote.pdf" title="Dr. Rita Cameron Wedding">Dr. Rita Cameron Wedding</a> urged future and current child welfare workers to be aware of the extent to which implicit bias is present in their work, and to actively work against it for the betterment of the lives of the children and families they serve.</p>
+
+<p class="rteindent1">View the <a href="https://www.youtube.com/watch?v=MSO-sH7p2Gg&amp;feature=youtu.be" title="Dr. Rita Cameron Wedding's keynote address">keynote address</a>.</p>
+
+<p><strong>Varied and Relevant Workshops</strong></p>
+
+<p class="rtecenter"><em>“There was a good selection of knowledge-, empathy- &amp; skill-building exercises offered, many of which will be useful to me in the classroom.” </em>(Summit attendee)</p>
+
+<p class="rtecenter"><em>"The networking with students, speakers, and other count[ies] was very helpful. The workshop topics were very informative and the pace of the workshops well planned and executed." </em>(Summit attendee)</p>
+
+<p>The Summit hosted 18&nbsp;workshops, which epitomized the ideals outlined in the event goals and were led by experts on the topics, including “Impacting Disproportionality: Cultural Responsiveness Academy”; “Tribal Systems of Care: Supporting Healing, Wellness, and Resiliency”;&nbsp; and “The Necessity, Understanding, Design, and Implementation of SOGIE (Sexual Orientation, Gender Identity &amp; Gender Expression)-Affirming Organizations in Child Welfare.”</p>
+
+<p class="rteindent1">Workshop descriptions and presenter information are listed in the <a href="http://calswec.berkeley.edu/sites/default/files/uploads/2017-ive-summit-program_0.pdf">event program</a><a href="http://calswec.berkeley.edu/sites/default/files/uploads/2017-ive-summit-program_0.pdf">.</a>&nbsp; Workshop materials can be accessed <a href="https://berkeley.app.box.com/s/4jhmqt6lao4ayifjpql0ad7py0cegolu" target="_blank" title="Summit workshop materials">here</a>.</p>
+
+<p><strong>&nbsp;‘StoryCorps’ and Resource Zone Promote Sharing</strong></p>
+
+<p class="rtecenter"><em>“I will encourage my social work students to become involved and be introduced to CalSWEC as a resource and as an opportunity for expanded awareness.” (Summit attendee)</em></p>
+
+<p>The Summit introduced the CalSWEC “StoryCorps” video booth, whose intention was to showcase CalSWEC’s mission, impact, and dynamic community. The video booth&nbsp;offered attendees the opportunity to discuss the importance of having a strong child welfare workforce in California, what they value about the Title IV-E Summit and/or other convening spaces provided by the IV-E Program, as well as their meaningful and memorable experiences through the IV-E Stipend Program. A number shared their perspectives, experiences, and thoughts.<img alt="" src="../sites/default/files/uploads/studentdayquote-3/index.png" style="float:right; height:376px; margin:5px; width:306px" /></p>
+
+<p>Another popular innovation was the Public Child Welfare Resource Zone, which included the reception sponsor, the National Association of Social Workers (NASW), as well as the City &amp; County of San Francisco, Orange County Children &amp; Family Services, San Bernardino County, San Luis Obispo County, Solano County Department of Social Services, Stanislaus County Community Services, Santa Clara County Social Services, and Ventura County Human Services CFS.</p>
+
+<p>Concurring with many participants, Student Representative Tong said, “The CalSWEC Title IV-E Summit created a great opportunity to learn from and network with not only other Title IV-E students, but with Title IV-E partners and community agents from so many differing programs and counties.”</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-38af8b5fe48ba3438824cd064a6b2fed">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-4" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../news/index.html" title="News" class="active-trail">News</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-4 menu-name-menu-secondary-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-3473"><a href="../calswec-news-may-august-2017/index.html" title="CalSWEC News | May - August 2017" class="menu__link is-active-trail active-trail">CalSWEC News | May - August 2017</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-3472"><a href="../social-work-line-najeeb-kamils-commitment-service-and-social-justice/index.html" title="Social Work Is in Line with Najeeb Kamil’s Commitment to Service and Social Justice" class="menu__link">Social Work Is in Line with Najeeb Kamil’s Commitment to Service and Social Justice</a></li>
+<li class="menu__item is-active is-active-trail is-leaf leaf active-trail active menu-mlid-3474"><a href="index.html" title="Inaugural CalSWEC Title IV-E Summit Unites Partners and Students" class="menu__link is-active-trail active-trail active">Inaugural CalSWEC Title IV-E Summit Unites Partners and Students</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3480"><a href="../message-executive-director-virginia-rondero-hernandez-0/index.html" class="menu__link">Message from Executive Director Virginia Rondero Hernandez</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3482"><a href="../marcy-hara-calswecs-director-service-training/index.html" title="Marcy Hara Is CalSWEC’s Director of In-Service Training" class="menu__link">Marcy Hara Is CalSWEC’s Director of In-Service Training</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3496"><a href="../three-calswec-staff-receive-uc-berkeleys-spot-awards/index.html" title="Three CalSWEC Staff  Receive UC Berkeley&#039;s Spot Awards" class="menu__link">Three CalSWEC Staff  Receive UC Berkeley&#039;s Spot Awards</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3499"><a href="../diamond-mcmillian-has-special-place-her-heart-foster-youth/index.html" title="Diamond McMillian Has a Special Place in Her Heart for Foster Youth" class="menu__link">Diamond McMillian Has a Special Place in Her Heart for Foster Youth</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3508"><a href="../humboldt-state-celebrates-graduation-its-original-iv-e-pathway-cohort/index.html" title="Humboldt State Celebrates Graduation of Its Original  IV-E Pathway Cohort" class="menu__link">Humboldt State Celebrates Graduation of Its Original IV-E Pathway Cohort</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3509"><a href="../national-training-evaluation-symposium-celebrates-20-year-milestone/index.html" title="National Training Evaluation Symposium Celebrates 20-Year Milestone" class="menu__link">National Training Evaluation Symposium Celebrates 20-Year Milestone</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3510"><a href="../quality-parenting-initiatives-just-time-training-library-continues-expand/index.html" title="Quality Parenting Initiative&#039;s Just in Time Training Library Continues to Expand" class="menu__link">Quality Parenting Initiative&#039;s Just in Time Training Library Continues to Expand</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3511"><a href="../introducing-elearning-common-cores-critical-new-component/index.html" title="Introducing ELearning, Common Core’s Critical New Component" class="menu__link">Introducing ELearning, Common Core’s Critical New Component</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3512"><a href="../kimberly-becksteads-loving-childhood-imbues-her-sense-purpose/index.html" title="Kimberly Beckstead’s Loving Childhood Imbues Her with a Sense of Purpose" class="menu__link">Kimberly Beckstead’s Loving Childhood Imbues Her with a Sense of Purpose</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3597"><a href="../calswec-welcomes-evaluation-and-research-specialist-dr-michael-sumner/index.html" title="CalSWEC Welcomes Evaluation and Research Specialist Dr. Michael Sumner" class="menu__link">CalSWEC Welcomes Evaluation and Research Specialist Dr. Michael Sumner</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3594"><a href="../calswec-releases-new-curriculum-competencies/index.html" title="CalSWEC Releases New Curriculum Competencies" class="menu__link">CalSWEC Releases New Curriculum Competencies</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3598"><a href="../toolkit-offers-training-psychotropic-meds-administration-foster-care-population/index.html" title="Toolkit Offers Training on Psychotropic Meds Administration to Foster Care Population" class="menu__link">Toolkit Offers Training on Psychotropic Meds Administration to Foster Care Population</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3599"><a href="../kyle-miller-committed-independence-and-empowerment-foster-youth/index.html" title="Kyle Miller Is Committed to Independence and Empowerment for Foster Youth" class="menu__link">Kyle Miller Is Committed to Independence and Empowerment for Foster Youth</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3617"><a href="../integrated-training-plan-advances-shared-practice-environment/index.html" title="&#039;Integrated Training Plan&#039; Advances Shared Practice Environment" class="menu__link">&#039;Integrated Training Plan&#039; Advances Shared Practice Environment</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3756"><a href="../calswec-news-january-april-2018/index.html" class="menu__link">CalSWEC News | January - April 2018</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3391"><a href="../calswec-news-january-april-2017/index.html" title="CalSWEC News | January - April 2017" class="menu__link">CalSWEC News | January - April 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3619"><a href="../calswec-news-september-december-2017/index.html" title="CalSWEC News | September - December 2017" class="menu__link">CalSWEC News | September - December 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3087"><a href="../calswec-news-january-april-2016/index.html" title="CalSWEC News | January - April 2016" class="menu__link">CalSWEC News | January - April 2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3246"><a href="../calswec-news-may-august-2016/index.html" title="CalSWEC News | May - August  2016" class="menu__link">CalSWEC News | May - August  2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3359"><a href="../calswec-news-september-december-2016/index.html" title="CalSWEC News | September - December 2016" class="menu__link">CalSWEC News | September - December 2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2991"><a href="../calswec-news-january-april-2015/index.html" title="CalSWEC News: January - April 2015" class="menu__link">CalSWEC News: January - April 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3027"><a href="../calswec-news-may-august-2015/index.html" title="CalSWEC News: May - August 2015" class="menu__link">CalSWEC News: May - August 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3086"><a href="../calswec-news-september-december-2015/index.html" title="CalSWEC News: September–December 2015" class="menu__link">CalSWEC News: September–December 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2577"><a href="../calswec-news-january-april-2014/index.html" title="CalSWEC News: January - April 2014" class="menu__link">CalSWEC News: January - April 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2616"><a href="../calswec-news-may-august-2014/index.html" title="CalSWEC News: May - August 2014" class="menu__link">CalSWEC News: May - August 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2760"><a href="../calswec-news-september-december-2014/index.html" title="CalSWEC News: September - December 2014" class="menu__link">CalSWEC News: September - December 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2202"><a href="../calswec-news-january-april-2013/index.html" title="CalSWEC News: January - April 2013" class="menu__link">CalSWEC News: January - April 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2303"><a href="../calswec-news-may-august-2013/index.html" title="CalSWEC News: May - August 2013" class="menu__link">CalSWEC News: May - August 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2469"><a href="../calswec-news-september-december-2013/index.html" title="CalSWEC News: September - December 2013" class="menu__link">CalSWEC News: September - December 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1546"><a href="../calswec-news-january-april-2012/index.html" title="CalSWEC News: January - April 2012" class="menu__link">CalSWEC News: January - April 2012</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1596"><a href="../calswec-news-may-august-2012/index.html" title="CalSWEC News: May - August 2012" class="menu__link">CalSWEC News: May - August 2012</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-2147"><a href="../calswec-news-september-december-2012/index.html" title="CalSWEC News: September - December 2012" class="menu__link">CalSWEC News: September - December 2012</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link is-active-trail is-active-trail active-trail active-trail">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":200,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/inaugural-calswec-title-iv-e-summit-unites-partners-and-students by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:21:14 GMT -->
+</html>

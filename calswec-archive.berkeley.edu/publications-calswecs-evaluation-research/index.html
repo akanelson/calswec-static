@@ -1,0 +1,704 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/publications-calswecs-evaluation-research by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:01:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Publications from CalSWEC&#039;s Evaluation &amp; Research | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"Qh_3BS9n8csu6P5XQNt4TjtKNHtus1Mj7qvxBDD0rNc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/publications-calswecs-evaluation-research":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-623 node-type-generic-page section-publications-calswecs-evaluation-research" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/publications-calswecs-evaluation-research" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-R1r6qzooGhMlmts6ikfPBCOoL_OeLhRCB_Jsnv8KI-w" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link is-active-trail active-trail">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation">Evaluation, Research &amp; Implementation</a> / </li><li>Publications from CalSWEC&#039;s Evaluation &amp; Research</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Publications from CalSWEC&#039;s Evaluation &amp; Research</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-623" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Numerous publications, reports, and presentations have resulted from the data from CalSWEC Evaluations. <em>(Read about&nbsp;<a href="http://calswec.berkeley.edu/conducting-research-using-calswec-data" title="Conducting Research Using CalSWEC Data">Conducting Research Using CalSWEC Data.</a>)</em></p>
+
+<p>To obtain the publications&nbsp;listed below, please contact the respective authors.</p>
+
+<ul>
+	<li><a href="#Published Articles and Chapters" title="Published Articles and Chapters">Published Articles and Chapters</a></li>
+	<li><a href="#CalSWEC Annual Reports" target="_blank" title="CalSWEC Annual Reports">CalSWEC Annual Reports</a></li>
+	<li><a href="#Other CalSWEC Reports" target="_blank" title="Other CalSWEC Reports">Other CalSWEC Reports</a></li>
+	<li><a href="#Proceedings" target="_blank" title="Proceedings">Proceedings</a></li>
+	<li><a href="#Presentations" target="_blank" title="Presentations">Presentations</a></li>
+	<li><a href="#Dissertations" target="_blank" title="Dissertations">Dissertations</a></li>
+</ul>
+
+<hr />
+<h3><a name="Published Articles and Chapters">Published Articles and Chapters</a></h3>
+
+<p><strong>2018</strong></p>
+
+<ul>
+	<li>Rao Hermon, S., Biehl, M., &amp; Chahla, R. (in press).&nbsp;Views on workplace culture and climate: Through the lens of retention and Title IV-E participation. <em>Journal of Public Child Welfare.</em><br />
+	&nbsp;</li>
+	<li>Rao Hermon, S., &amp; Chahla, R. (in press). Working under stress: A longitudinal study of stress and satisfaction among Title IV-E public child welfare workers. J<em>ournal of Social Work.</em></li>
+</ul>
+
+<p><strong>2017</strong></p>
+
+<ul>
+	<li>Jacquet, S.J., &amp; Rao Hermon, S. (2017). <a href="http://www.tandfonline.com/doi/full/10.1080/15548732.2017.1311289" title="Job expectations and career goals of Title IV-E child welfare social workers with varying levels of work experience: How do they differ?">Job expectations and career goals of Title IV-E child welfare social workers with varying levels of work experience: How do they differ?</a>&nbsp;<em>Journal of Public Child Welfare.</em></li>
+</ul>
+
+<p><strong>2015</strong></p>
+
+<ul>
+	<li>Mathias, C, Gilman, E., Shin, C., &amp; Evans, W.T. (2015). <a href="../sites/default/files/uploads/pdf/CalSWEC/california_s_title_iv_e_partnership_a_statewide_university_agency_collaboration_characteristics_and_implications_for_replic/index.pdf" title="California's Title IV-E partnership: A statewide university–agency collaboration—characteristics and implications for replication">California's Title IV-E partnership: A statewide university–agency collaboration—characteristics and implications for replication</a>.<em>&nbsp;Journal of Social Work Education, 51:</em>sup2, S252–S270.&nbsp;</li>
+</ul>
+
+<p><strong>2013</strong></p>
+
+<ul>
+	<li>Clark, S.J., &amp; Grossman, B.F. (2013). The Children’s Bureau’s Influence on the Social Work Curriculum: One State’s Experience. In A. Lieberman&nbsp;&amp; K. Nelson&nbsp;(Eds.)&nbsp;<em>Women and Children First: The Contribution of the Children's Bureau to Social Work Education.&nbsp;</em>Washington, D.C.: CSWE.</li>
+	<li>Clark, S.J., Smith, R.J., &amp; Uota, K. (2013).&nbsp;<a href="../sites/default/files/uploads/pdf/CalSWEC/professional_development_opportunities_as_retention_incentives_in/index.pdf" title="Professional development opportunities as retention incentives in child welfare">Professional development opportunities as retention incentives in child welfare</a>.&nbsp;<em>Children and Youth Services Review, 35,&nbsp;</em>1687–1697.</li>
+	<li>
+	<div>Foster, G., Morris, M., &amp; Sirojudin, S. (2013).&nbsp;<a href="http://www.tandfonline.com/doi/abs/10.1080/10437797.2013.796771#.UmnJKBYp9Hw">Mental health workforce change through social work education: A California case study</a>,&nbsp;<em>Journal of Social Work Education, 49</em>(3), 490–505.</div>
+	</li>
+	<li>
+	<div>Fitzgerald, C.S., &amp; Clark, S.J. (2013).<a href="../sites/default/files/uploads/pdf/CalSWEC/work_locus_of_control_and_perceptions_of_practice/index.pdf" title=" Work locus of control and perceptions of practice"> Work locus of control and perceptions of practice</a>.&nbsp;<em>Journal of Public Child Welfare, 7</em>(1), 59–78.</div>
+	</li>
+</ul>
+
+<p><strong>2012</strong></p>
+
+<ul>
+	<li>Jacquet, S.E. (2012). <a href="../sites/default/files/uploads/pdf/CalSWEC/successful_student_recruitment_for_public_child_welfare_results_from_california_s_title_iv_e_msw_stipend_program_evaluation/index.pdf" title="Successful student recruitment for public child welfare: Results from California's Title IV-E MSW stipend program evaluation">Successful student recruitment for public child welfare: Results from California's Title IV-E MSW stipend program evaluation</a>.&nbsp;<em>Journal of Public Child Welfare, 6</em>(4), 405-424.</li>
+</ul>
+
+<p><strong>2011</strong></p>
+
+<ul>
+	<li>Mathias, C., &amp; Benton, A.D. (2011). <a href="../sites/default/files/uploads/pdf/CalSWEC/social_justice_through_the_education_of_a_rural_and_tribal_child_welfare_workforce/index.pdf" title="Social justice through the education of a tural and tribal child welfare workforce">Social justice through the education of a tural and tribal child welfare workforce</a>.&nbsp;<em>Journal of Public Child Welfare, 5,</em>&nbsp;282–296.</li>
+	<li>Smith, R.J., &amp; Clark, S.J. (2011).&nbsp;<a href="../sites/default/files/uploads/pdf/CalSWEC/does_job_resource_loss_reduce_burnout_and_job_exit_for_professionally_trained_social/index.pdf" title="Does job resource loss reduce burnout and job exit for professionally trained social workers in child welfare?">Does job resource loss reduce burnout and job exit for professionally trained social workers in child welfare?</a>&nbsp;<em>Children and Youth Services Review, 33,</em>&nbsp;1950–1950.&nbsp;</li>
+</ul>
+
+<p><strong>2009</strong></p>
+
+<ul>
+	<li>Morazes, J., Benton, A., Clark, S.J., &amp; Jacquet, S.E. (2009).<a href="../sites/default/files/uploads/pdf/CalSWEC/qualitative_social_work-2010-morazes-227-47/index.pdf" title=" Views of specially-trained child welfare social workers: A qualitative study of their motivations, perceptions, and retention"> Views of specially-trained child welfare social workers: A qualitative study of their motivations, perceptions, and retention</a>.&nbsp;<em>Qualitative Social Work, 9</em>(2). 227–247. &nbsp; doi:10.1177/1473325009350671</li>
+</ul>
+
+<p><strong>2008</strong></p>
+
+<ul>
+	<li>Black, J., Morris, T., Harbert, A., &amp; Mathias, C. (2008).<a href="../sites/default/files/uploads/pdf/CalSWEC/educational_collaboration_in_psychiatric_disability_rehabilitation_and_recovery_developing_transformative_solutions/index.pdf" title=" Educational collaboration in psychiatric disability, rehabilitation, and recovery: Developing transformative solutions"> Educational collaboration in psychiatric disability, rehabilitation, and recovery: Developing transformative solutions</a>. <em>Journal of Social Work in Disability &amp; Rehabilitation, 7(3),&nbsp;</em>163–186.</li>
+	<li>Clark, S.J., Gil<span style="font-family:times new roman,times,serif">man, E., Jacquet, </span>S&nbsp;E., Johnson, B., Mathias, C.C., &amp; Zeitler, L. (2008). Supervisory practices and tasks in public child welfare social work.&nbsp;<em>Journal of Public Child Welfare, 2</em>(1), 3–32.</li>
+	<li>Jacquet, S. E., Clark, S. J., Morazes, J. L. Withers, R. (2008). The role of supervision in the retention of public child welfare workers. <em>Journal of Public Child Welfare, 1(3),</em> 27-54.</li>
+</ul>
+
+<p><strong>2007</strong></p>
+
+<ul>
+	<li>Clark, S.J. (2007). Social work students' perceptions of poverty. In M.J. Austin (Ed.), <em>Understanding Poverty from Multiple Social Science Perspectives</em>. Berkeley: University of California, School of Social Welfare. Also published in [Special Issue on Poverty]. (2008),&nbsp;<em>Journal of Human Behavior in the Social Environment,&nbsp;16</em>(1–2)<em>.</em>149–166.</li>
+	<li>Clark, S.J., &amp; Gilman, E. (2007). Fairness and multicultural competence in the child welfare system. In N. Cohen, T.V. Tran, &amp; S. Rhee (Eds.), <em>Multicultural Approaches to Caring for Children, Youth and their Families.</em> (pp. 35–74) Boston, MA: Allyn &amp; Bacon.</li>
+	<li>Curry, D., Johnson, B., &amp; Mathias, C.C. (2007). What you need to know about human services training. Policy &amp; Practice, 64(4), 22.</li>
+	<li>Weaver, D., Chang, J., Clark, S., &amp; Rhee, S. (2007). <a href="../sites/default/files/uploads/pdf/CalSWEC/keeping_public_child_welfare_workers_on_the_job/index.pdf" title="Keeping public child welfare workers on the job">Keeping public child welfare workers on the job</a>.&nbsp;<em>Administration in Social Work, 31</em>(2), 5–25.</li>
+</ul>
+
+<p><strong>2006</strong></p>
+
+<ul>
+	<li>Limb, G.E., &amp; Organista, K. (2006). <a href="../sites/default/files/uploads/pdf/CalSWEC/change_between_entry_and_graduation_in_msw_student_views_on_socialworks_traditional_mission/index.pdf" title="Change between entry and graduation in MSW student views on social work's traditional mission, career motivations, and practice preferences: Caucasians, Students of Color, and American Indian group comparisons">Change between entry and graduation in MSW student views on social work's traditional mission, career motivations, and practice preferences: Caucasians, Students of Color, and American Indian group comparisons</a>. <em>Journal of Social Work Education, 42</em>(2), 269–290.</li>
+	<li>Mathias, C. (2006).&nbsp;<a href="../sites/default/files/uploads/pdf/CalSWEC/research_on_social_work_practice-2006-mathias-424-5/index.pdf" title="We really should get on with it: An argument for not assuming social workers make better children welfare workers than non-social workers">We really should get on with it: An argument for not assuming social workers make better children welfare workers than non-social workers</a>.&nbsp;<em>Research on Social Work Practice, 16,</em>&nbsp;424–425.</li>
+</ul>
+
+<p><strong>2004</strong></p>
+
+<ul>
+	<li>Perry, R.E. (2004). Factors influencing MSW students' interest in public child welfare.&nbsp;<em>Journal of Human Behavior in the Social Environment, 10</em>(2), 1–31.</li>
+</ul>
+
+<p><strong>2003</strong></p>
+
+<ul>
+	<li>Clark, S.J. (2003). <a href="../sites/default/files/uploads/pdf/CalSWEC/the_california_collaboration/index.pdf" title="The California collaboration: A competency-based child welfare curriculum for masters’ social workers">The California collaboration: A competency-based child welfare curriculum for masters’ social workers</a>.&nbsp;<em>Journal of Human Behavior in the Social Environment, 7</em>(1-2),&nbsp;135–158.</li>
+	<li>Coleman, D., &amp; Clark, S. J. (2003).&nbsp;<a href="../sites/default/files/uploads/pdf/CalSWEC/preparing_for_child_welfare_practice/index.pdf" title="Preparing for child welfare practice: Themes, a cognitive affective model, and implications from a qualitative study">Preparing for child welfare practice: Themes, a cognitive affective model, and implications from a qualitative study</a>.&nbsp;<em>Journal of Human Behavior in the Social Environment, 7(1</em>–<em>2),</em>&nbsp;83–96.</li>
+	<li>Limb, G.E., &amp; Organista, K. (2003). <a href="../sites/default/files/uploads/pdf/CalSWEC/comparisons_between_caucasian_students_students_of_color_and_american_indian_students_on_their_views_on_social_work_s_traditional_mission_career/index.pdf" title="Comparisons between Caucasian students, Students of Color, and American Indian students on their views on social work's traditional mission, career motivations, and practice preferences">Comparisons between Caucasian students, Students of Color, and American Indian students on their views on social work's traditional mission, career motivations, and practice preferences</a>.&nbsp;<em>Journal of Social Work Education, 42</em>(2), 269–290.</li>
+	<li>Perry, R.E. (2003). <a href="../sites/default/files/uploads/pdf/CalSWEC/who_wants_to_work_with_the_poor_and_homeless/index.pdf" title="Who wants to work with the poor and homeless?">Who wants to work with the poor and homeless?</a>&nbsp;<em>Journal of Social Work Education, 39</em>(2), 321–342.</li>
+</ul>
+
+<p><strong>2002</strong></p>
+
+<ul>
+	<li>Dickinson, N., &amp; Perry, R. (2002). <a href="../sites/default/files/uploads/pdf/CalSWEC/factors_influencing_the_retention_of_specially_educated_public_child_welfare_workers/index.pdf" title="Factors influencing the retention of specially educated public child welfare workers">Factors influencing the retention of specially educated public child welfare workers</a>.&nbsp;<em>Journal of Health and Social Policy, 15(3/4),&nbsp;</em>89–104.</li>
+</ul>
+
+<p><strong>2001</strong></p>
+
+<ul>
+	<li>Perry, R.E.(2001). <a href="../sites/default/files/uploads/pdf/CalSWEC/the_classification_intercorrelation_and_dynamic_nature_of_msw_student/index.pdf" title="The classification, intercorrelation, and dynamic nature of MSW student practice preferences">The classification, intercorrelation, and dynamic nature of MSW student practice preferences</a>.&nbsp;<em>Journal of Social Work Education, 37</em>(3), 523–544.</li>
+</ul>
+
+<p><strong>2000</strong></p>
+
+<ul>
+	<li>Clark, S.J., &amp; McCormick, K. (2000). Linking a competency-based public child welfare curriculum with field work: Achieving agreements about who is responsible for teaching what. In G. Kenyon &amp; R. Power (Eds.), No Magic: Readings in Social Work Field Education (pp.129–147). Toronto: Canadian Scholars' Press.</li>
+</ul>
+
+<h3><a name="CalSWEC Annual Reports">CalSWEC Annual Reports&nbsp;</a></h3>
+
+<ul>
+	<li><em><a href="../sites/default/files/uploads/pdf/CalSWEC/ive_ar_cdss_2017_final/index.pdf" title="Title IV-E Stipend Program Final Report, July 1, 2016–June 30, 2017">Title IV-E Stipend Program Final Report, July 1, 2016–June 30, 2017</a></em></li>
+	<li><em><a href="../sites/default/files/uploads/pdf/CalSWEC/ive_ar_cdss_2016_final/index.pdf" title="Title IV-E Stipend Program Final Report, July 1, 2015–June 30, 2016">Title IV-E Stipend Program Final Report, July 1, 2015–June 30, 2016</a></em></li>
+	<li><a href="http://calswec.berkeley.edu/sites/default/files/uploads/pdf/CalSWEC/iv-e-ar-cdss-2015-final.pdf" title="Title IV-E Stipend Program Final Report, July 1, 2014–June 30, 2015"><em>Title IV-E Stipend Program Final Report, July 1, 2014–June 30, 2015</em></a></li>
+	<li><a href="../sites/default/files/uploads/ive-ar-cdss-2014-091614_final/index.pdf" target="_blank" title="Title IV-E Stipend Program Final Report, July 1, 2013–June 30, 2014"><em>Title IV-E Stipend Program Final Report, July 1, 2013–June 30, 2014</em></a></li>
+	<li><a href="../sites/default/files/uploads/2012-2013_ive-ar-final_0/index.pdf" target="_blank" title="Title IV-E Stipend Program Final Report, July 1, 2012-June 30, 2013"><em>Title IV-E Stipend Program Final Report, July 1, 2012–June 30, 2013</em></a></li>
+	<li><em>Title IV-E Stipend Program Final Report, July 1, 2011–June 30, 2012</em>
+	<ul>
+		<li><a href="../files/uploads/ive-ar-11-12-statistical-rpt/index.pdf" target="_blank" title="Statistical Report">Statistical Report</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-program-rpt/index.pdf" target="_blank" title="Program Report">Program Report</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen1-8/index.pdf" target="_blank" title="Appendix 1-8">Appendix 1-8</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen-9-11/index.pdf" target="_blank" title="Appendix 9-11">Appendix 9-11</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen-12-13/index.pdf" target="_blank" title="Appendix 12-13">Appendix 12-13</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen-14-15/index.pdf" target="_blank" title="Appendix 14-15">Appendix 14-15</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen-16-17/index.pdf" target="_blank" title="Appendix 16-17">Appendix 16-17</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen-18-20/index.pdf" target="_blank" title="Appendix 18-20">Appendix 18-20</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen-21/index.pdf" target="_blank" title="Appendix 21">Appendix 21</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen-22/index.pdf" target="_blank" title="Appendix 22">Appendix 22</a></li>
+		<li><a href="../files/uploads/ive-ar-11-12-appen-23/index.pdf" target="_blank" title="Appendix 23">Appendix 23</a><br />
+		&nbsp;</li>
+	</ul>
+	</li>
+	<li><em>Title IV-E Stipend Program Final Report, July 1, 2010–June 30, 2011</em>
+	<ul>
+		<li><a href="../files/uploads/fr-2011-statistical-report-rv/index.pdf" title="Statistical Report">Statistical Report</a></li>
+		<li><a href="../files/uploads/fr-2011-program_report/index.pdf" target="_blank" title="Program Report">Program Report</a></li>
+		<li><a href="../files/uploads/appendix_1/index.pdf" title="Appendix 1">Appendix 1</a></li>
+		<li><a href="../files/uploads/appendix_2-1_to_2-3/index.pdf" target="_blank" title="Appendix 2-1 to 2-3">Appendix 2-1 to 2-3</a></li>
+		<li><a href="../files/uploads/appendix_2-4_to_2-6/index.pdf" target="_blank" title="Appendix 2-4 to 2-6">Appendix 2-4 to 2-6</a></li>
+		<li><a href="../files/uploads/appendix_2-7/index.pdf" target="_blank" title="Appendix 2-7">Appendix 2-7</a></li>
+		<li><a href="../files/uploads/appendix_2-8/index.pdf" target="_blank" title="Appendix 2-8">Appendix 2-8</a></li>
+		<li><a href="../files/uploads/appendix_2-9/index.pdf" target="_blank" title="Appendix 2-9">Appendix 2-9</a></li>
+		<li><a href="../files/uploads/appendix_3/index.pdf" target="_blank" title="Appendix 3">Appendix 3</a></li>
+		<li><a href="../files/uploads/appendix_4/index.pdf" target="_blank" title="Appendix 4">Appendix 4</a></li>
+		<li><a href="../files/uploads/appendix_5/index.pdf" target="_blank" title="Appendix 5">Appendix 5</a></li>
+		<li><a href="../files/uploads/appendix_6-8/index.pdf" target="_blank" title="Appendix 6 to 8">Appendix 6 to 8</a></li>
+	</ul>
+	</li>
+	<li><a href="../sites/default/files/uploads/ar_ive_cdss_0910/index.pdf" target="_blank" title="Title IV-E Stipend Program Final Report, July 1, 2009-June 30, 2010"><em>Title IV-E Stipend Program Final Report, July 1, 2009–June 30, 2010</em></a></li>
+	<li><a href="../sites/default/files/uploads/title_ive_ar_2008_2009/index.pdf" target="_blank" title="Title IV-E Stipend Program Final Report, July 1, 2008-June 30, 2009"><em>Title IV-E Stipend Program Final Report, July 1, 2008-June 30, 2009</em></a></li>
+	<li><a href="../sites/default/files/uploads/calswecar_0708_final/index.pdf" target="_blank" title="2007-2008 Annual Report"><em>2007-2008 Annual Report</em></a> (covering fiscal 2007–2008 activities)</li>
+	<li><a href="../sites/default/files/uploads/calswecar06_07_final/index.pdf" target="_blank" title="2006-2007 Annual Report "><em>2006-2007 Annual Report</em> </a>(covering fiscal 2006–2007 activities)</li>
+	<li><a href="../sites/default/files/uploads/05_06_ar/index.pdf" target="_blank" title="2005-2006 Annual Report"><em>2005-2006 Annual Report</em></a> (covering fiscal 2005–2006 activities)</li>
+	<li><a href="../sites/default/files/uploads/04_05_annualreport/index.pdf" target="_blank" title="2004-2005 Annual Report"><em>2004-2005 Annual Report</em></a> (covering fiscal 2004–2005 activities)</li>
+	<li><a href="../sites/default/files/uploads/03_04annualreport/index.pdf" target="_blank" title="2003-2004 Annual Report"><em>2003-2004 Annual Report</em></a> (covering fiscal 2003–2004 activities)</li>
+	<li><a href="../sites/default/files/uploads/2003annualreport_0/index.pdf" target="_blank" title="2002-2003 Annual Report"><em>2002-2003 Annual Report</em></a> (covering fiscal 2002–2003 activities)</li>
+	<li><a href="../sites/default/files/uploads/2001calswecar/index.pdf" target="_blank" title="2001 Annual Report"><em>2001 Annual Report</em></a> (covering calendar year 2001 activities)</li>
+	<li><a href="../sites/default/files/uploads/calswecar2000/index.pdf" target="_blank" title="2000 Annual Report"><em>2000 Annual Report</em></a> (covering calendar year 2000 activities)</li>
+	<li><a href="../sites/default/files/uploads/annualreport/index.pdf" target="_blank" title="1999 Annual Report"><em>1999 Annual Report</em></a> (covering calendar year 1999 activities)</li>
+	<li><em><a href="http://calswec.berkeley.edu/sites/default/files/uploads/10year_rpt.pdf" target="_blank" title="CalSWEC: Our First Decade 1990–2000">CalSWEC: Our First Decade 1990–2000</a></em></li>
+</ul>
+
+<h3><a name="Other CalSWEC Reports">Other CalSWEC Reports</a></h3>
+
+<ul>
+	<li>Buckles, B., Black, J., Ryan, J. (2011).&nbsp; <a href="http://calswec.berkeley.edu/sites/default/files/uploads/mh_cqi_report_2011_cover_1013.pdf" target="_blank" title=" California Social Work Education Center (CalSWEC) Mental Health Program Curriculum Implementation and Continuous Quality Improvement Report">California Social Work Education Center (CalSWEC) Mental Health Program Curriculum Implementation and Continuous Quality Improvement Report.</a> Loma Linda University, Loma Linda.</li>
+	<li>Buckles, B., Black, J., Ryan, J. (2010). <a href="http://calswec.berkeley.edu/files/uploads/mh_curriculum_imp_survey_results_2007-2009.pdf" target="_blank" title=" Curriculum Implementation Survey: 2007–2008 and 2008–2009">Curriculum Implementation Survey: 2007–2008 and 2008–2009. </a>Loma Linda University, Loma Linda.</li>
+	<li>Buckles, B., Black, J., Ryan, J.&nbsp; (2008). <a href="http://calswec.berkeley.edu/files/uploads/mh_curriculum_imp_survey_results_2005-2007.pdf" target="_blank" title=" Curriculum Implementation Survey: 2005–2006 and 2006–2007">Curriculum Implementation Survey: 2005–2006 and 2006–2007</a>. Loma Linda University, Loma Linda.</li>
+	<li>Clark, S. (2006). Interest in B.S.W. and M.S.W. degree programs among Los Angeles child welfare staff. Berkeley: University of California, School of Social Welfare, California Social Work Education Center.</li>
+	<li>Clark, S. (2005). The turnover report for California's public child welfare agencies 2002–2003. Berkeley:&nbsp;University of California, School of Social Welfare, California Social Work Education Center.</li>
+	<li>Clark, S. (2003). Interest in B.S.W. &amp; M.S.W. degree programs among Los Angeles child welfare staff. Berkeley, CA: University of California, School of Social Welfare, California Social Work Center.</li>
+	<li>Clark, S., &amp; Fulcher, G. (2005). The 2004 California Public Child Welfare Workforce Study. Berkeley, CA: University of California Berkeley, School of Social Welfare, California Social Work Education Center.</li>
+	<li>Clark, S., Mathias, C., &amp; Smith, R. (2009), Retention Factors in the 2008 California Public Child Welfare Workforce Study. Berkeley, CA: University of California Berkeley, School of Social Welfare, California Social Work Education Center.</li>
+	<li>Foster, G., &amp; Morris, M. (2011).<em> </em><a href="../files/uploads/mh_prelim_findings_county_wet_plans/index.doc" title="County Workforce, Education, and Training Plans: Preliminary Findings">County Workforce, Education, and Training Plans: Preliminary Findings</a>. University of California, Berkeley, Berkeley.</li>
+	<li>Morris, M.B., Sirojudin, S., &amp; Foster, G. (2012). <a href="../files/uploads/pdf/Mental%2520Health/5-yearreport-final/index.pdf" title="Mental Health Program Student Characteristics and Employment 2005-2010,">Mental Health Program Student Characteristics and Employment 2005-2010, </a>University of California, Berkeley, Berkeley.</li>
+	<li>Perry, R., Limb, G., &amp; Clark, S.J. (1999). A Report on the 1998 Public Child Welfare Workforce in California Across Training Academy Regions, CalSWEC.</li>
+	<li>Sirojudin, S., Jacob, A., &amp; Midgley, J. <a href="../files/uploads/mh_stipendprogramreport_2009/index.pdf" title=" The Mental Health Social Work Stipend Program Three-Year Outcome Report, 2005-2008">The Mental Health Social Work Stipend Program Three-Year Outcome Report, 2005-2008</a>. University of California, Berkeley, Berkeley.</li>
+</ul>
+
+<h3><a name="Proceedings">Proceedings</a></h3>
+
+<ul>
+	<li>Bernatovicz, F., Clark, S., Detgen, A., Lahti, M., Shaler, G., &amp; Town, K. (2003). <a href="../files/uploads/pdf/CalSWEC/01Lahti_paper/index.pdf" title="Human services staff development and training roles and competencies: Evaluator/researcher">Human services staff development and training roles and competencies: Evaluator/researcher</a>. In B. Johnson, V. Flores, &amp; K. Ringuette (Eds.), <em><a href="http://calswec.berkeley.edu/files/uploads/pdf/CalSWEC/2002CompleteProceedings.pdf">Proceedings of the Fifth Annual National Human Services Training Evaluation Symposium</a> | 2002</em>. Berkeley: University of California, Berkeley School of Social Welfare, California Social Work Education Center.</li>
+	<li>Clark, S. J., &amp; Jacquet, S. E. Evaluating the Title IV-E MSW Education Program.&nbsp;<em><a href="http://calswec.berkeley.edu/files/uploads/pdf/CalSWEC/2002CompleteProceedings.pdf">Proceedings of the Fifth Annual National Human Services Training Evaluation Symposium</a>&nbsp;</em>| 2002. Berkeley: University of California, Berkeley School of Social Welfare, California Social Work Education Center.</li>
+	<li>Johnson, B., Mathias, C., &amp; Zeitler, L.&nbsp; Evaluating Values and Attitudes: Exploring the impact of Training on Disproportionality and Disparity. <em><a href="http://calswec.berkeley.edu/files/uploads/pdf/CalSWEC/2006_All_Proceedings_FINAL.pdf">Proceedings of the Ninth Annual National Human Services Training Evaluation Symposium</a>. </em>Berkeley, CA, May 2006.</li>
+	<li>Johnson, B., &amp; Parry, C. Training Evaluation in a Large System: California’s Framework for Child Welfare Training Evaluation. <em><a href="http://calswec.berkeley.edu/files/uploads/pdf/CalSWEC/2005_NHSTES_Proceedings.pdf">Proceedings of the Eighth Annual National Human Services Training Evaluation Symposium</a>. </em>Berkeley, CA, May 2005.</li>
+	<li>Proceedings from the National Human Services Training and Evaluation Symposium
+	<ul>
+		<li><a href="../files/uploads/pdf/CalSWEC/ALL_2010_NHSTES_Proceedings/index.pdf" title="2010 Symposium">2010 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2009_NHSTES_Proceedings_All_FINAL/index.pdf" title=" 2009 NHSTES">2009 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2008_NHSTES_Proceedings_FINAL/index.pdf" title="2008 NHSTES">2008 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2007_Proceedings_CalSWEC/index.pdf" title="2007 NHSTES">2007 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2006_All_Proceedings_FINAL/index.pdf" title="2006&nbsp;NHSTES">2006 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2005_NHSTES_Proceedings/index.pdf" target="_blank" title="2005 NHSTES">2005 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2004NHSTESProceedings/index.pdf" target="_blank" title="2004 NHSTES">2004 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2003Proceedings/index.pdf" target="_blank" title="2003 NHSTES">2003 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2002CompleteProceedings/index.pdf" target="_blank" title="2002 NHSTES">2002 Symposium Proceedings</a></li>
+		<li><a href="../files/uploads/pdf/CalSWEC/2001CompleteProceedings/index.pdf" target="_blank" title="2001 NHSTES">2001 Symposium Proceedings</a></li>
+	</ul>
+	</li>
+</ul>
+
+<h3><a id="Presentations" name="Presentations">Presentations</a></h3>
+
+<p><strong>2017</strong></p>
+
+<ul>
+	<li>Wroughton, E., Davis, T., &amp; Hermon, S. R. (May 2017).&nbsp;<em>California's Common Core 3.0 Evaluation Plan: Where Are We Now?</em>&nbsp;National Human Services Training Evaluation Symposium (NHSTES), Louisville, KY.</li>
+</ul>
+
+<p><strong>2016</strong></p>
+
+<ul>
+	<li>Hermon, S. R. (June 2016). The CalSWEC Workforce Study: Examining the Links between Retention and Worker Attitudes among Former IV-E and Non-IV-E Public Child Welfare Workers. Title IV-E Summer Institute, Emeryville, CA.</li>
+	<li>Hermon, S. R. (June 2016). CalSWEC Workforce Study: perceptions of organizational functioning and how they differ by education of social workers. Title IV-E Round Table, Salt Lake City, UT.</li>
+</ul>
+
+<p><strong>2015</strong></p>
+
+<ul>
+	<li>Hermon, S. R., Jacquet, S., &amp; Bacher, N. (June 2015). Title IV-E Evaluation Efforts: Two Examples. Title IV-E Summer Institute, Los Angeles, CA</li>
+	<li>Parry, C., Hermon, S., &amp; Davis, T. (May 2015). Setting Cut Scores. National Human Services Training Symposium, Salt Lake City, UT.</li>
+</ul>
+
+<p><strong>2014</strong></p>
+
+<ul>
+	<li>Hermon, S., &amp; Johnson, B. (May 2014). <em>Evaluating Common Core: California’s New Hire Training for Social Workers. </em>National Human Services Training Symposium, Berkeley, CA</li>
+</ul>
+
+<p><strong>2013</strong></p>
+
+<ul>
+	<li>Foster, G. (2013, June). <em><a href="../sites/default/files/uploads/mhp_usc_internatlconf_6-13_/index.pptx" title="Strengthening Diversity in the Mental Health Workforce: A Driver for System Change">Strengthening Diversity in the Mental Health Workforce: A Driver for System Change.</a></em>&nbsp;&nbsp;Presented&nbsp;at the 7th International Conference on Social Work and Mental Health, Los Angeles, CA.</li>
+</ul>
+
+<p><strong>2011</strong></p>
+
+<ul>
+	<li>Banks, S. (2011, April).&nbsp;<em>Research Collaboration, Networking, and Mentorship for PhDs and PhD Students. </em>Presented at the National Association of Black Social Workers Annual Conference, New Orleans, LA.</li>
+	<li>Barbee, A., Courtney, M., Dewey, J., &amp; Johnson, B. (2011, August 29).<em>&nbsp;Evaluating Large-Scale Child Welfare Casework Practice Models: Ideal and Realistic Methodologies and Evaluation Implementation Given Systems Characteristics.</em> Presented at the National Child Welfare Evaluation Summit, Washington, D.C.</li>
+	<li>Clark, S.J., &amp; Jacquet, S.E. (2011, October).<em>&nbsp;Efforts to Increase Services Access: Recruiting Bilingual Child Welfare Workers&nbsp;Administrative Workshop.</em> Presented&nbsp;at the Council on Social Work Education Annual Program Meeting,&nbsp;Atlanta, GA.</li>
+	<li>Clark, S.J., &amp; Jacquet, S.E. (2011, August).<em>How Much Retention Is Enough? </em>Paper presented at&nbsp;the Children’s Bureau Evaluation Summit, Washington, D.C. &nbsp;</li>
+	<li>Clark, S.J., (2011, November).<em> Valuing Workers’ Values: Helping Social Workers Stay in Child Welfare Service. In</em>&nbsp;<em>Strengthening Values for Child Welfare Through Participatory Evaluation: Service Commitment, Job Expectations and Goals.</em>&nbsp;Presented at the Annual Conference of the American Evaluation Association, Anaheim, CA.</li>
+	<li>Crandall, P., Johnson, B., Knecht, R., Chris Mathias, C., &amp; Rose, G. (2011, May)&nbsp;<em>EBP in Times of Fiscal Uncertainty. </em>Presented at the Roadmap to Evidence-Based Practice in Child Welfare Conference, Sacramento, CA.</li>
+	<li>Doran, J., &amp; Lee, C. (2011, November)&nbsp;<em>Valuing an Iterative Process in Evaluation. In&nbsp;Methodological and Theoretical Considerations in Evaluation.</em>&nbsp;Presented at the Annual Conference of the American Evaluation Association, Anaheim, CA.</li>
+	<li>Fabella, D., Johnson, B., &amp; Oppenheim, S. (2011, August).&nbsp;<em>Developing and Utilizing Implementation Toolkits to Systematically Evaluate Practice Improvements. </em>Paper accepted at the National Child Welfare Evaluation Summit. Washington, D.C</li>
+	<li>Foster, G., Keefer, B., &amp; Shilton, A. (2011, June).&nbsp;<em><a href="../sites/default/files/uploads/mhp_narmh_conf_6-24_combined/index.ppt">Mental Health Workers: Future Growth and Critical Shortages.</a></em>&nbsp;Presented at the National Association for Rural Mental Health Annual Conference,&nbsp;Dubuque, IA.</li>
+	<li>Foster, G., Morris, M.B., Sirojudin, S., Taylor, S. (2011, May).&nbsp;<a href="../sites/default/files/uploads/mhp_cmhacy_2011/index.pptx"><em>Workforce Development for Healthcare Reform</em>.&nbsp;</a>Presented at California Mental Health Advocates for Children and Youth Conference, Pacific Grove, CA.</li>
+	<li>Hernandez, M.Y. &amp; Uota, K. (2011, October).&nbsp;<em>Achieving Goals While Giving Back: Exploring Career Paths of Title IV-E Graduates. In&nbsp;Child Welfare: Workforce Preparation and Career Path.</em>&nbsp;Presented at the Council on Social Work Education Annual Program Meeting, Atlanta, GA.</li>
+	<li>Jacquet, S.E. (2011, November).&nbsp;<em>Child Welfare Workers’ Values: A Longitudinal Assessment of Job Expectations and Career Goals. In&nbsp;Strengthening Values for Child Welfare Through Participatory Evaluation: Service Commitment, Job Expectations and Goals.</em>&nbsp;Presented at the Annual Conference of the American Evaluation Association, Anaheim, CA.</li>
+	<li>Jacquet, S.E., &amp; Clark, S.J. (2011, October).&nbsp;<em>MSW Student Recruitment: A First Step at Targeting Public Child Welfare Inequalities. In&nbsp;Child Welfare: Workforce Preparation and Career Path.&nbsp;</em>Paper presented at the Council on Social Work Education Annual Program Meeting, Atlanta, GA.</li>
+	<li>Johnson, B., Parry, C., &amp; Zeitler, L. (2011, August).&nbsp;<em><a href="../files/uploads/ppt/CalSWEC/00_eval_summit_panel_final_8-18-11/index.pptx">Assuring that Training Has Impact: Evaluating a Large and Complex Training System</a>. </em>Presented at the National Child Welfare Evaluation Summit, Washington, D.C.</li>
+	<li>Johnson, B., Parry, C., &amp; Zeitler, L. (2011, June). <em>Linking Education and In-Service Training: Evaluating the Impact of Ppre-service MSW Education on Trainee Performance. </em>Presented at National Human Services Training and Evaluation Symposium, Ithaca, NY.</li>
+	<li>Parry, C.F., &amp; Zeitler, L. (2011, November).&nbsp;<em>Evaluating Whether or Not Stereotype Threat Could Be Occurring in California’s Child Welfare Common Core Training Program. In&nbsp;Issues of Race in Evaluation.</em>&nbsp;Presented at the Annual Conference of the American Evaluation Association, Anaheim, CA.</li>
+	<li>Zeitler, L. (2011, November).&nbsp;<em>Developing a Participatory Training Evaluation for Child Welfare Service. In&nbsp;Strengthening Values for Child Welfare Through Participatory Evaluation: Service Commitment, Job Expectations and Goals.</em>Presented&nbsp;the Annual Conference of the American Evaluation Association, Anaheim, CA.</li>
+</ul>
+
+<p><strong>2010</strong></p>
+
+<ul>
+	<li>Banks, S. (2010, April).&nbsp;<em>A Presentation of the Findings from a Survey Administered during the 42<sup>nd</sup> Annual Conference.</em>&nbsp;Presented&nbsp;at the National Association of Black Social Workers Annual Conference, Philadelphia, PA.</li>
+	<li>Clark, S.J., Foster, G., Gilman, E., Jacquet, S.E., Johnson, B., &amp; Mathias, C. (2010, November).&nbsp;<em>Quality by Design: Statewide Human Services Workforce Evaluation Using an Integrated Framework. </em>Presented at the Annual Conference of the American Evaluation Association, San Antonio, TX.</li>
+	<li>Jeter, D., Johnson, B., Oppenheim, S., &amp; Wilson, C.&nbsp;(2010, April).&nbsp;EBP in Times of Fiscal Uncertainty. Presented&nbsp;at the Roadmap to Evidence-Based Practice in Child Welfare Conference, Oakland, CA.</li>
+	<li>Johnson, B., Parry, C., &amp; Zeitler, L. (2010, August).&nbsp;<em>Implementing a Large-Scale Training Evaluation System: Key Decisions and Lessons Learned. </em>Presented at the National Staff Development and Training Association Professional Development Institute Annual Conference, Boston, MA.</li>
+</ul>
+
+<p><strong>2009</strong></p>
+
+<ul>
+	<li>Armstrong, M., Cahn, K., Johnson, B., Levy-Zlotnik, J., &amp; Mitchell-Herzfeld, S. (2009, May).&nbsp;<em>Creating Partnerships for Evaluation.</em>&nbsp;Presented at the National Child Welfare Evaluation Summit,&nbsp;Washington, D.C.&nbsp;</li>
+	<li>Benton, A., &amp; Jacquet, S. (2009, May).&nbsp;<em><a href="../files/uploads/ppt/CalSWEC/NHSTES_Jacquet_Benton_2009/index.ppt" title="Gender Disproportionality among Social Workers: What are the Implications for Training?">Gender Disproportionality among Social Workers: What are the Implications for Training?</a> </em>Presented at the National Human Services Training and Evaluation Symposium, Berkeley, CA.</li>
+	<li>Chenot, D., Kim, H., &amp; Benton, A. (2009).&nbsp;<em>Social Work Education, Title IV-E Participation, and Retention in Public Child Welfare Services.</em> Presented at the Council on Social Work Education Annual Program Meeting, San Antonio, TX.</li>
+	<li>Clark, S., &amp; Smith, R.J. (2009, November). <em>Progress Towards Building a Professional, Transcultural Child Welfare Workforce: A Program Evaluation.</em> Presented at the Council for Social Work Education Annual Program Meeting, San Antonio, TX.</li>
+	<li>Clark, S.J., &amp; Smith, R.J. (2009, November).&nbsp;<em><a href="../files/uploads/ppt/CalSWEC/SSWR_Clark_Smith_2009/index.ppt" title="Do Personal Resources Reduce Job Exit from Burnout in Child Welfare Workers?">Do Personal Resources Reduce Job Exit from Burnout in Child Welfare Workers?</a>&nbsp;In&nbsp;Research that Promotes Sustainability &amp; (Re)Builds Strengths.</em>&nbsp;Presented at the Society for Social Work Research New Orleans, LA. Retrieved from:&nbsp;<a href="http://sswr.confex.com/sswr/2008/techprogram/P8498.HTM" title="http://sswr.confex.com/sswr/2008/techprogram/P8498.HTM">http://sswr.confex.com/sswr/2008/techprogram/P8498.HTM</a></li>
+	<li>Jacquet, S.E., &amp; Benton, A.D. (2009, May). <em>Gender Disproportionality among Social Workers: What are the Implications for Training? </em>Presented at the 11th Annual National Human Services Training Evaluation Symposium,&nbsp;Berkeley, CA.</li>
+	<li>Johnson, B., Ploehn, T., Rose, B., &amp; Wilson, C. (2009, May). <em>EBP in California, Is It a Fad, Fiction or the Future? </em>Paper presented at&nbsp;the Roadmap for Evidence-Based Practice, Irvine, CA.</li>
+	<li>Lee, C., &amp; Hernandez, M.Y. (2009, November).&nbsp;<em>Identification of Child Maltreatment: Public Child Welfare Worker Training Evaluation Outcomes.&nbsp;</em>Presented at the Annual Conference of the American Evaluation Association,</li>
+	<li>Mathias, C., &amp; Benton, A. (2009). <em>Addressing the Workforce Needs of Rural Child Welfare Agencies Though Educational Opportunities.&nbsp;</em>Presented at the Council on Social Work Education Annual Program Meeting, San Antonio, TX.</li>
+	<li>Mathias, C., &amp; Benton, A. (2009).&nbsp;<em>Addressing the Workforce Needs of Rural Child Welfare Agencies. </em>Presented at&nbsp;the National Institute on Social Work &amp; Human Services in Rural Areas, Duluth, MN.</li>
+	<li>Smith, R., Jacquet, S., &amp; Clark, S. (2009). <em>Actors With(out) Agency: The Problematic Interface of Technology in California's Child Welfare System and Mongolian Telehealth.</em> Presented the Empowering Economic and Social Improvement International Consortium for Social Development, Monterrey, Mexico. Retrieved from&nbsp;<a href="http://www.iucisd.org/">http://www.iucisd.org/</a></li>
+	<li>Smith, Richard J., &amp; Clark, Sherrill J. (2009, November 9).&nbsp;<em><a href="../files/uploads/ppt/CalSWEC/CSWE_SmithClark_SkillsWkshop_2009/index.ppt" title="This Bridge Called My Web Survey: Collecting, Weighting and Displaying Workforce Data">This Bridge Called My Web Survey: Collecting, Weighting and Displaying Workforce Data</a>. </em>Skills Workshop presented&nbsp;at the Council for Social Work Education Annual Program Meeting,&nbsp;San Antonio, TX.</li>
+</ul>
+
+<p><strong>2008</strong></p>
+
+<ul>
+	<li>Benton, A., &amp; Morazes, J. A. (2008). <em>Qualitative Retention Study of Title IV-E Graduates in Public Child Welfare.</em> Presented&nbsp;at the Society for Social Work &amp; Research Annual Meeting, Washington, D.C.</li>
+	<li>Buchanan, S., Johnson, B., Molinar, L., &amp; Sobrado, A. (2008, May). <em>Using an Organizational Assessment: A Framework to Help Agencies Build on Strengths, Recognize Challenges, and Develop a Comprehensive Work Plan. </em>Presented at the&nbsp;County Welfare Directors&nbsp;Association of California Child Welfare Conference, Monterey, CA.</li>
+	<li>Chenot, D., &amp; Benton, A. (2008). <em>The Impact of Organizational Climate, Supervisor Support, and Peer Support on Retention in Public Child Welfare Services Organizations</em>. Presented&nbsp;at the Scaling the Summit Conference, Denver, CO.</li>
+	<li>Fulcher, G., &amp; Smith, R. (2008). <em>Economic and Environmental Correlates of Public Child Welfare Worker Turnover. In Research That Matters.</em> Presented&nbsp;at the Society for Social Work Research, Washington, D.C. Retrieved from <a href="http://sswr.confex.com/sswr/2008/techprogram/P8498.HTM" title="http://sswr.confex.com/sswr/2008/techprogram/P8498.HTM">http://sswr.confex.com/sswr/2008/techprogram/P8498.HTM</a></li>
+	<li>Johnson, B. (2008, September). <em>Avoiding Training as a “Cure-All”: Using Organizational Assessment to Plan for Change.</em> Presented&nbsp;at the Annual conference for the National Staff Development and Training Association Professional Development Institute, Atlanta, GA.</li>
+	<li>Johnson, B. (2008, May).&nbsp;<em>Building an Organizational Climate that Promotes Evidence-Based Practice.</em> Presented at the County Welfare Directors Association of California&nbsp;Child Welfare Conference,&nbsp;Monterey, CA.</li>
+	<li>Johnson, B., Leake, R., &amp; Parry, C., (2008, May). <em>Stereotype Threat: Implications for Training Evaluation.&nbsp;</em>Presented at the 11th&nbsp;Annual National Human Services Training Evaluation Symposium, Berkeley, CA.</li>
+	<li>Johnson, B., Marsenich, L., &amp; Oppenheim, S.<em>&nbsp;</em>(2008, January).<em>&nbsp;Addressing Child Trauma in Child Welfare: Linking Practice and Research.&nbsp;</em>Presented at thhe&nbsp;22nd Annual San Diego International Conference on Child and Family Maltreatment, San Diego, CA.</li>
+	<li>Morazes, J., &amp; Benton, A. (2008). <em>A Ten-Year Retention Study of Title IV-E Graduates in Public Child Welfare.</em> Presented&nbsp; at the Council on Social Work Education Annual Program Meeting, San Francisco, CA.</li>
+</ul>
+
+<p><strong>2007</strong></p>
+
+<ul>
+	<li>Fulcher, G., &amp; Smith, R.J. (2007).<em>&nbsp;Economic and Environmental Correlates of Public Child Welfare Worker Turnover. </em>Presented&nbsp;at&nbsp;Council on Social Work Education Annual Program Meeting, Washington D.C.&nbsp;Retrieved from <a href="http://sswr.confex.com/sswr/2008/techprogram/P8498.HTM">http://sswr.confex.com/sswr/2008/techprogram/P8498.HTM</a></li>
+	<li>Jacquet, S.E., &amp; Yao, F.(2007, October).<a href="../files/uploads/ppt/CalSWEC/CSWE_Jacquet_Yao_2007/index.ppt" title=" Effects of IV-Education on MSW Students' Attitudes and Professional Commitment">&nbsp;<em>Effects of IV-Education on MSW Students' Attitudes and Professional Commitment</em></a><em>. </em>Presented at the 53rd Council on Social Work Education Annual Program Meeting, San Francisco, CA.</li>
+	<li>Jeroslow, P., Johnson, B., &amp; Molinar, L. (2007, October). <em>Promoting Fairness and Equity in a Large Child Welfare System: California’s Approach.&nbsp;</em>Presented&nbsp;at the&nbsp;National Staff Development and Training Association Professional Development Institute, Dallas, TX.</li>
+</ul>
+
+<p><strong>2006</strong></p>
+
+<ul>
+	<li>Johnson, B., &amp; Mathias, C. (2006, October).&nbsp;<em>The CalSWEC Model: Lessons Learned in Professionalizing and Retaining Child Welfare Workers. </em>Presented at &nbsp;the&nbsp;&nbsp;County Welfare Directors Association of California &nbsp;Conference, Ventura, CA.</li>
+	<li>Johnson, B., Mathias, C., &amp; Oppenheim, S. (2006, October).&nbsp;<em>Evidence-Based Practice: What Is It and What Do We Do With It?&nbsp; </em>Presented at&nbsp;County Welfare Directors&nbsp;Association of California&nbsp;Conference. October 2006, Ventura, CA.</li>
+	<li>Johnson, B., Mathias, C., &amp; Zeitler, L. (2006, Ma). <em>Evaluating Values and Attitudes: Exploring the impact of Training on Disproportionality and Disparity.&nbsp; </em>Presented&nbsp;at&nbsp;Ninth Annual National Human Services Training Evaluation Symposium. Berkeley, CA.</li>
+</ul>
+
+<p><strong>2005</strong></p>
+
+<ul>
+	<li>Johnson, B., &amp; Parry, C. (2005, May). <em>Training Evaluation in a Large System:&nbsp;California’s Framework for Child Welfare Training Evaluation. </em>Presented at&nbsp;Eighth Annual National Human Services Training Evaluation Symposium, Berkeley, CA.</li>
+	<li>Johnson, B., Caldera-Gammage, S., &amp; Parry, C. <em>Improving Transfer of Learning through Mentoring.</em> Presented at&nbsp;15<sup>th</sup>&nbsp;National Conference on Child Abuse and Neglect, &nbsp;Boston, MA.</li>
+</ul>
+
+<p><strong>2004</strong></p>
+
+<ul>
+	<li>Johnson, B., &amp; Webster, D. (2004, August). <em>The Use of County and State Data in Child Welfare Systems. </em>Presented at&nbsp;<em>P</em>re-Conference Institute of the&nbsp;West Coast Child Welfare Trainer’s Conference, San Diego, CA.</li>
+	<li>Johnson, B., Lawrence, S., &amp; Zeitler, L. (2004, August). <em>Roles and Training of Child Welfare Supervisors: A Needs Assessment from Three Perspectives. </em>Presented at&nbsp;West Coast Child Welfare Trainer’s Conference, San Diego, CA.</li>
+</ul>
+
+<p><strong>2003</strong></p>
+
+<ul>
+	<li>Johnson, B. (2003, September).&nbsp;<em>Considerations in Evaluating Training.&nbsp;</em>Panel presentation at&nbsp; National Staff Development and Training Association Professional Development Institute, Anaheim, CA.</li>
+	<li>Johnson, B. (2003, August). <em>Responding to the Child and Family Services Review and Designing a Training System.</em>&nbsp;Presented at&nbsp;Pre-Conference Institute of &nbsp;West Coast Child Welfare Trainer’s Conference, Coeur D’Alene, ID.</li>
+</ul>
+
+<div>
+<h3><a name="Dissertations">Dissertations</a></h3>
+
+<ul>
+	<li>Benton, Amy D. (2010). Why Do They Stay? Building a Conceptual Model to Understand Worker Retention and Turnover in Public Child Welfare. Unpublished Doctoral Dissertation. University of California Berkeley, School of Social Welfare.</li>
+	<li>Limb, Gordon. (2000). MSW students' views on social works traditional mission, career motivations, and practice preferences: Comparisons between and within Caucasians, students of color, and American Indians. Unpublished Doctoral Dissertation. University of California Berkeley, School of Social Welfare.</li>
+	<li>Perry, Robin E. (1999). An examination of the practice preferences and career choices of MSW students over the course of their education. Unpublished Doctoral Dissertation. University of California Berkeley, School of Social Welfare.</li>
+	<li>Santangelo, A. (1993). The 1991 class of entering graduate students in California's ten schools and departments of social work. Unpublished Doctoral Dissertation. University of California Berkeley, School of Social Welfare.</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-5e8d71ae32cc6ef488b5628e528c0989">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="active-trail">Evaluation, Research &amp; Implementation</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active is-active-trail is-leaf first leaf active-trail active menu-mlid-953"><a href="index.html" title="Publications from CalSWEC&#039;s Evaluation &amp; Research" class="menu__link is-active-trail active-trail active">Publications from CalSWEC&#039;s Evaluation &amp; Research</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-800"><a href="../other-research-and-evaluation-resources/index.html" title="Other Evaluation Resources" class="menu__link">Other Research and Evaluation Resources</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2482"><a href="../researchpractice-partnerships/index.html" title="Research/Practice Partnerships" class="menu__link">Research/Practice Partnerships</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-794"><a href="../nhstec-national-human-services-training-evaluation-collaborative/index.html" title="NHSTEC (National Human Services Training Evaluation Collaborative)" class="menu__link">NHSTEC (National Human Services Training Evaluation Collaborative)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-795"><a href="../evaluating-standardized-child-welfare-training-california-common-core-and-supervisor-core/index.html" title="Evaluating Standardized Child Welfare Training in California (Common Core)" class="menu__link">Evaluating Standardized Child Welfare Training in California (Common Core)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2467"><a href="../research-award-msw-students/index.html" title="Research Award for MSW Students" class="menu__link">Research Award for MSW Students</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-954"><a href="../research-based-curriculum-products-funded-research-development-committee/index.html" title="Research-based Curriculum Products Funded by Research &amp; Development Committee" class="menu__link">Research-based Curriculum Products Funded by Research &amp; Development Committee</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2453"><a href="../conducting-research-using-calswec-data/index.html" title="Conducting Research with CalSWEC Data" class="menu__link">Conducting Research with CalSWEC Data</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-501"><a href="../title-iv-e-child-welfare-stipend-program-evaluation/index.html" title="Title IV-E Child Welfare Stipend Program Evaluation" class="menu__link">Title IV-E Child Welfare Stipend Program Evaluation</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-502"><a href="../child-welfare-service-training-evaluation/index.html" title="Child Welfare In-Service Training Evaluation" class="menu__link">Child Welfare In-Service Training Evaluation</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link is-active-trail is-active-trail active-trail active-trail">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":195,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/publications-calswecs-evaluation-research by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:05:32 GMT -->
+</html>

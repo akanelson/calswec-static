@@ -1,0 +1,891 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/videos-and-recordings by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:08:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Videos and Recordings | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"UsvZFT7erfSCoYbcFZjI9W0ouQcrBwHiJ-LYJx0iRYM","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/videos-and-recordings":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1430 node-type-generic-page section-videos-and-recordings" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/videos-and-recordings" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-A5STvpgjyMTYEhUErKHP76PyHBay95O2kuIlMHoXlU4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link is-active-trail active-trail">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../resources/index.html" title="Resources">Resources</a> / </li><li>Videos and Recordings</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Videos and Recordings</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-1430" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><em>The following videos and recordings are assembled from a variety of sources, including CalSWEC-sponsored activities and resources from outside groups.</em></p>
+
+<p>Most recent:&nbsp;</p>
+
+<ul>
+	<li>Title IV-E Summit:&nbsp;<a href="https://www.youtube.com/watch?v=MSO-sH7p2Gg&amp;feature=youtu.be" title="Bias: Impact on Decision-Making">Bias: Impact on Decision-Making</a>&nbsp;| Keynote by Rita Cameron Wedding, <em>Ph.D., Professor of Wmen's Studies and Ethnic Studies, Sacramento State University</em> (April 21, 2017)<br />
+	&nbsp;</li>
+	<li>Symposium on Fairness and Equity Issues in Child Welfare Training and Education: <a href="https://vimeo.com/217779706" title="Young Children in Child Welfare: A Developmental Approach to Preventive Intervention">Young Children in Child Welfare: A Developmental Approach to Preventive Intervention</a>&nbsp;| Keynote address by&nbsp;Brenda Jones Harden, <em>Ph.D., Professor, University of Maryland&nbsp;Institute for Child Study, Department of Human Development and Quantitative Methodology</em> (May 10, 2017)&nbsp;</li>
+</ul>
+
+<hr />
+<ul>
+	<li><a href="#After 18 (AB 12)" title="After 18 (AB 12)">A</a><a href="#Affordable Care Act (ACA)" title="Affordable Care Act (ACA)">ffordable Care Act (ACA)</a></li>
+	<li><a href="#After 18 (AB 12)" title="After 18 (AB 12)">After 18 (AB 12)</a>
+	<ul>
+		<li><a href="#Toolkit: Fostering Connections After 18 (AB 12)" title="Toolkit: Fostering Connections After 18 (AB 12)"><em>Toolkit: Fostering Connections After 18 (AB 12)</em></a></li>
+	</ul>
+	</li>
+	<li><a href="#Aging and Adult Services" title="Aging and Adult Services">Aging and Adult Services</a>
+	<ul>
+		<li><a href="#2012 Aging Initiative Summit" title="2012 Aging Initiative Summit"><em>2012 Aging Initiative Summit</em></a></li>
+		<li><a href="#2014 Aging Initiative Summit" title="2014 Aging Initiative Summit"><em>2014 Aging Initiative Summit</em></a></li>
+	</ul>
+	</li>
+	<li><a href="#Behavioral Health/Health Integration" title="Behavioral Health/Health Integration">Behavioral Health/Health Integration</a>
+	<ul>
+		<li><a href="#Integrated Care Conference (2013): A Roadmap for the Future Workforce - Building Momentum for Change in Graduate Education" title="Integrated Care Conference (2013): A Roadmap for the Future Workforce - Building Momentum for Change in Graduate Education"><em>Integrated Care Conference (2013): A Roadmap for the Future Workforce - Building Momentum for Change in Graduate Education</em></a></li>
+	</ul>
+	</li>
+	<li><a href="#Evaluation" title="Evaluation">Evaluation</a></li>
+	<li><a href="#Evidence-Informed Webinar Series | 2012–2014" title="Evidence-Informed Webinar Series | 2012–2015">Evidence-Informed Webinar Series | 2012–2015</a></li>
+	<li><a href="#Fatherhood" title="Fatherhood">Fatherhood</a>
+	<ul>
+		<li><a href="#Toolkit: Father Engagement and Father Involvement" title="Toolkit: Father Engagement and Father Involvement"><em>Toolkit: Father Engagement and Father Involvement</em></a></li>
+	</ul>
+	</li>
+	<li><a href="#Hot Topics Webinars">Hot Topics Webinars</a></li>
+	<li><a href="#Quality Parenting Initiative (QPI) | Just in Time Training (JIT)" title="Quality Parenting Initiative (QPI) | Just in Time Training (JIT)">Quality Parenting Initiative (QPI) | Just in Time Training (JIT)</a></li>
+	<li><a href="#Race and Ethnicity" title="Race and Ethnicity">Race and Ethnicity</a></li>
+	<li><a href="#Social Work Practice" title="Social Work Practice">Social Work Practice</a>
+	<ul>
+		<li><a href="#California Child Welfare Core Practice Model" title="California Child Welfare Core Practice Model"><em>California Child Welfare Core Practice Model</em></a></li>
+	</ul>
+	</li>
+	<li><a href="#Symposium on Fairness and Equity Issues in Child Welfare Training and Education" title="Symposium on Fairness and Equity Issues in Child Welfare Training and Education">Symposium on Fairness and Equity Issues in Child Welfare Training and Education</a></li>
+	<li><a href="#Technology and Learning Committee" title="Technology and Learning Committee">Technology and Learning Committee</a></li>
+	<li><a href="#Title IV-E Student Day" title="Title IV-E Student Day">Title IV-E Student Day</a></li>
+	<li><a href="#Title IV-E Summer Field Institute" title="Title IV-E Summer Field Institute">Title IV-E Summer Field Institute</a></li>
+	<li><a href="#CalSWEC Title IV-E Summit" title="CalSWEC Title IV-E Summit">Title IV-E Summit</a></li>
+	<li><a href="#Toolkit: Child Welfare/Mental Health Learning Collaborative (Katie A.)" title="Toolkit: Child Welfare/Mental Health Learning Collaborative (Katie A.)">Toolkit: Child Welfare/Mental Health Learning Collaborative (Katie A.)</a></li>
+	<li><a href="#Toolkit: Father Engagement and Father Involvement" title="Toolkit: Father Engagement and Father Involvement">Toolkit: Father Engagement and Father Involvement</a></li>
+	<li><a href="#Fostering Connections After 18 (AB 12)" title="Toolkit: Fostering Connections After 18 (AB 12)">Toolkit: Fostering Connections After 18 (AB 12)</a></li>
+	<li><a href="#Toolkit: Implementation Toolkit for the American Indian Enhancement Project" title="Toolkit: Implementation Toolkit for the American Indian Enhancement Project">Toolkit: Implementation Toolkit for the American Indian Enhancement Project</a></li>
+</ul>
+
+<hr />
+<div>
+<div>
+<h2><a id="Affordable Care Act (ACA)" name="Affordable Care Act (ACA)"><strong>Affordable Care Act (ACA)</strong></a></h2>
+
+<p>Planning for Integrated Healthcare: Review of Social Work Competency, Curriculum, and Field Placement Models&nbsp;(August 28, 2013)&nbsp;<br />
+<a href="https://vimeo.com/77091676">https://vimeo.com/77091676</a></p>
+
+<p>Successful Interprofessional Models of Practice (<em>2014 Aging Initiative&nbsp;Summit</em>&nbsp;|&nbsp;January 23, 2014)<br />
+<a href="https://vimeo.com/87702919">https://vimeo.com/87702919</a></p>
+
+<p>Understanding the Affordable Care Act (April 23, 2013)<br />
+<a href="https://academysdsu.adobeconnect.com/_a943935866/p925mlkcmw6/?launcher=false&amp;fcsContent=true&amp;pbMode=normal">https://academysdsu.adobeconnect.com/_a943935866/p925mlkcmw6/?launcher=false&amp;fcsContent=true&amp;pbMode=normal</a></p>
+
+
+</div>
+
+<h2><a id="After 18 (AB 12)" name="After 18 (AB 12)"><strong>After 18 (AB 12)</strong></a></h2>
+</div>
+
+<p>AB12: Legal Process for Social Workers | Version 1.0, April 5, 2012<br />
+<a href="http://calswec.berkeley.edu/AB12LegalProcess/player.html">target="_blank" http://calswec.berkeley.edu/AB12LegalProcess/player.html</a></p>
+
+<p>AB12 Legal Process for Social Workers Curriculum Overview Webinar<br />
+<a href="https://vimeo.com/40609965">https://vimeo.com/40609965</a></p>
+
+<p>AB12 Overview and Implementation for Supervisors<br />
+<a href="https://vimeo.com/35527257">https://vimeo.com/35527257</a></p>
+
+<p>AB12: Post-Secondary Education Opportunities for Foster Youth in the Era of AB12<br />
+<a href="https://vimeo.com/41307735">https://vimeo.com/41307735</a></p>
+
+<p>AB12: Supervised Independent Living Placement Curriculum Overview<br />
+<a href="https://vimeo.com/41373528">https://vimeo.com/41373528</a></p>
+
+<p>AB12 Youth Orientation Curriculum Overview<br />
+<a href="https://vimeo.com/33303020">https://vimeo.com/33303020</a></p>
+
+<p>Fostering Connections After 18 -- Benefits Essentials<br />
+<a href="https://vimeo.com/41811196">https://vimeo.com/41811196</a></p>
+
+<p>Fostering Connections / After 18 (AB12) Extended Foster Care Eligibility for Eligibility Workers<br />
+<a href="https://vimeo.com/47542213">https://vimeo.com/47542213</a></p>
+
+<p>Partnering to Serve Emerging Adults Curriculum Overview<br />
+<a href="https://vimeo.com/35527402">https://vimeo.com/35527402</a></p>
+
+<p>Life After Foster Care by Robert Gauthier, <em>Los Angeles Times</em> (March 20, 2014)<br />
+<a href="http://graphics.latimes.com/life-after-foster-care/">http://graphics.latimes.com/life-after-foster-care/</a></p>
+
+<h3><a name="Toolkit: Fostering Connections After 18 (AB 12)"><strong><em>Toolkit: Fostering Connections After 18 (AB 12)</em></strong></a></h3>
+
+<p>After 18 Toolkit Webinar Recording<br />
+<a href="https://vimeo.com/54328340">https://vimeo.com/54328340</a></p>
+
+<p>After 18CA’s channel<br />
+<a href="http://www.youtube.com/user/After18CA">http://www.youtube.com/user/After18CA</a></p>
+
+<p>Fostering Connections: Stories by After 18 Young Adults: Carey<br />
+<a href="https://vimeo.com/49720164">https://vimeo.com/49720164</a></p>
+
+<p>Fostering Connections: Stories by After 18 Young Adults: Cearra<br />
+<a href="https://vimeo.com/49769962">https://vimeo.com/49769962</a></p>
+
+<p>Fostering Connections: Stories by After 18 Young Adults: Jacquetta<br />
+<a href="https://vimeo.com/49769960">https://vimeo.com/49769960</a></p>
+
+<p>Fostering Connections: Stories by After 18 Young Adults: Ralph<br />
+<a href="https://vimeo.com/49721593">https://vimeo.com/49721593</a></p>
+
+<p>Foster Youth who are on probation<br />
+<a href="http://www.youtube.com/watch?v=k-6uq6NFE9s&amp;feature=plcp">http://www.youtube.com/watch?v=k-6uq6NFE9s&amp;feature=plcp</a></p>
+
+<p>Living arrangements for youth who remain in foster care after 18<br />
+<a href="http://www.youtube.com/watch?v=lySwZHN6_dg&amp;feature=plcp">http://www.youtube.com/watch?v=lySwZHN6_dg&amp;feature=plcp</a></p>
+
+<p>Overview of the Fostering Connections to Success Act (AB12)<br />
+<a href="http://www.youtube.com/watch?v=qL1Gmdkfbwo&amp;feature=plcp">http://www.youtube.com/watch?v=qL1Gmdkfbwo&amp;feature=plcp</a></p>
+
+<p>Placement<br />
+<a href="http://www.youtube.com/watch?v=lySwZHN6_dg&amp;feature=plcp">http://www.youtube.com/watch?v=lySwZHN6_dg&amp;feature=plcp</a></p>
+
+<p>Program eligibility<br />
+<a href="http://www.youtube.com/watch?v=JohW8a3LFAk&amp;feature=plcp">http://www.youtube.com/watch?v=JohW8a3LFAk&amp;feature=plcp</a></p>
+
+<div>
+<h2><a name="Aging and Adult Services"><strong>Aging and Adult Services</strong></a></h2>
+
+<p>Wanted: Social Workers for Aging &amp; Adult Services <em>(Promotional Video)</em><br />
+<a href="https://vimeo.com/57648576">https://vimeo.com/57648576</a></p>
+
+<h3><a name="2012 Aging Initiative Summit"><strong><em>2012 Aging Initiative Summit</em></strong></a></h3>
+
+<p>Keynote Presentation<span style="font-size:12px">&nbsp;(Bruce Chernof, M.D.)</span><br />
+<a href="https://vimeo.com/49945968">https://vimeo.com/49945968</a></p>
+
+<p>Panel Presentation&nbsp;(Martha Haas LCSW; Jean Friedman, LCSW; Jackie Wong, LCSW; W. June Simmons, MSW)<br />
+<a href="https://vimeo.com/49953199">https://vimeo.com/49953199</a></p>
+
+<p>Social Worker's Role in New Aging Framework&nbsp;(Fernando Torres-Gil, MSW, Ph.D.)<br />
+<a href="https://vimeo.com/50017651">https://vimeo.com/50017651</a></p>
+
+<p>Successful “Aging in Place”: How do we attain it?&nbsp;(William Vega, Ph.D.)<br />
+<a href="https://vimeo.com/49948592">https://vimeo.com/49948592</a></p>
+
+<h3><a name="2014 Aging Initiative Summit"><strong><em>2014 Aging Initiative Summit</em></strong></a></h3>
+
+<p>Welcome: Jeffrey Edleson,&nbsp;<em>Dean,&nbsp;School of Social Welfare, UC&nbsp;Berkeley&nbsp;</em>(Video)&nbsp;<br />
+<a href="https://vimeo.com/87798926">https://vimeo.com/87798926</a></p>
+
+<p>Opening remarks: David Cherin,&nbsp;<em>Director, School of Social Work, California State University, Fullerton&nbsp;</em>&nbsp;<br />
+<a href="https://vimeo.com/87798925">https://vimeo.com/87798925</a></p>
+
+<p>Keynote: Nora O'Brien-Suric,&nbsp;<em>Senior Program Officer, The John A. Hartford Foundation</em>&nbsp;<br />
+<a href="https://vimeo.com/87835012">https://vimeo.com/87835012</a></p>
+
+<p>Field Practicum: Innovative Panel: Pa<em>tty Hunter,</em>&nbsp;<em>Faculty, School of Social Work, California State University, Chico,&nbsp;</em>and&nbsp;<em>Roseanna&nbsp;McCleary,&nbsp;Associate Professor, Department of Social Work, California State University,&nbsp;Bakersfield&nbsp;</em>&nbsp;<br />
+<a href="https://vimeo.com/87921144">https://vimeo.com/87921144</a></p>
+
+<div title="Evaluation">
+<h2><a id="Behavioral Health/Health Integration" name="Behavioral Health/Health Integration"><strong>Behavioral Health/Health Integration</strong></a></h2>
+
+<p>Planning for Integrated Healthcare: Review of Social Work Competency, Curriculum, and Field Placement Models (webinar) (August 28, 2013)<br />
+<a href="https://vimeo.com/77091676">https://vimeo.com/77091676</a></p>
+
+<p>Use of Mental Health Services and Psychiatric Medications in Juvenile Detention Facilities and the Impact of State Placement Policy&nbsp;<br />
+<a href="http://vimeo.com/77091675">http://vimeo.com/77091675</a></p>
+
+<h3><a name="Integrated Care Conference (2013): A Roadmap for the Future Workforce - Building Momentum for Change in Graduate Education"><strong><em>Integrated Care Conference (2013): A Roadmap for the Future Workforce - Building Momentum for Change in Graduate Education</em></strong></a></h3>
+
+<div>Keynote Presentation 1 (Sandra Naylor Goodwin, Ph.D, LCSW</div>
+
+<div><a href="http://vimeo.com/72689485">http://vimeo.com/72689485</a></div>
+
+<div>&nbsp;</div>
+
+<div>Keynote Presentation 2 (Alexander Blount, Ed.D)<br />
+<a href="http://vimeo.com/72693317">http://vimeo.com/72693317</a></div>
+
+<div>&nbsp;</div>
+
+<div>Panel Presentation 1: Bay Area Integrated Services Initiatives: Implications for Practice and Workforce Education and Training<br />
+<a href="http://vimeo.com/72697280">http://vimeo.com/72697280</a></div>
+
+<div>&nbsp;</div>
+
+<div>Panel Presentation 2: Implications for Graduate Level Education<br />
+<a href="http://vimeo.com/72699769">http://vimeo.com/72699769</a></div>
+
+<div>&nbsp;</div>
+
+<div>Reflections (Alexander Blount, Ed.D.)<br />
+<a href="http://vimeo.com/72701714">http://vimeo.com/72701714</a></div>
+
+<h2><strong><a id="Evaluation" name="Evaluation">Evaluation</a></strong></h2>
+
+<p><em><strong>National Human Services Training Evaluation Symposium (NHSTES)</strong></em></p>
+
+<p><em><strong>2016</strong></em></p>
+
+<p>Keynote Presentation: Organizational Culture and Climate: Assessment and Creating Organizational Change | Anthony Hemmelgarn, Ph.D., Children’s Mental Health Services Research Center at the University of Tennessee, Knoxville&nbsp;(May 24, 2016)<br />
+<a href="https://www.youtube.com/watch?v=tgvqnd4bzKc%c2%a0">https://www.youtube.com/watch?v=tgvqnd4bzKc </a></p>
+
+<p><strong><em>2014</em></strong></p>
+
+<p>Post-NHSTES Webinar: Measuring Organizational Culture and Climate in Staff Retention and Training Evaluation Studies | Anita P. Barbee, MSSW, Ph.D., Kent School of Social Work, University of Louisville&nbsp;&nbsp;(September 29, 2014)&nbsp;<br />
+<a href="https://vimeo.com/107842850">https://vimeo.com/107842850</a></p>
+
+<h2><a href="http://calswec.berkeley.edu/evidence-informed-webinar-series" id="Evidence-Informed Webinar Series | 2012–2014" name="Evidence-Informed Webinar Series | 2012–2014" title="Evidence-Informed Webinar Series | 2012–2013"><strong>Evidence-Informed Webinar Series | 2012–2015</strong></a></h2>
+
+<p>A Strengths-based Approach to Supervised Visitation in Child Welfare (July 15, 2014)<br />
+<a href="https://vimeo.com/101107511">https://vimeo.com/101107511</a></p>
+
+<p>California's Most Vulnerable Parents: A Population-Based Examination of Youth Involved with Child Protective Services (January 9, 2014)<br />
+<a href="http://vimeo.com/83871396">http://vimeo.com/83871396</a></p>
+
+<p>CalYOUTH: Early Findings from the Child Welfare Worker Survey (September 23, 2014)<br />
+<a href="https://vimeo.com/106983747">https://vimeo.com/106983747</a></p>
+
+<p>Child Welfare Information Gateway: Your Source for Child Welfare Resources, Tools, and Information (March 5, 2015)<br />
+<a href="https://vimeo.com/122123142">https://vimeo.com/122123142</a></p>
+
+<p>Child Welfare Outcomes for Mexican and Vietnamese Immigrant Children and Families (July 18, 2013)<br />
+<a href="https://vimeo.com/86740679">https://vimeo.com/86740679</a></p>
+
+<p>Child Welfare Partnership for Research and Training (CW-PART) (July 24, 2014)<br />
+<a href="https://vimeo.com/101666869">https://vimeo.com/101666869</a></p>
+
+<p>Child Welfare Workers' Views on Physical Punishment of Children (May 8, 2014)&nbsp;<br />
+<a href="https://vimeo.com/95003358">https://vimeo.com/95003358</a></p>
+
+<p>Commercial Sexual Exploitation of Children (CSEC) (Oct. 28, 2014)&nbsp;<br />
+<a href="https://vimeo.com/110482289">https://vimeo.com/110482289</a></p>
+
+<p>Communities of Practice:&nbsp;Motivational Interviewing (April 24, 2013)<br />
+<a href="http://vimeo.com/77091477">http://vimeo.com/77091477</a></p>
+
+<p>Continous Quality Improvement (June 17, 2015)<br />
+<a href="https://vimeo.com/131438060">https://vimeo.com/131438060</a></p>
+
+<p>How the Perspective of Fathers Contributes to Disproportionality: A Real Discussion (April 22, 2013)<br />
+<a href="http://vimeo.com/77091480">http://vimeo.com/77091480</a></p>
+
+<p>Implementation Science 101 (October 24, 2013)&nbsp;<br />
+<a href="https://vimeo.com/86741940">https://vimeo.com/86741940</a></p>
+
+<p>Implementation Teams (March 27, 2014)&nbsp;<br />
+<a href="http://vimeo.com/90260914">http://vimeo.com/90260914</a></p>
+
+<p>Implementation Toolkits Overview (October 16, 2013)<br />
+<a href="http://vimeo.com/77091677">http://vimeo.com/77091677</a></p>
+
+<p>Improving Outcomes for African American Males Involved with Child Welfare (September 18, 2014)<br />
+<a href="https://vimeo.com/106539332">https://vimeo.com/106539332</a></p>
+
+<p>Organizational Change (March 26, 2015)<br />
+<a href="https://vimeo.com/123657661">https://vimeo.com/123657661</a></p>
+
+<p>Peer Mentors in Child Welfare: A Promising Practice toward Reunification (April 29, 2014)<br />
+<a href="http://vimeo.com/93534217">http://vimeo.com/93534217</a></p>
+
+<p>Promoting Highly Effective Foster Care: A Research Review (June 3, 2014)&nbsp;<br />
+<a href="https://vimeo.com/97343502">https://vimeo.com/97343502</a></p>
+
+<p>Race, Poverty, and Nativity: An Examination of Risk and Protective Factors for Child Welfare Involvement (June 11, 2012)<br />
+<a href="https://vimeo.com/43930046">https://vimeo.com/43930046</a></p>
+
+<p>Removing the Cloak of Secrecy: Understanding the Clinical Needs of Adoption and Guardianship Families (June 15, 2015)<br />
+<a href="https://vimeo.com/131026725">https://vimeo.com/131026725</a></p>
+
+<p>Safety Organized Practice: Implementation and Evaluation (April 26, 2012)<br />
+<a href="https://vimeo.com/41164045">https://vimeo.com/41164045</a></p>
+
+<p>The Real Meaning of Fidelity in Implementation Science (January 23, 2014)&nbsp;<br />
+<a href="http://vimeo.com/85193645">http://vimeo.com/85193645</a></p>
+
+<p>Use of Mental Health Services and Psychiatric Medications in Juvenile Detention Facilities and the Impact of State Placement Policy (January 23, 2012)<br />
+<a href="http://vimeo.com/77091675">http://vimeo.com/77091675</a></p>
+
+<div>
+<h2><a id="Fatherhood" name="Fatherhood"><strong>Fatherhood</strong></a></h2>
+
+<p>How the Perspective of Fathers Contributes to Disproportionality: A Real Discussion<br />
+<a href="http://vimeo.com/77091480">http://vimeo.com/77091480</a></p>
+
+<h3><a name="Toolkit: Father Engagement and Father Involvement"><strong><em>Toolkit: Father Engagement and Father Involvement</em></strong></a></h3>
+
+<p>A personal reflection of living without a father—Def Poetry: Daniel Beaty - Knock Knock (official video)<br />
+<a href="http://www.youtube.com/watch?v=9eYH0AFx6yI">http://www.youtube.com/watch?v=9eYH0AFx6yI</a></p>
+
+<p>Dads attending to children<br />
+<a href="http://www.youtube.com/watch?v=57xmDz4kfEw">http://www.youtube.com/watch?v=57xmDz4kfEw</a></p>
+
+<p>Digital Stories by Fathers involved with the child protective system</p>
+
+<ul>
+	<li><a href="https://vimeo.com/38528532" title="David">David</a> - <a href="http://vimeo.com/38528532">http://vimeo.com/38528532</a></li>
+	<li><a href="https://vimeo.com/38528534" title="Eli">Eli</a> - <a href="http://vimeo.com/38528534">http://vimeo.com/38528534</a></li>
+	<li><a href="https://vimeo.com/38528535" title="Joey">Joey</a> - <a href="http://vimeo.com/38528535">http://vimeo.com/38528535</a></li>
+	<li><a href="https://vimeo.com/38528538" title="Ray">Ray</a> - <a href="http://vimeo.com/38528538">http://vimeo.com/38528538</a></li>
+	<li><a href="https://vimeo.com/38528540" title="Rich">Rich</a> - <a href="http://vimeo.com/38528540">http://vimeo.com/38528540</a></li>
+	<li><a href="https://vimeo.com/38528967" title="Rosalio">Rosalio</a> - <a href="http://vimeo.com/38528967">http://vimeo.com/38528967</a></li>
+	<li><a href="https://vimeo.com/38528966" title="Thomas">Thomas</a> - <a href="http://vimeo.com/38528966">http://vimeo.com/38528966</a></li>
+</ul>
+
+<p>Father/child play<br />
+<a href="http://www.youtube.com/watch?v=YoL43S3PBbo">http://www.youtube.com/watch?v=YoL43S3PBbo</a></p>
+
+<p>What about Fathers? A Child Welfare Documentary<br />
+<a href="http://www.youtube.com/watch?v=bU5V7eA4QvA&amp;feature=youtu.be">http://www.youtube.com/watch?v=bU5V7eA4QvA&amp;feature=youtu.be</a></p>
+
+<h2><strong><a id="Hot Topics Webinars" name="Hot Topics Webinars">Hot Topics Webinars&nbsp;</a></strong></h2>
+
+<p><em>2017</em></p>
+
+<p><a href="https://vimeo.com/202107593" title="Working Under Stress: A Longitudinal Study of Stress and Satisfaction among Title IV-E Public Child Welfare Workers">Working Under Stress: A Longitudinal Study of Stress and Satisfaction among Title IV-E Public Child Welfare Workers</a>&nbsp;(January 11, 2017)</p>
+
+<h2><strong><a id="Quality Parenting Initiative (QPI) | Just in Time Training (JIT)" name="Quality Parenting Initiative (QPI) | Just in Time Training (JIT)"></a><a href="http://www.qpicalifornia.org/pages/Video.shtml">Quality Parenting Initiative (QPI)&nbsp;| Just in Time Training (JIT)</a></strong></h2>
+
+<p><em>View the latest entries in the <a href="http://www.qpicalifornia.org/pages/Video.shtml" title="Video Training Library">Video Training Library</a></em></p>
+
+<h2><a id="Race and Ethnicity" name="Race and Ethnicity"><strong>Race and Ethnicity</strong></a></h2>
+
+<div>
+<div>
+<p>Improving Outcomes for African American Males Involved with Child Welfare<br />
+<a href="https://vimeo.com/106539332">https://vimeo.com/106539332</a></p>
+
+<p>Knowing Who You Are&nbsp;<br />
+<a href="http://www.casey.org/Resources/Initiatives/KnowingWhoYouAre/video.htm">http://www.casey.org/Resources/Initiatives/KnowingWhoYouAre/video.htm</a></p>
+</div>
+
+<p>Race, Poverty, and Nativity: An Examination of Risk and Protective Factors for Child Welfare Involvement (June 11, 2012)<br />
+<a href="https://vimeo.com/43930046">https://vimeo.com/43930046</a></p>
+
+<h2><a name="Social Work Practice"><strong>Social Work Practice</strong></a></h2>
+
+<p>Child Welfare Practice Models: Key Components, Current Tools, and Future Directions<br />
+<a href="https://vimeo.com/69499448">https://vimeo.com/69499448</a></p>
+
+<p>Child Welfare Workers' Views on Physical Punishment of Children (May 8, 2014)&nbsp;<br />
+<a href="https://vimeo.com/95003358">https://vimeo.com/95003358</a></p>
+</div>
+</div>
+</div>
+</div>
+
+<p>Communities of Practice: Motivational Interviewing (April 24, 2013)<br />
+<a href="http://vimeo.com/77091477">http://vimeo.com/77091477</a></p>
+
+<p>Measuring Organizational Culture and Climate in Staff Retention and Training Evaluation Studies (Sept. 29, 2014)<br />
+<a href="https://vimeo.com/107842850">https://vimeo.com/107842850</a></p>
+
+<p>Peer Mentors in Child Welfare: A Promising Practice Toward Reunification (Jill Duerr Berrick, MSW, Ph.D. (April 29, 2014)<br />
+<a href="https://vimeo.com/93534217">https://vimeo.com/93534217</a></p>
+
+<p>Race, Poverty, and Nativity: An Examination of Risk and Protective Factors for Child Welfare Involvement (June 11, 2012)<br />
+<a href="https://vimeo.com/43930046">https://vimeo.com/43930046</a></p>
+
+<p>Safety Organized Practice: Implementation and Evaluation (April 26, 2012)<br />
+<a href="https://vimeo.com/41164045">https://vimeo.com/41164045</a></p>
+
+<p>Social Worker's Role in New Aging Framework&nbsp;(Fernando Torres-Gil, MSW., Ph.D.)<br />
+<a href="https://vimeo.com/50017651">https://vimeo.com/50017651</a></p>
+
+<p>Wanted: Social Workers for Aging &amp; Adult Services&nbsp;<em>(Promotional Video)</em><br />
+<a href="https://vimeo.com/57648576">https://vimeo.com/57648576</a></p>
+
+<h3><a name="California Child Welfare Core Practice Model"><strong><em>California Child Welfare Core Practice Model</em></strong></a></h3>
+
+<p>California Child Welfare Core Practice Model: Theoretical Framework, Values, and Principles (February 3, 2014)<br />
+<a href="https://vimeo.com/85783341">https://vimeo.com/85783341</a></p>
+
+<p>California Child Welfare Core Practice Model Theoretical Framework Webinar (January 9, 2014)<br />
+<a href="https://vimeo.com/83814687">https://vimeo.com/83814687</a></p>
+
+<p>Child Welfare Practice Model: Key Components, Current Tools, and Future Directions (June 5, 2013)<br />
+<a href="https://vimeo.com/67769116">https://vimeo.com/67769116</a></p>
+
+<h2><a id="Symposium on Fairness and Equity Issues in Child Welfare Training and Education" name="Symposium on Fairness and Equity Issues in Child Welfare Training and Education"><strong>Symposium on Fairness and Equity Issues in Child Welfare Training and Education</strong></a></h2>
+
+<p><em>2017</em></p>
+
+<p>Young Children in Child Welfare: A Developmental Approach to Preventive Intervention&nbsp;| Keynote address by&nbsp;Brenda Jones Harden, Ph.D., Professor, University of Maryland&nbsp;Institute for Child Study, Department of Human Development and Quantitative Methodology |&nbsp;(May 10, 2017)<br />
+<a href="https://vimeo.com/217779706">https://vimeo.com/217779706</a></p>
+
+<div>
+<h2><a name="Technology and Learning Committee"><strong>Technology and Learning Committee</strong></a></h2>
+
+<p>What to Flip and Where to Blend: A Look at PCWTA's Model of Combining Online and Face-to-Face Training (June 24, 2014)<br />
+<a href="https://vimeo.com/99376817" target="_blank">https://vimeo.com/99376817</a></p>
+
+<p>Bringing Skill-Building into the Classroom: A Closer Look at Hybrid Learning &amp; Flipped Classroom Approaches (February 18, 2014)<br />
+<a href="https://vimeo.com/87110672" target="_blank">https://vimeo.com/87110672</a></p>
+
+<p>Distance Education in Theory and Approach (December 3, 2013)<br />
+<a href="http://calswec.berkeley.edu/tlc-webinar-12-2013#TLCwebS2">http://calswec.berkeley.edu/tlc-webinar-12-2013#TLCwebS2</a></p>
+
+<p>From the Classroom to the Cloud (May 15, 2013)<br />
+<a href="http://vimeo.com/77091475">http://vimeo.com/77091475</a></p>
+
+<p>Mobile Learning for Child Welfare (February 20, 2013)<br />
+<a href="http://vimeo.com/77091674">http://vimeo.com/77091674</a></p>
+
+<p>Unraveling the Mystery of Business Objects (March 20, 2013)<br />
+<a href="http://vimeo.com/77091474">http://vimeo.com/77091474</a></p>
+
+<div>
+<div>
+<h2><a id="Title IV-E Student Day" name="Title IV-E Student Day"><strong>Title IV-E&nbsp;Student Day</strong></a></h2>
+
+<h3><em>2016</em></h3>
+
+<p>Keynote Address: Making Meaningful Connections | Chadwick Sapenter<br />
+<a href="https://youtu.be/sO5gkNekIcA?t=278">https://youtu.be/sO5gkNekIcA?t=278</a></p>
+
+<p>Trauma-Informed Practice | Sheri Redding, MSW<br />
+<a href="https://youtu.be/sO5gkNekIcA?t=4100">https://youtu.be/sO5gkNekIcA?t=4100</a></p>
+
+<p>Commercial Sexual Exploitation of Children (CSEC) | Maryam Adalat, PPSC<br />
+<a href="https://youtu.be/sO5gkNekIcA?t=8133">https://youtu.be/sO5gkNekIcA?t=8133</a></p>
+
+<p>Skills and Strategies to Preserve Clients Who Use Substances | Daniel Espinoza, ACSW<br />
+<a href="https://youtu.be/4HwA-yQ8sos?t=2">https://youtu.be/4HwA-yQ8sos?t=2</a></p>
+
+<p>Alumni Panel |&nbsp;Michael Ludden, Dolanda Charles, Stephanie Rush, Patricia de Santiago, Liz Mireya Flores, Crystal Shackleford, Kevin Anderson<br />
+<a href="https://youtu.be/4HwA-yQ8sos?t=3996">https://youtu.be/4HwA-yQ8sos?t=3996</a></p>
+
+<h3><em>2013</em></h3>
+
+<p>Keynote Address<br />
+<a href="https://vimeo.com/65534489">https://vimeo.com/65534489</a></p>
+
+<p>Katie A.<br />
+<a href="https://vimeo.com/65032049">https://vimeo.com/65032049</a></p>
+
+<p>ICWA<br />
+<a href="https://vimeo.com/64922321">https://vimeo.com/64922321</a></p>
+
+<p>Alumni Panel<br />
+<a href="https://vimeo.com/64923428">https://vimeo.com/64923428</a></p>
+
+<h2><strong><a id="Title IV-E Summer Field Institute" name="Title IV-E Summer Field Institute">Title IV-E Summer Field Institute</a></strong></h2>
+
+<p>Creating a Culture of Collaboraiton and Learning in Child Welfare&nbsp;|&nbsp;Keynote Address by&nbsp;Anita P. Barbee, Ph.D., Kent School of Social Work, University of Louisville (June 4, 2015)&nbsp;<br />
+<a href="https://vimeo.com/132582146">https://vimeo.com/132582146</a></p>
+
+<h2><a id="CalSWEC Title IV-E Summit" name="CalSWEC Title IV-E Summit"><strong>Title IV-E Summit</strong></a></h2>
+
+<p><em>2017</em></p>
+
+<p>Bias: Impact on Decision-Making&nbsp;| Keynote by Rita Cameron Wedding, Ph.D., Professor of Wmen's Studies and Ethnic Studies, Sacramento State University (April 21, 2017)<br />
+<a href="https://www.youtube.com/watch?v=MSO-sH7p2Gg&amp;feature=youtu.be">https://www.youtube.com/watch?v=MSO-sH7p2Gg&amp;feature=youtu.be</a></p>
+</div>
+</div>
+
+<h2><a name="Toolkit: Child Welfare/Mental Health Learning Collaborative (Katie A.)"><strong>Toolkit: Child Welfare/Mental Health Learning Collaborative (Katie A.)</strong></a></h2>
+
+<div>
+<p>Learning Collaborative (1 hour&nbsp;webinar) (February 11, 2014)<br />
+<a href="https://vimeo.com/86623372">https://vimeo.com/86623372</a></p>
+
+<p>Learning Collaborative (May 30, 2014)&nbsp;<br />
+<a href="https://vimeo.com/97346758">https://vimeo.com/97346758</a></p>
+
+<h2><a id="Toolkit: Father Engagement and Father Involvement" name="Toolkit: Father Engagement and Father Involvement"><strong>Toolkit: Father Engagement and Father Involvement</strong></a></h2>
+
+<p>A personal reflection of living without a father—Def Poetry: Daniel Beaty - Knock Knock (official video)<br />
+<a href="http://www.youtube.com/watch?v=9eYH0AFx6yI">http://www.youtube.com/watch?v=9eYH0AFx6yI</a></p>
+
+<p>Dads attending to children<br />
+<a href="http://www.youtube.com/watch?v=57xmDz4kfEw">http://www.youtube.com/watch?v=57xmDz4kfEw</a></p>
+
+<p>Digital Stories by Fathers involved with the child protective system</p>
+
+<ul>
+	<li><a href="https://vimeo.com/38528532" title="David">David</a> - <a href="http://vimeo.com/38528532">http://vimeo.com/38528532</a></li>
+	<li><a href="https://vimeo.com/38528534" title="Eli">Eli</a> - <a href="http://vimeo.com/38528534">http://vimeo.com/38528534</a></li>
+	<li><a href="https://vimeo.com/38528535" title="Joey">Joey</a> - <a href="http://vimeo.com/38528535">http://vimeo.com/38528535</a></li>
+	<li><a href="https://vimeo.com/38528538" title="Ray">Ray</a> - <a href="http://vimeo.com/38528538">http://vimeo.com/38528538</a></li>
+	<li><a href="https://vimeo.com/38528540" title="Rich">Rich</a> - <a href="http://vimeo.com/38528540">http://vimeo.com/38528540</a></li>
+	<li><a href="https://vimeo.com/38528967" title="Rosalio">Rosalio</a> - <a href="http://vimeo.com/38528967">http://vimeo.com/38528967</a></li>
+	<li><a href="https://vimeo.com/38528966" title="Thomas">Thomas</a> - <a href="http://vimeo.com/38528966">http://vimeo.com/38528966</a></li>
+</ul>
+
+<p>Father/child play<br />
+<a href="http://www.youtube.com/watch?v=YoL43S3PBbo">http://www.youtube.com/watch?v=YoL43S3PBbo</a></p>
+
+<p>What about Fathers? A Child Welfare Documentary<br />
+<a href="http://www.youtube.com/watch?v=bU5V7eA4QvA&amp;feature=youtu.be">http://www.youtube.com/watch?v=bU5V7eA4QvA&amp;feature=youtu.be</a></p>
+
+<h2><strong><a id="Fostering Connections After 18 (AB 12)" name="Fostering Connections After 18 (AB 12)">Toolkit: Fostering Connections After 18 (AB 12)</a></strong></h2>
+
+<p>After 18 Toolkit Webinar Recording<br />
+<a href="https://vimeo.com/54328340">https://vimeo.com/54328340</a></p>
+
+<p>After 18CA’s channel<br />
+<a href="http://www.youtube.com/user/After18CA">http://www.youtube.com/user/After18CA</a></p>
+
+<p>Fostering Connections: Stories by After 18 Young Adults: Carey<br />
+<a href="https://vimeo.com/49720164">https://vimeo.com/49720164</a></p>
+
+<p>Fostering Connections: Stories by After 18 Young Adults: Cearra<br />
+<a href="https://vimeo.com/49769962">https://vimeo.com/49769962</a></p>
+
+<p>Fostering Connections: Stories by After 18 Young Adults: Jacquetta<br />
+<a href="https://vimeo.com/49769960">https://vimeo.com/49769960</a></p>
+
+<p>Fostering Connections: Stories by After 18 Young Adults: Ralph<br />
+<a href="https://vimeo.com/49721593">https://vimeo.com/49721593</a></p>
+
+<p>Foster Youth who are on probation<br />
+<a href="http://www.youtube.com/watch?v=k-6uq6NFE9s&amp;feature=plcp">http://www.youtube.com/watch?v=k-6uq6NFE9s&amp;feature=plcp</a></p>
+
+<p>Living arrangements for youth who remain in foster care after 18<br />
+<a href="http://www.youtube.com/watch?v=lySwZHN6_dg&amp;feature=plcp">http://www.youtube.com/watch?v=lySwZHN6_dg&amp;feature=plcp</a></p>
+
+<p>Overview of the Fostering Connections to Success Act (AB12)<br />
+<a href="http://www.youtube.com/watch?v=qL1Gmdkfbwo&amp;feature=plcp">http://www.youtube.com/watch?v=qL1Gmdkfbwo&amp;feature=plcp</a></p>
+
+<p>Placement<br />
+<a href="http://www.youtube.com/watch?v=lySwZHN6_dg&amp;feature=plcp">http://www.youtube.com/watch?v=lySwZHN6_dg&amp;feature=plcp</a></p>
+
+<p>Program eligibility<br />
+<a href="http://www.youtube.com/watch?v=JohW8a3LFAk&amp;feature=plcp">http://www.youtube.com/watch?v=JohW8a3LFAk&amp;feature=plcp</a></p>
+
+<h2><a name="Toolkit: Implementation Toolkit for the American Indian Enhancement Project"><strong>Toolkit: Implementation Toolkit for the American Indian Enhancement Project</strong></a></h2>
+
+<p>Digital story: Erwin - the Rez<br />
+<a href="http://blip.tv/the-peoples-post/on-the-rez-erwin-osuna-san-diego-3144800">http://blip.tv/the-peoples-post/on-the-rez-erwin-osuna-san-diego-3144800</a></p>
+
+<p>Digital story: Adam - the Rez<br />
+<a href="http://blip.tv/the-peoples-post/on-the-rez-adam-osuna-julian-3144782">http://blip.tv/the-peoples-post/on-the-rez-adam-osuna-julian-3144782</a></p>
+
+<p>FACES&nbsp;1-minute introduction to proper inquiry<br />
+<a href="http://www.youtube.com/watch?v=XBzulGg39t8">http://www.youtube.com/watch?v=XBzulGg39t8</a></p>
+
+<p>FACES instructional video (12 minutes)&nbsp;with&nbsp;guidance for leading discussions<br />
+<a href="http://www.youtube.com/watch?v=BIQG65KFKGs">http://www.youtube.com/watch?v=BIQG65KFKGs</a></p>
+
+<p>For Columbus Day, Among the Lakota<br />
+<a href="http://maddowblog.msnbc.com/_news/2010/10/11/5271840-for-columbus-day-among-the-lakota">http://maddowblog.msnbc.com/_news/2010/10/11/5271840-for-columbus-day-among-the-lakota</a></p>
+
+<p>Reconsider Columbus Day<br />
+<a href="http://www.youtube.com/watch?v=il5hwpdJMcg">http://www.youtube.com/watch?v=il5hwpdJMcg</a></p>
+
+
+</div>
+</div>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-43783ce0cd5c913bff6444143d64853b">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img src="../sites/default/files/styles/medium/public/video-recording-photo/index.png?itok=41-sYiZm" width="300" height="175" alt="" /></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../resources/index.html" title="Resources" class="active-trail">Resources</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active is-active-trail is-expanded first expanded active-trail active menu-mlid-2331"><a href="index.html" title="Videos and Recordings" class="menu__link is-active-trail active-trail active">Videos and Recordings</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-3029"><a href="../qpi-california-state-conference-2015/index.html" title="The 2015 Quality Parenting Initiative State Conference." class="menu__link">QPI California State Conference (2015)</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-2932"><a href="../trainings/index.html" title="Trainings" class="menu__link">Trainings</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-2336"><a href="../child-welfare-0/index.html" title="Child Welfare" class="menu__link">Child Welfare</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2337"><a href="../behavioral-health/index.html" title="Behavioral Health" class="menu__link">Behavioral Health</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2338"><a href="../aging-0/index.html" title="Aging" class="menu__link">Aging</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2297"><a href="../affordable-care-act/index.html" title="Affordable Care Act" class="menu__link">Affordable Care Act</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2475"><a href="../research-and-evaluation/index.html" title="Research and Evaluation" class="menu__link">Research and Evaluation</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3445"><a href="../calswec-network-hub-0/index.html" title="CalSWEC Network Hub" class="menu__link">CalSWEC Network Hub</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link is-active-trail is-active-trail active-trail active-trail">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":196,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/videos-and-recordings by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:08:18 GMT -->
+</html>

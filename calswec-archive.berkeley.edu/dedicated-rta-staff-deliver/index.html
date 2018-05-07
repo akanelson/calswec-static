@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/dedicated-rta-staff-deliver by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:30:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="../../www.w3.org/1999/xhtml/vocab.1/index.delayed">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="../node/2072/index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Dedicated RTA Staff Deliver | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"KfejPBCZFv7dKLPh_0dcoc3Yw0gXnaZTI8nx_6rsf-0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/dedicated-rta-staff-deliver":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-2072 node-type-generic-page section-dedicated-rta-staff-deliver" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link is-active-trail active-trail">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/dedicated-rta-staff-deliver" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-h7u-PIDqwmiCDomJzDfMQhDhLbI2iVw53TQ4C-315cU" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-7224d0e0f1e1662349988151cbd782c7">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../news/index.html" title="News">News</a> / </li><li><a href="../calswec-news-may-august-2016/index.html" title="CalSWEC News | May - August  2016" class="active-trail">CalSWEC News | May - August  2016</a> / </li><li><a href="../spotlight-regional-training-academy-rta-coordination-project/index.html" title="Spotlight on the Regional Training Academy (RTA) Coordination Project" class="active-trail">Spotlight on the Regional Training Academy (RTA) Coordination Project</a> / </li><li>Dedicated RTA Staff Deliver</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Dedicated RTA Staff Deliver</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-2072" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><em><img alt="" src="../sites/default/files/uploads/rta_staff-horizontal/index.html" style="height:189px; width:600px" /><span style="font-size:14px">Regional Training Academy (RTA) Coordination Project staff are, from left, Training and Evaluation Analyst <a href="#Training and Evaluation Analyst Esmirna (Esmi) Ramirez" title="Training and Evaluation Analyst Esmirna (Esmi) Ramirez">Esmirna (Esmi) Ramirez</a>, Training and Curriculum Specialist&nbsp;<a href="#Training and Curriculum Specialist Phyllis Jeroslow" title="Training and Curriculum Specialist Phyllis Jeroslow">Phyllis Jeroslow</a>, <a href="#Distance Education Specialist Mauricio Wright" title="Distance Education Specialist Mauricio Wright">Distance Education Specialist&nbsp;Mauricio Wright</a>, Training and Curriculum Specialists&nbsp;<a href="#Training and Curriculum Specialist Melinda Iremonger" title="Training and Curriculum Specialist Melinda Iremonger">Melinda Iremonger</a> and <a href="#Training and Curriculum Specialist Jennifer Cannell">Jennifer Cannell</a>, <a href="#Director Melissa Connelly">Director Melissa Connelly</a>, Training and Curriculum Specialists&nbsp;<a href="#Training and Curriculum Specialist Joanne Pritchard" title="Training and Curriculum Specialist Joanne Pritchard ">Joanne Pritchard</a> and&nbsp;<a href="#Training and Curriculum Specialist Shay O’Brien" title="Training and Curriculum Specialist Shay O’Brien">Shay O'Brien</a>, and <a href="#Efforts to Outcomes (ETO) Director Tara Lain" title="Efforts to Outcomes (ETO) Director Tara Lain">Efforts to Outcomes (ETO) Director&nbsp;Tara Lain</a></span></em></p>
+
+<hr />
+<p><em>July 7, 2016</em></p>
+
+<p><a href="http://calswec.berkeley.edu/spotlight-regional-training-academy-rta-coordination-project" title="Read more about the RTA Coordination Project"><strong>Read more about the RTA Coordination Project</strong></a></p>
+
+<p><a href="http://calswec.berkeley.edu/regional-training-academy-coordination-project-undergoes-staff-changes" title="RELATED: RTA undergoes staff changes"><strong>RELATED: RTA undergoes staff changes</strong></a></p>
+
+<p><a name="Director Melissa Connelly"></a><strong><a href="#Director Melissa Connelly" title="Director Melissa Connelly"><em>Director Melissa Connelly</em></a></strong>&nbsp;joined the Regional&nbsp;Training Academy (RTA)&nbsp;Coordination Project in 2008 and in 2014 was appointed to her current <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" target="_blank"><img alt="" src="../sites/default/files/uploads/corepractice_0/index.html" style="float:left; height:159px; margin:5px 8px; width:200px" title="click on color Core Practice Model graphic for more information" /></a>position. Her background includes 10 years of child welfare direct service as a social worker and supervisor. Since joining CalSWEC, <a href="http://calswec.berkeley.edu/melissa-connelly-new-director-child-welfare-service-training" title="Melissa Connelly">she</a> has worked on the&nbsp;<a href="http://calswec.berkeley.edu/california-common-core-curricula" target="_blank" title="California Common Core Curriculum">California Common Core Curriculum</a>&nbsp;for new child welfare workers, projects related to the California&nbsp;<a href="http://calswec.berkeley.edu/ab-636-child-and-family-services-review-c-cfsr" target="_blank" title="Child and Family Services Review">Child and Family Services Review</a>, and&nbsp;<a href="http://calswec.berkeley.edu/toolkits/fostering-connections-after-18-ab-12" title="After18">After18</a>&nbsp;training. She also supports the&nbsp;<a href="http://www.cwda.org/" target="_blank" title="County Welfare Directors Association (CWDA) of California">County Welfare Directors Association (CWDA)&nbsp;</a>&nbsp;in their&nbsp;work to develop the&nbsp;<a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model.">California Child Welfare Core Practice Model</a>.</p>
+
+<p><a id="Training and Curriculum Specialist Jennifer Cannell" name="Training and Curriculum Specialist Jennifer Cannell"></a><strong><a href="#Training and Curriculum Specialist Jennifer Cannell" title="Training and Curriculum Specialist Jennifer Cannell"><em>Training and Curriculum Specialist Jennifer Cannell</em></a></strong>&nbsp;leads the coordination of&nbsp;<a href="http://calswec.berkeley.edu/common-core-30-0" title="Common Core 3.0">Common Core 3.0</a>&nbsp;statewide revision efforts.&nbsp;“The impetus is to ensure that Core training provides new social workers with key information in a format that streamlines knowledge acquisition and facilitates skill<a href="http://calswec.berkeley.edu/common-core-30-0" target="_blank"><img alt="" src="../sites/default/files/uploads/slide_1-commoncore/index.html" style="float:right; height:172px; margin:5px; width:225px" title="click on the color Common Core 3.0 logo to go to website" /></a> building,” <a href="http://calswec.berkeley.edu/jennifer-cannell-joins-child-welfare-service-training-project" title="Jennifer Cannell">she</a> explains.&nbsp;Since the development of the initial Common Core, Ms. Cannell notes,&nbsp;“Training has evolved to include more technology and more innovative ways to support transfer of learning and skill development. The field has also evolved, as California moves toward the implementation of its<a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model.">&nbsp;Child Welfare Core Practice Model</a>.”&nbsp;Ms. Cannell’s coordination efforts include facilitating statewide training standardization, curricula development, training delivery pilots, and implementation. Additionally, she coordinates the interface of implementing&nbsp;field-based training activities&nbsp;and conducting evaluation of&nbsp;the training system. She also supports the development of supervisor training, the&nbsp;<a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model.">California Child Welfare Core Practice Model</a>, and other state initiative projects as needed.&nbsp;Ms. Cannell joined CalSWEC in 2015. Her 20 years of diverse social work&nbsp;experience includes non-profit advocacy and leadership, hospital social work, child welfare, capacity building, and training and implementation in child welfare services. She earned her M.S.W. from the University of Nevada, Reno and completed her undergraduate education at the University of California, Santa Barbara.&nbsp;</p>
+
+<p class="rteindent1"><strong><a href="http://www.cvent.com/events/2016-cwda-conference/agenda-37003ce303a24238b17a0612d45bb86e.aspx" title="Jennifer Cannell and Melinda Iremonger will be presenting on Common Core 3.0: Supervisor Training and the Integration of Field-Based Learning on October 7 from 8:30 to 10:00 am">Jennifer Cannell and Melinda Iremonger will be presenting on&nbsp;<em>Common Core 3.0: Supervisor Training and the Integration of Field-Based Learning&nbsp;</em>on October 7 from 8:30 to 10:00 am</a>&nbsp;at the upcoming <a href="http://www.cvent.com/events/2016-cwda-conference/event-summary-37003ce303a24238b17a0612d45bb86e.aspx" title="CWDA Conference October 5–7 at the Anaheim Marriott">CWDA Conference October 5–7 at the Anaheim Marriott</a>.</strong></p>
+
+<p><strong><a id="Training and Curriculum Specialist Melinda Iremonger" name="Training and Curriculum Specialist Melinda Iremonger"><em>Training and Curriculum Specialist&nbsp;Melinda Iremonger</em></a></strong>&nbsp;is currently involved in revising Common Core Curricula modules for Supervisors, updating and modifying&nbsp;<a href="http://calswec.berkeley.edu/toolkits/serving-commercially-sexually-exploited-children-csec-toolkit" title="Commercially Sexually Exploited Children (CSEC) materials for the web-based toolkit">Commercially Sexually Exploited Children (CSEC) materials for the web-based toolkit</a>, collaborating with stakeholders to revise and modify the&nbsp;<a href="http://calswec.berkeley.edu/toolkits/resource-family-approval-rfa" title="Resource Family Approval (RFA) trainings and materials, in addition to the web-based toolkit">Resource Family Approval (RFA) trainings and materials, in addition to the web-based toolkit</a>. <a href="http://calswec.berkeley.edu/melinda-iremonger-joins-service-training-project" title="Melinda Iremonger">She</a> also works&nbsp;<a href="http://calswec.berkeley.edu/toolkits/resource-family-approval-rfa" target="_blank"><img alt="" src="../sites/default/files/uploads/rfa-foster/index.html" style="float:left; height:175px; margin:5px; width:300px" title="click on color photo of family and RFA logo to go to RFA toolkit" /></a>closely with&nbsp;<a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="CDSS">CDSS</a>&nbsp;in the training and revision of necessary materials for&nbsp;<a href="http://calswec.berkeley.edu/toolkits/continuum-care-reform-ccr" title="Continuum of Care Reform (CCR)">Continuum of Care Reform (CCR)</a>. Ms. Iremonger has a wealth of experience as a social worker and supervisor in El Dorado and Yolo counties and as a social service consultant with&nbsp;<a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="CDSS">CDSS</a>. Immediately prior to joining CalSWEC, Ms. Iremonger was a social service consultant with the&nbsp;<a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="CDSS Child Welfare Program Policy and Program Development Bureau">CDSS Child Welfare Program Policy and Program Development Bureau</a><u>,</u>&nbsp;where she developed regulations, policies, and procedures related to Child Welfare Services.&nbsp;Since 2012, she has been an M.S.W. field instructor at California State University, Sacramento, where she earned her M.S.W.</p>
+
+<p><em><strong><a id="Training and Curriculum Specialist Phyllis Jeroslow" name="Training and Curriculum Specialist Phyllis Jeroslow">Training and Curriculum Specialist Phyllis Jeroslow</a></strong>,&nbsp;</em>who joined CalSWEC in 2004, contributed for several years to the development of the first statewide series of&nbsp;<a href="http://calswec.berkeley.edu/california-common-core-curricula" title="Common Core Curricula">Common Core Curricula&nbsp;</a>for Child Welfare Workers and Supervisors. She has produced 10 statewide&nbsp;<a href="http://calswec.berkeley.edu/fairness-equity-symposia" title="symposia on Fairness and Equity Issues in Child Welfare Training and Education">symposia on Fairness and Equity Issues in Child Welfare Training and Education</a>, a forum for achieving greater equity, sensitivity, and social justice in<a href="http://calswec.berkeley.edu/fairness-equity-symposia" target="_blank"><img alt="" src="../sites/default/files/uploads/fe_logo_big-clearbkgrd_0/index.html" style="float:right; height:115px; margin:5px; width:130px" title="click on color Fairness &amp; Equity logo to go to website" /></a>&nbsp;child welfare practice through workforce development and systems change. She currently leads a workgroup of state, regional, research, and advocacy partners charged with coordinating statewide training for the provision of mental health services for children involved in the child welfare system. Ms. Jeroslow is about to complete her doctoral dissertation at the UC Berkeley School of Social Welfare.&nbsp; She is published as a sole author in the&nbsp;<em>Routledge Handbook on Poverty in the US</em>&nbsp;and in the annual&nbsp;<em>Social Policy Review (Policy Press).&nbsp;</em>Additionally, she has presented her research about poverty and government investments in early childhood at international academic conferences in Washington, D.C., New York, Europe, Australia, and South Africa.</p>
+
+<p><strong><a href="http://calswec.berkeley.edu/daphne-short-new-efforts-outcomes-project-director" title="RELATED: Daphne Short Is New Efforts to Outcomes Project Director">RELATED: Daphne Short Is New Efforts to Outcomes Project Director</a></strong></p>
+
+<p><em><strong><a id="Efforts to Outcomes (ETO) Director Tara Lain" name="Efforts to Outcomes (ETO) Director Tara Lain">Tara Lain is Project Director of the Efforts to Outcomes (ETO)</a> Self-Evaluation Program,</strong></em>&nbsp;which builds capacity for the collection of “gap” data not tracked in the current SACWIS system and enables outcome measurement and self-evaluation.&nbsp;Using web-based, modular software called Efforts to Outcome (ETO) developed by&nbsp;<a href="http://www.socialsolutions.com/" title="Social Solutions">Social Solutions</a>, the evaluation program allows flexibility of program type within each county and can be configured to meet the needs of an identified program.&nbsp;<a href="http://calswec.berkeley.edu/efforts-outcomes-joins-calswec" title="Tara Lain">Ms. Lain</a> has been with ETO since its implementation nine years ago and has built five <a href="http://www.socialsolutions.com/" target="_blank"><img alt="" src="../sites/default/files/uploads/ssg-logo-green-80x546/index.html" style="float:left; height:44px; margin:5px 10px; width:300px" title="click on color logo to Social Solutions to go to website" /></a>major programs:&nbsp;ILP (Independent Living Program)–Transition Age Youth, Team Decision Making (TDM), Foster Parent Recruitment &amp; Foster Parent Retention (Supporting Resource Family Approval (RFA)), California Partners for Permanency (CAPP), and Child &amp; Family Teaming (CFT). ETO was identified in 2006 as versatile enough to meet the varied needs of&nbsp;Independent Living Programs.&nbsp;An enterprise license was purchased by<a href="http://www.cfpic.org/" title="Child and Family Policy Institute of California (CFPIC)">&nbsp;Child and Family Policy Institute of California (CFPIC)&nbsp;</a>with funding from&nbsp;<a href="http://www.aecf.org/" title="The Annie E. Casey Foundation">The Annie E. Casey</a>,&nbsp;<a href="http://www.stuartfoundation.org/" title=" Stuart  Foundation">Stuart</a>, and&nbsp;<a href="http://wsjf.org/our-funding-priorities/our-initiatives/california-connected-by-25-initiative/" title="The Walter S. Johnson Foundation">The Walter S. Johnson</a>&nbsp;foundations.&nbsp;Initially five counties entered into agreements; today 29 counties are participating. Ms. Lain has experience in research design, program evaluation, and quantitative and qualitative methods of data analysis. She provides ETO training, support, program design, implementation, and self-evaluation technical assistance to the 29 counties.&nbsp;For seven years, Ms. Lain was a protective services social worker in case management, program evaluation, and outcomes development with expertise in the California SACWIS system.&nbsp; She holds a B.A. with Honors in Psychology and an M.A. in Psychology from California State University, Stanislaus.&nbsp;</p>
+
+<p><em><strong><a id="Training and Curriculum Specialist Shay O’Brien" name="Training and Curriculum Specialist Shay O’Brien">Training and Curriculum Specialist Shay O’Brien</a></strong>&nbsp;</em>joined CalSWEC in 2015. She has developed curriculum materials for the Quality Assurance component of the Child and Family Services Review (CFSR) process and coordinates the ongoing improvements to training documents for the CFSR Onsite Review Instrument (Case Review) Training. Working closely with&nbsp;<a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="CDSS">CDSS</a>&nbsp;partners, Ms. O’Brien has also <a href="http://www.qpicalifornia.org/justintime.shtml" target="_blank"><img alt="" src="../sites/default/files/uploads/jitlogo7/index.html" style="float:right; height:58px; margin:5px; width:360px" title="click on QPI Just-in-Time Training color logo to go to website" /></a>created curriculum materials for the Relative and Non-Relative Extended Family Member Criminal Background Check Process. Currently she is working to expand the reach and impact of the&nbsp;<a href="http://www.qpicalifornia.org/index.shtml" title=" Quality Parenting Initiative (QPI)">Quality Parenting Initiative (QPI)</a>&nbsp;Just-in-Time training website. In partnership with the&nbsp;<a href="http://www.qpicalifornia.org/index.shtml" title=" Quality Parenting Initiative (QPI)">QPI&nbsp;</a>counties and caregivers, she will be identifying, capturing, and disseminating online training content that covers the most useful, in-demand topics. Ms. O’Brien earned her Master’s in Social Welfare Administration at the University of Kansas. She has worked with homeless women and children, domestic violence survivors, and transition-age foster youth. Additionally, she has 15 years’ research experience in education, public policy, and program evaluation.</p>
+
+<p><strong><a id="Training and Curriculum Specialist Joanne Pritchard" name="Training and Curriculum Specialist Joanne Pritchard"><em>Training and Curriculum Specialist Joanne Pritchard</em>&nbsp;</a></strong>coordinates the statewide efforts related to&nbsp;<a href="http://calswec.berkeley.edu/common-core-30-0" title="Common Core 3.0">Common Core 3.0</a>&nbsp;field activities. She facilitates monthly calls and in-person meetings with partners from the&nbsp;<a href="http://calswec.berkeley.edu/service-training-partners" title="RTAs">RTAs</a>, counties,&nbsp;<a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="CDSS">CDSS</a>, and other training entities to gather feedback and <a href="http://calswec.berkeley.edu/common-core-30-0" target="_blank"><img alt="" src="../sites/default/files/uploads/ccc-logo-rta/index.html" style="float:left; height:200px; margin:5px; width:200px" title="click on the color Common Core 3.0 logo to go to website" /></a>develop products to support the implementation of those&nbsp;<a href="http://calswec.berkeley.edu/common-core-30-0" title="Common Core 3.0">CC 3.0</a>&nbsp;field activities. <a href="http://calswec.berkeley.edu/new-calswec-employee-passionate-about-tdm" title="Joanne Pritchard">Ms. Pritchard</a> joined CalSWEC in 2012 as the lead for the Education Equals grant. She soon transitioned to the&nbsp;<a href="http://calswec.berkeley.edu/common-core-30-0" title="Common Core 3.0">CC 3.0</a>&nbsp;work, providing support for planning, implementation, and curriculum development. Ms. Pritchard has an M.A. in Counseling Psychology and over 15 years’ experience in the field of public child welfare as a practitioner, supervisor, trainer, and curriculum developer. Special areas of interest in child welfare practice include Team Decision Making, Child Welfare Skills-Based Coaching, and Restorative Practices.</p>
+
+<p><em><strong><a id="Training and Evaluation Analyst Esmirna (Esmi) Ramirez" name="Training and Evaluation Analyst Esmirna (Esmi) Ramirez">Training and Evaluation Analyst Esmirna (Esmi) Ramirez</a></strong>&nbsp;</em>provides support to CalSWEC’s Research and Evaluation team, conducts research to inform the development and revision of curriculum training products, and provides logistical support to other workforce development activities for the RTA Coordination Project. <a href="http://calswec.berkeley.edu/esmirna-ramirez-joins-child-welfare-service-training-project" title="Esmirna (Esmi) Ramirez">She</a> works closely with the Research and Evaluation team to develop evaluation materials and instruments to evaluate&nbsp;<a href="http://calswec.berkeley.edu/common-core-30" target="_blank" title="Common Core 3.0">Common Core 3.0</a>; assists with data processing and analysis; and provides bimonthly<a href="http://calswec.berkeley.edu/toolkits/serving-commercially-sexually-exploited-children-csec-toolkit" title="Commercial Sexual Exploitation of Children statewide training">&nbsp;Commercial Sexual Exploitation of Children statewide training</a>&nbsp;reports to&nbsp;<a href="http://www.cdss.ca.gov/cdssweb/default.htm">CDSS</a>&nbsp;and the&nbsp;<a href="http://calswec.berkeley.edu/service-training-partners">RTAs</a>. This year,&nbsp;Ms. Ramirez assisted with the convening of the&nbsp;<a href="http://calswec.berkeley.edu/2016-national-human-services-training-evaluation-symposium" target="_blank" title="19th annual  National Human Services Training Evaluation Symposium (NHSTES)">19th annual&nbsp;National Human Services Training Evaluation Symposium&nbsp;<img alt="" src="../sites/default/files/uploads/nhstes_2016_logo-transparentbkgrd/index.html" style="float:right; height:118px; margin:8px 5px; width:200px" title="click on 2016 NHSTES color logo to go to website" />(NHSTES)</a>&nbsp;at UC Berkeley. To support curriculum development, she works with CalSWEC’s curriculum specialists developing and analyzing stakeholder vetting surveys used to inform content revision; generates formative evaluation instruments to collect feedback from observers during the piloting of curriculum; and conducts literature reviews to inform content development and revision. She is currently working on updating the ICWA curricula to reflect the latest changes in federal and state guidelines and regulations. Ms. Ramirez is also tasked as a training coordinator for California&nbsp;<a href="http://www.fosterfamilyhelp.ca.gov/PG2997.htm" target="_blank" title=" Quality Parenting Initiative (QPI)">Quality Parenting Initiative</a>&nbsp;Just-in-Time Training Project. She is responsible for assessing elearning training needs; coordinating the film production of training, and responding to caregiver training requests. Ms. Ramirez earned her M.S.W. from the University of Michigan, where she focused on Social Policy and Program Evaluation.</p>
+
+<p><em><strong><a id="Distance Education Specialist Mauricio Wright" name="Distance Education Specialist Mauricio Wright">Distance Education Specialist Mauricio Wright</a></strong>,</em>&nbsp;working with the RTA Technical Team staff across the state, helps coordinate the development&nbsp;of e-learnings&nbsp;and training support through online resources. <a href="http://calswec.berkeley.edu/distance-ed-specialist-mauricio-wright-joins-child-welfare-service-training-project" title="Mauricio Wright">He</a> administers the&nbsp;CalSWEC Learning Management System&nbsp;(LMS), the central delivery platform for&nbsp;<a href="http://calswec.berkeley.edu/common-core-30-0" title="Common Core 3.0">Common Core 3.0</a>’s online component and other statewide trainings, including the&nbsp;&nbsp;training module.&nbsp; Once fully implemented at the end of 2017,&nbsp;<a href="http://calswec.berkeley.edu/common-core-30-0" title="Common Core 3.0">Common Core 3.0</a>&nbsp;is slated to offer 24 online training modules statewide. Since January 2016, the state has gone <a href="http://www.qpicalifornia.org/justintime.shtml" target="_blank"><img alt="" src="../sites/default/files/uploads/qpi_logosmall2/index.html" style="float:left; height:127px; margin:5px 8px; width:175px" title="click on color QPI log to go website" /></a>live with three of those, two of which were produced by CalSWEC’s In-service Training Team and one two-part module produced by&nbsp;<a href="http://theacademy.sdsu.edu/" target="_blank" title="PCWTA">PCWTA</a><u>.</u>&nbsp; Mr. Wright is also tasked with expanding the&nbsp;<a href="http://www.qpicalifornia.org/index.shtml" title=" Quality Parenting Initiative (QPI)">Quality Parenting Initiative (QPI)</a>&nbsp;Just-In-Time Training Library that provides&nbsp;resources for strengthening foster care by refocusing on excellent parenting for all children in the child welfare system.&nbsp;Since joining CalSWEC in 2015, he has been responsible for over 20 new additions within Attachment, Behavior, CSEC, LGBTQ, and more. A 2016&nbsp;<a href="http://hr.berkeley.edu/compensation-benefits/compensation/recognition/spot-awards" title="UC Berkeley Spot Award">UC Berkeley Spot Award</a>&nbsp;recipient, Mr. Wright is a graduate of San Francisco State University’s Cinematography program. He has 11 years of media and curriculum development experience within the field of education, including seven years in higher education. He previously worked at the&nbsp;<a href="http://online.berkeley.edu/" target="_blank" title="Berkeley Resource Center for Online Education (BRCOE)">Berkeley Resource Center for Online Education (BRCOE)</a>, where he was a production specialist and member of the media development team.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-cff0d692ab5b1d439fb5844afce1b101">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-4" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../news/index.html" title="News" class="active-trail">News</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-4 menu-name-menu-secondary-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-3246"><a href="../calswec-news-may-august-2016/index.html" title="CalSWEC News | May - August  2016" class="menu__link is-active-trail active-trail">CalSWEC News | May - August  2016</a><ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-3249"><a href="../spotlight-regional-training-academy-rta-coordination-project/index.html" title="Spotlight on the Regional Training Academy (RTA) Coordination Project" class="menu__link is-active-trail active-trail">Spotlight on the Regional Training Academy (RTA) Coordination Project</a><ul class="menu"><li class="menu__item is-active is-active-trail is-leaf first last leaf active-trail active menu-mlid-3254"><a href="index.html" title="Dedicated RTA Staff Deliver" class="menu__link is-active-trail active-trail active">Dedicated RTA Staff Deliver</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-3250"><a href="../detour-law-school-aprille-flint-embraced-motherhood-and-social-work/index.html" title="On a Detour from Law School, Aprille Flint Embraced Motherhood and Social Work" class="menu__link">On a Detour from Law School, Aprille Flint Embraced Motherhood and Social Work</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3247"><a href="../tech-tran-acquired-his-social-work-skills-organically-his-familys-challenging-journey/index.html" title="Tech Tran Acquired His Social Work Skills Organically on His Family’s Challenging Journey" class="menu__link">Tech Tran Acquired His Social Work Skills Organically on His Family’s Challenging Journey</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3252"><a href="../introducing-integrated-behavioral-health/index.html" title="Introducing Integrated Behavioral Health" class="menu__link">Introducing Integrated Behavioral Health</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3255"><a href="../new-curriculum-available-child-and-family-teaming/index.html" title="New Curriculum Available for Child and Family Teaming" class="menu__link">New Curriculum Available for Child and Family Teaming</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3258"><a href="../luis-quintanilla-was-born-heart-social-worker/index.html" title="Luis Quintanilla Was Born with the Heart of a Social Worker" class="menu__link">Luis Quintanilla Was Born with the Heart of a Social Worker</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3297"><a href="../mary-pagan-has-fire-her-belly-child-welfare-social-work/index.html" title="Mary Pagan Has a Fire in Her Belly for Child Welfare Social Work" class="menu__link">Mary Pagan Has a Fire in Her Belly for Child Welfare Social Work</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3296"><a href="../christopher-cajski-will-lead-calswecs-technology-and-instructional-design-team/index.html" title="Christopher Cajski Will Lead CalSWEC’s Technology and Instructional Design Team" class="menu__link">Christopher Cajski Will Lead CalSWEC’s Technology and Instructional Design Team</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3350"><a href="../afton-hencky-calswecs-database-analyst/index.html" title="Afton Hencky Is CalSWEC&#039;s New  Database Analyst" class="menu__link">Afton Hencky Is CalSWEC&#039;s New  Database Analyst</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3756"><a href="../calswec-news-january-april-2018/index.html" class="menu__link">CalSWEC News | January - April 2018</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3391"><a href="../calswec-news-january-april-2017/index.html" title="CalSWEC News | January - April 2017" class="menu__link">CalSWEC News | January - April 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3473"><a href="../calswec-news-may-august-2017/index.html" title="CalSWEC News | May - August 2017" class="menu__link">CalSWEC News | May - August 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3619"><a href="../calswec-news-september-december-2017/index.html" title="CalSWEC News | September - December 2017" class="menu__link">CalSWEC News | September - December 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3087"><a href="../calswec-news-january-april-2016/index.html" title="CalSWEC News | January - April 2016" class="menu__link">CalSWEC News | January - April 2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3359"><a href="../calswec-news-september-december-2016/index.html" title="CalSWEC News | September - December 2016" class="menu__link">CalSWEC News | September - December 2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2991"><a href="../calswec-news-january-april-2015/index.html" title="CalSWEC News: January - April 2015" class="menu__link">CalSWEC News: January - April 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3027"><a href="../calswec-news-may-august-2015/index.html" title="CalSWEC News: May - August 2015" class="menu__link">CalSWEC News: May - August 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3086"><a href="../calswec-news-september-december-2015/index.html" title="CalSWEC News: September–December 2015" class="menu__link">CalSWEC News: September–December 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2577"><a href="../calswec-news-january-april-2014/index.html" title="CalSWEC News: January - April 2014" class="menu__link">CalSWEC News: January - April 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2616"><a href="../calswec-news-may-august-2014/index.html" title="CalSWEC News: May - August 2014" class="menu__link">CalSWEC News: May - August 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2760"><a href="../calswec-news-september-december-2014/index.html" title="CalSWEC News: September - December 2014" class="menu__link">CalSWEC News: September - December 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2202"><a href="../calswec-news-january-april-2013/index.html" title="CalSWEC News: January - April 2013" class="menu__link">CalSWEC News: January - April 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2303"><a href="../calswec-news-may-august-2013/index.html" title="CalSWEC News: May - August 2013" class="menu__link">CalSWEC News: May - August 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2469"><a href="../calswec-news-september-december-2013/index.html" title="CalSWEC News: September - December 2013" class="menu__link">CalSWEC News: September - December 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1546"><a href="../calswec-news-january-april-2012/index.html" title="CalSWEC News: January - April 2012" class="menu__link">CalSWEC News: January - April 2012</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1596"><a href="../calswec-news-may-august-2012/index.html" title="CalSWEC News: May - August 2012" class="menu__link">CalSWEC News: May - August 2012</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-2147"><a href="../calswec-news-september-december-2012/index.html" title="CalSWEC News: September - December 2012" class="menu__link">CalSWEC News: September - December 2012</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link is-active-trail is-active-trail active-trail active-trail">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":202,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/dedicated-rta-staff-deliver by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:30:35 GMT -->
+</html>

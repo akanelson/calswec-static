@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/competency-based-education-process by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:10:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Competency-Based Education Process | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"-NZU0IYtGNlZg-W82Pvb1TxUKJJBrBvitJ0-qHTshdA","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/competency-based-education-process":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-972 node-type-generic-page section-competency-based-education-process" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/competency-based-education-process" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-U9iU9_pW_Ez5Z_X0IxzbEy2ufNjgN7nzquptx2UzBAk" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../programs-initiatives/index.html">Programs &amp; Initiatives</a> / </li><li><a href="../child-welfare/index.html" class="active-trail">Child Welfare</a> / </li><li><a href="../title-iv-e-child-welfare-training-program/index.html" title="Title IV-E Child Welfare Training Program" class="active-trail">Title IV-E Child Welfare Training Program</a> / </li><li>Competency-Based Education Process</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Competency-Based Education Process</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-972" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><em>This section describes the elements of the IV-E program and how these combine to deliver the competency-based curriculum. </em></p>
+
+<p>The IV-E program consists of three primary elements: the&nbsp;<a href="https://drive.google.com/file/d/1PxzvJUDQHV7ZTSRvbosKn1sTf08pei29/view?usp=sharing" target="_blank" title="Curriculum Competencies for Public Child Welfare">CalSWEC Curriculum Competencies for Public Child Welfare </a>in California&nbsp;on which the entire program is based, and the two domains in which the competencies are delivered: Classroom and Field.</p>
+
+<p>Because the curriculum is delivered in both classroom and field, it is extremely important for the school faculty, Project Coordinators, and agency field instructors to work together to create educational cross-fertilization in both parts of the program. The university and county agencies must engage in constant communication and sharing of ideas and knowledge. &nbsp;Cross-fertilization and collaboration includes exchanging subject matter experts, school/agency bridging assignments for students, and co-participation in field placement and employment interviewing processes. University and agency staff may also conduct classes, field seminars, and practice-related research together.</p>
+
+<h3><strong>Introduction</strong></h3>
+
+<p>This section describes the Title IV-E program approved by the <a href="http://calswec.berkeley.edu/CalSWEC/CalSWEC_Board_1.html" title="CalSWEC Board of Directors">CalSWEC Board of Directors</a> and funded by the federal government through a contract with the <a href="http://www.cdss.ca.gov/cdssweb/default.htm" title="California Department of Social Services (CDSS)">California Department of Social Services (CDSS).</a>&nbsp;It includes program requirements related to the competency-based curriculum, field/school relationships, and student evaluation.</p>
+
+<p>The <a href="../sites/default/files/uploads/2017_calswec_pcw_curriculum_competencies_1_2/index.pdf" title="CalSWEC Curriculum Competencies for Public Child Welfare">CalSWEC Curriculum Competencies for Public Child Welfare</a>&nbsp;result from a mutual planning effort between the county child welfare services agencies and the graduate schools of social welfare.The competencies also reflect the educational requirements of social work's accrediting body, the<a href="http://www.cswe.org/"> Council on Social Work Education</a>&nbsp;(CSWE). The curriculum is designed to enable professionals to be more effective as service providers able to evaluate and modify their practice to meet the needs of children and their families. Based on the interaction between social work knowledge, values, and practice, the competencies are updated at regular intervals. The most recent revision was completed in 2017. This revision reflects the EPAS revision approved by CSWE in 2015.</p>
+
+<p>A committee of the CalSWEC governing board, the&nbsp;<a href="http://calswec.berkeley.edu/CalSWEC/CalSWEC_Committee2.html" title="Curriculum and In-Service Training Committee,">Curriculum and In-Service Training Committee</a>,&nbsp;monitors the curriculum, reviews and updates the competencies, and provides educational programs to faculty and field instructors.</p>
+
+<h3><strong>Curriculum </strong></h3>
+
+<h4><strong>FIELD INSTRUCTION</strong></h4>
+
+<p>In&nbsp;the MSW curriculum, fieldwork is the context in which students translate theory into practice. Fieldwork as the most significant aspect of MSW education and is considered the signature pedagogy by CSWE. Students' response&nbsp;to the field experience will have a marked effect&nbsp;on their attitudes and plans for future employment. For these reasons, it is very important that university faculty, Project Coordinators, field instructors, and county agency staff work together to ensure that the field experience helps the student to consolidate classroom learning and&nbsp; to apply that knowledge in the field setting and in the&nbsp;workplace. A good field experience benefits both the university program and the agency in which the graduate will work.</p>
+
+<p>Practice opportunities available in agencies should match the knowledge and skill objectives of the child welfare curriculum as well as agency needs. Students’ field experiences should be positive and realistic. The following sections define the fieldwork requirements and obligations of the students, the schools, and the agencies.</p>
+
+<div style="margin-left: 40px;"><strong>Requirements</strong></div>
+
+<ul>
+	<li>Students must complete the equivalent of two years of field placement in the MSW program. Fieldwork may conform to the curriculum design of each school if it is consistent with&nbsp;<a href="http://www.cswe.org/Accreditation.aspx" title="CSWE Standards">CSWE Standards</a>. Each student (whether&nbsp;full- or part-time)&nbsp;must spend the equivalent of at least one placement year in a county child welfare service (CWS) agency engaged in direct and/or administrative tasks (consistent with the student’s specialization). An additional year of placement may be spent in another public social service, such as community mental health or public health or in a public or private nonprofit agency delivering services to IV-E child welfare clients. In both placements, the student’s caseload shall consist of IV-E eligible cases.</li>
+</ul>
+
+<p><strong>The&nbsp;Publc Child Welfare (PCW) Agency Year</strong></p>
+
+<ul>
+	<li>A&nbsp;PCW placement may be assigned in either or both years of fieldwork. The choice should reflect the particular student’s prior experience. Thus, it may be advisable to assign a non-employee student to do a county placement in his or her more intensive fieldwork year, while an employee with extensive county experience might spend the more intensive year in an unfamiliar setting. Consistent with&nbsp;<a href="http://www.cswe.org/Accreditation.aspx" title="CSWE Guidelines">CSWE Guidelines</a>, a county employee placed in the same agency for fieldwork should be assigned new duties and have a new supervisor (if possible) to assure new learning experiences. The decision to permit placements in an employee’s own agency is reserved for each school’s field office.</li>
+	<li>Students must serve IV-E eligible clients in the county placement year. Services must involve direct case management with children and families and/or management tasks related to IV-E services. To the extent possible, students should receive a broad exposure to the&nbsp;PCW agency, and should experience the range of&nbsp;programs that&nbsp;serve IV-E clients.&nbsp;</li>
+</ul>
+
+<p><strong>The Non-County Year</strong></p>
+
+<ul>
+	<li>&nbsp;If a student is to be placed in a non-PCW agency, the student must serve IV-E child welfare clients. Such clients are children and families who would have been eligible for AFDC prior to TANF and who are receiving child welfare related services. Eligible settings could include county child mental health and probation, nonprofit contract or referral agencies (i.e., residential treatment, child abuse treatment services, pediatric health programs, and school-based services in which CWS participates).</li>
+</ul>
+
+<p>For additional guidance regarding qualified field placements, please see the documents below:</p>
+
+<ul>
+	<li><a href="../sites/default/files/uploads/5_fieldplacements/index.pdf" title="Title IV-E Field Placement Clarification from CalSWEC Director">Title IV-E Field Placement Clarification from CalSWEC Director</a></li>
+	<li><a href="../sites/default/files/uploads/5_privateplacements/index.pdf" title="Private Agency Practicum Placements Clarification from CalSWEC Director">Private Agency Practicum Placements Clarification from CalSWEC Director</a></li>
+	<li><a href="../sites/default/files/uploads/2_countyletter_04_32/index.pdf">All County Letter on Title IV-E Eligible Children for Pre Placement Prevention</a></li>
+</ul>
+
+<p><strong>Obligations of the School</strong></p>
+
+<ul>
+	<li>Fieldwork is a central component of the social work curriculum. Schools are responsible for organizing and overseeing their field programs and for preparing field instructors for their role. Participating agencies should be involved in curriculum planning to ensure that required competencies and experiences&nbsp;are covered in the field. IV-E field instructors should know the child welfare competencies and the special focus of IV-E students.</li>
+	<li>The school field office must&nbsp;use a learning agreement or contract to detail student educational objectives and tasks. In the case of IV-E students, the agreement should indicate how the child welfare competencies will be addressed and linked to field experiences to foster acquisition of practice knowledge and skills.&nbsp;If a IV-E student is to be placed in a non-PCW agency, the agreement should state that the clients whom the student will serve must meet IV-E program requirements. Sample IV-E Learning Agreements and caseload eligibility agreements are available below:</li>
+	<li>The school is responsible for providing a&nbsp;systematic means of helping students integrate classroom and field experience and to develop&nbsp;a coherent approach to practice. In many instances, this objective is met&nbsp;through a field seminar taught at the school or in the agency. Field seminars instruction is an allowable IV-E activity.</li>
+</ul>
+
+<p><strong>&nbsp;Obligations of the Agencies</strong></p>
+
+<ul>
+	<li>Collaborative agreements between the school and agency are&nbsp;essential. It is important to have annual or more frequent contact with agency leadership to discuss how the program is working for both parties. With this in mind, the guidelines below must be&nbsp;followed when developing collaborative agreements with agencies.</li>
+	<li>Agencies that participate in the IV-E program agree to provide field placements with MSW supervision to IV-E students and provide students with clients and field assignments congruent with the objectives of IV-E MSW education.&nbsp;</li>
+	<li>The agencies should provide field instructors with release time from other duties to enable them to instruct students and to participate in required training activities. If an agency is unable to provide MSW supervision, a placement may still be made if the field director, pursuant to CSWE requirements, can provide appropriate social work field instruction by another means&nbsp;(e.g., a social work-led field seminar). See&nbsp;<a href="http://www.cswe.org/Accreditation.aspx" title="CSWE Proposed Standards on Fieldwork">CSWE Proposed Standards on Fieldwork</a>.</li>
+	<li>Agencies should also participate, as appropriate, in the development and maintenance of the IV-E educational program, by&nbsp;providing personnel to serve on awards and planning committees, participating in teaching field seminars, and assisting the schools in conducting student&nbsp;background checks.</li>
+	<li>Agencies with part-time student employees are encouraged to make every effort to adjust the employee’s work schedule to the demands of the educational program. Agencies are encouraged to release students from work for day classes. When students are participating in fieldwork, agencies are asked to require no more than three days of work per week, excluding fieldwork time.</li>
+</ul>
+
+<h4><strong>CLASSROOM INSTRUCTION</strong></h4>
+
+<p>Each school in the CalSWEC coalition offers different strengths in implementing the child welfare curriculum. In addition, each school relates to a different set of counties and has its own history with public social service and populations served. Curriculum development is an individual school’s task based on its unique resources, regional position, and service priorities. CalSWEC evaluates the curriculum <em>(see<a href="http://calswec.berkeley.edu/part-vi-program-evaluation">&nbsp;</a></em><a href="http://calswec.berkeley.edu/title-iv-e-child-welfare-stipend-program-evaluation"><em>Evaluation</em></a><em>)</em> in order to review these resources and priorities and the extent of the school’s ability to implement the competency-based curriculum. Evaluation also&nbsp;informs development of&nbsp;supplementary curricula and encourages sharing of curriculum resources and tools among the schools.&nbsp;</p>
+
+<p>The competency-based curriculum is a work in progress, intended to be evaluated at regular intervals. Based on evaluations, further CalSWEC resources will be directed to strengthen the curriculum in each school or region of the state. The <a href="http://calswec.berkeley.edu/CalSWEC/CalSWEC_Committee2.html" title="Curriculum and In-Service Training Committee">Curriculum and In-Service Training Committee</a> is responsible for implementation and oversight of the curriculum evaluation process. Finally, the IV-E Project Coordinator must work to ensure that the competencies are being taught in the classroom curricula and linked to the student's experiences in field. The following outlines recommended Project Coordinator activities to ensure this is done.</p>
+
+<p>1. Work with the school’s curriculum committee to ensure that each course required by IV-E stipend students integrates all competencies appropriate to that course. Teaching of the competencies must be fully implemented in the curriculum.</p>
+
+<p>2. Work with the&nbsp;public child welfare&nbsp;agencies to develop agreements about how:</p>
+
+<ul>
+	<li>Classes will provide the theoretical basis for field experience;</li>
+	<li>Competencies will be taught experientially in the field; and</li>
+	<li>Classroom and Field will be integrated to address all competencies</li>
+</ul>
+
+<p>3. Serve as a link between the&nbsp;curriculum committee&nbsp;at the schools and the curriculum support staff at the Center. The Project Coordinators will provide feedback about implementation of the curriculum, including innovations and needs every two years and upon request (see&nbsp;<em><a href="http://calswec.berkeley.edu/title-iv-e-child-welfare-stipend-program-evaluation">Evaluation</a>).</em></p>
+
+<p>Revised January 30,&nbsp;2018.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-d6a9f937c4f340f4f22b50fd25064b36">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../programs-initiatives/index.html" class="active-trail">Programs &amp; Initiatives</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-436"><a href="../child-welfare/index.html" class="menu__link is-active-trail active-trail">Child Welfare</a><ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-482"><a href="../title-iv-e-child-welfare-training-program/index.html" title="Title IV-E Child Welfare Training Program" class="menu__link is-active-trail active-trail">Title IV-E Child Welfare Training Program</a><ul class="menu"><li class="menu__item is-collapsed first collapsed menu-mlid-3595"><a href="../calswec-title-iv-e-summit/index.html" title="CalSWEC Title IV-E Summit" class="menu__link">CalSWEC Title IV-E Summit</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2933"><a href="../news-about-iv-e-stipend-schools/index.html" title="Newsletters about IV-E Stipend Schools" class="menu__link">News about  IV-E Stipend Schools</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-486"><a href="../title-iv-e-stipend-program/index.html" title="Stipend Program" class="menu__link">Stipend Program</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-746"><a href="../serve-indigenous-community-social-workers-change/index.html" title="SERVE (formerly American Indian Recruitment Program)" class="menu__link">SERVE: Indigenous Community Social Workers for Change (formerly American Indian Recruitment Program)</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-747"><a href="../field-instruction-initiative/index.html" title="Field Instruction Initiative" class="menu__link">Field Instruction Initiative</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3752"><a href="../calswec-graduate-and-alumni-stories-0/index.html" title="CalSWEC Graduate and Alumni Stories" class="menu__link">CalSWEC Graduate and Alumni Stories</a></li>
+</ul></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-483"><a href="../service-training-coordination/index.html" title="In-Service Training Coordination" class="menu__link">In-Service Training Coordination</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-437"><a href="../integrated-behavioral-health-program/index.html" class="menu__link">Integrated Behavioral Health Program</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-438"><a href="../aging/index.html" class="menu__link">Aging</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail is-active-trail active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":179,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/competency-based-education-process by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:10:33 GMT -->
+</html>

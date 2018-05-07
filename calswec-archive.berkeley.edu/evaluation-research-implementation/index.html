@@ -1,0 +1,565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/evaluation-research-implementation by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 14:50:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Evaluation, Research &amp; Implementation | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"936tglBvml3FcSTzqX9lNYqDSG_hBci0KM8PwjzxyoI","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/evaluation-research-implementation":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-5 node-type-generic-page section-evaluation-research-implementation" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/evaluation-research-implementation" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-W1_jqVyG9K_Qzx5s88GdpGWxDOTot-N6hS6rM1fBMtw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-active is-active-trail is-parent is-leaf leaf has-children active-trail active menu-mlid-427"><a href="index.html" title="Evaluation, Research &amp; Implementation" class="menu__link is-active-trail active-trail active">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation no-breadcrumb">
+    <div class="section container-12 ">
+
+    
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Evaluation, Research &amp; Implementation</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-5" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h1><em>Bridging Research and Practice</em></h1>
+
+<p>Evaluation and research have been integral to CalSWEC since its <a href="http://calswec.berkeley.edu/description-history" target="_blank" title="inception">inception</a>, particularly as they relate to improving California's&nbsp;child welfare social work practice. CalSWEC's ongoing&nbsp;evaluation efforts, aligned with its <a href="http://calswec.berkeley.edu/about">Mission and Goals</a>, were&nbsp;developed to assess the impact of its training on California's child welfare workforce.</p>
+
+<p>CalSWEC's evaluation, research, and implementation activities fall within two areas:</p>
+
+<ol>
+	<li><a href="#Ecological Model for Workforce Development" title="Ecological Model for Workforce Development">Ecological Model for Workforce Development</a>, and</li>
+	<li>Other <a href="#Child Welfare Services-Related Evaluation Activities" title="Other Child Welfare Services-Related Evaluation activities">Child&nbsp;Welfare Services-Related Evaluation</a> activities</li>
+</ol>
+
+<h3><a id="Ecological Model for Workforce Development" name="Ecological Model for Workforce Development">Ecological Model for Workforce Development</a></h3>
+
+<p>Previously covered under&nbsp;<a href="../sites/default/files/uploads/calswec_evaluation_framework/index.pdf" target="_blank" title="CalSWEC's Evaluation Framework">CalSWEC's Evaluation Framework</a>, research and evaluation of social work workforce development is now subsumed in&nbsp;CalSWEC's recently developed&nbsp;longitudinal Ecological Model for Workforce Development <em>(below).</em></p>
+
+<p><a href="../sites/default/files/uploads/calswecs_ecological_model_for_workforce_development/index.pdf" target="_blank"><img alt="CalSWEC's Ecological Model for Workforce Development" src="../sites/default/files/uploads/calswecs_ecological_model_for_workforce_development/index.jpg" style="border-style:solid; border-width:1px; height:450px; width:600px" /></a></p>
+
+<p>The model&nbsp;depicts&nbsp;the contributions of education, in-service training, and organizational supports, among such other factors as student and worker characteristics, to guide&nbsp;understanding of the effectiveness of the child welfare social work workforce in providing high-quality service to children and families.&nbsp;</p>
+
+<p>The ecological model for workforce development&nbsp;includes evaluation of:</p>
+
+<div class="node node-generic-page view-mode-full " id="node-134">
+<div class="content">
+<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+<div class="field-items">
+<div class="field-item even">
+<ul>
+	<li>the <a href="http://calswec.berkeley.edu/node/48" target="_blank" title="Title IV-E Child Welfare Stipend Program">Title IV-E Child Welfare Stipend Program</a>, which result in&nbsp;<a href="http://calswec.berkeley.edu/workforce-study" target="_blank" title="workforce study reports">workforce study reports and data briefs</a>; the <a href="http://calswec.berkeley.edu/curriculum-evaluation" target="_blank" title="statewide pre-service MSW curriculum evaluation">statewide pre-service MSW curriculum</a>; and the <a href="http://calswec.berkeley.edu/career-path-study" target="_blank" title="study of graduates' career paths">career path study</a>, and</li>
+	<li>the <a href="http://calswec.berkeley.edu/service-training-coordination" target="_blank" title="Child Welfare In-Service Training">Child Welfare In-Service Training </a><a href="http://calswec.berkeley.edu/evaluating-standardized-child-welfare-training-california-common-core" target="_blank" title="(California Common Core Curricula)">(California Common Core Curricula),</a>&nbsp;which has yielded&nbsp;a number of statewide and national&nbsp;<a href="http://calswec.berkeley.edu/child-welfare-service-training-evaluation" target="_blank" title="evaluative activities">evaluative activities</a></li>
+</ul>
+
+<h3><a name="Child Welfare Services-Related Evaluation Activities">Child Welfare Services-Related Evaluation Activities</a></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<p>In addition to conducting workforce development research and evaluation,&nbsp;CalSWEC is engaged in a number of&nbsp;child welfare services-related evaluation activities, including:</p>
+
+<ul>
+	<li><em><a href="http://calswec.berkeley.edu/rtn" target="_blank" title="Research and Training Network">Research and Training Network</a> (RTN) and <a href="http://calswec.berkeley.edu/toolkits" target="_blank" title=" Implementation Toolkits">Implementation Toolkits</a>: </em>These help&nbsp;CalSWEC <a href="http://calswec.berkeley.edu/partners" target="_blank" title="CalSWEC partners">partners</a> to support <a href="http://calswec.berkeley.edu/evidence-based-practice" target="_blank" title="evidence-based practice">evidence-based practice</a> and effective implementation.</li>
+	<li><em>Grants and awards:</em> These support <a href="http://calswec.berkeley.edu/research-award-msw-students" target="_blank" title="research award for MSW students">MSW students</a>, faculty, and practice partners in their&nbsp;<a href="http://calswec.berkeley.edu/research-based-curriculum-products-funded-research-development-committee" target="_blank" title="empirically based curriculum development projects">empirically based curriculum development projects</a> and <a href="http://calswec.berkeley.edu/researchpractice-partnerships" target="_blank" title="research/practice partnerships ">research/practice partnerships</a> that evaluate emerging practices to inform the development of curriculum training products. The <a href="http://calswec.berkeley.edu/research-award-msw-students" title="Research Award for MSW Students">Research Award for MSW Students</a>&nbsp;and the research/practice partnerships are supported by&nbsp;CalSWEC's <a href="http://calswec.berkeley.edu/research-and-development-committee" title="Research and Development Committee">Research Development (R&amp;D) Committee</a> and the <a href="http://www.humboldt.edu/cadd/node/1" title="California Association of Deans and Directors">California Association of Deans and Directors</a>.&nbsp;</li>
+	<li><em><a href="http://calswec.berkeley.edu/child-welfare-service-training-evaluation" target="_blank" title="Child Welfare In-Service Training Evaluation">Child Welfare In-Service Training Evaluation</a>:</em> This&nbsp;includes hosting and co-sponsoring statewide and national evaluation&nbsp;symposia, such as the <a href="http://calswec.berkeley.edu/nhstec-national-human-services-training-evaluation-collaborative" target="_blank" title="National Human Services Training Evaluation Symposium">National Human Services Training Evaluation Symposium</a>&nbsp;and the <a href="http://calswec.berkeley.edu/leadership-symposia-evidence-based-practices-ebp" target="_blank" title="Leadership Symposia on Evidence-Based Practice">Leadership Symposia on Evidence-Based Practice</a>.</li>
+	<li><em>Assessment: </em>This includes appraisal and analysis of how well <a href="http://calswec.berkeley.edu/schools-social-worksocial-welfare" target="_blank" title="social work schools">social work schools</a> prepare students for the child social welfare profession, factors affecting the retention of these specially trained graduates in the workforce, and graduates’ views of their classroom and field&nbsp;preparation.</li>
+	<li><em><a href="http://calswec.berkeley.edu/conducting-research-using-calswec-data" target="_blank" title="CalSWEC's datasets ">CalSWEC's datasets</a>&nbsp;on the human services workforce: </em>Access to these is promoted to allow&nbsp;interested researcher partners and faculty to use them in their research.</li>
+</ul>
+
+<h4>Integrated Behavioral Health and Aging Initiatives&nbsp;</h4>
+
+<p>Additionally, CalSWEC's <a href="http://calswec.berkeley.edu/node/150" target="_blank" title="Mental Health Program">Integrated Behavioral&nbsp;Health Program</a>&nbsp;(formerly the&nbsp;Mental Health Program, whose name change took effect July 1, 2016)&nbsp;reports on graduation rates, characteristics of students, and curriculum evaluation, which have resulted in several <a href="http://calswec.berkeley.edu/mental-health-program-evaluation-reports" target="_blank" title="evaluation reports">evaluation reports</a>. Similarly, its&nbsp;newest initiative in&nbsp;<a href="http://calswec.berkeley.edu/aging" title="Aging Program">Aging</a>&nbsp;will generate evaluation reports in the future.</p>
+
+<h4>Publications from Evaluation and Research</h4>
+
+<p>Publications, reports, and presentations resulting from CalSWEC's evaluation data and activities are posted to the <a href="http://calswec.berkeley.edu/publications-calswecs-evaluation-research" title="Publications from CalSWEC's Evaluation &amp; Research">Publications from CalSWEC's Evaluation &amp; Research</a> page.</p>
+
+<p>For more information</p>
+
+<p class="rteindent1">Contact:&nbsp;<a href="mailto:sandhya.rao.hermon@berkeley.edu" title="Sandhya Rao Hermón">Sandhya Rao Hermón</a>,&nbsp;<em>Director, Research and&nbsp;Evaluation</em></p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+<div id="block-views-menu-child-teasers-block" class="block block-views last even ">
+
+      
+<div class="content"> 
+    <div class="view view-menu-child-teasers view-id-menu_child_teasers view-display-id-block view-dom-id-3aafd9cfe8c7b4f819168dd946d4cae3">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
+    <div id="node-623" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../publications-calswecs-evaluation-research/index.html">Publications from CalSWEC&#039;s Evaluation &amp; Research</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Numerous publications, reports, and presentations have resulted from the data from CalSWEC evaluations.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-2 views-row-even clearfix">
+    <div id="node-142" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../other-research-and-evaluation-resources/index.html">Other Research and Evaluation Resources</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Numerous publications, reports, and curricula have been developed as a result of CalSWEC's work.&nbsp;Many can be found&nbsp;in the CalSWEC resource libraries for <a href="http://www.csulb.edu/projects/ccwrl/index.html" title="Child Welfare">Child Welfare</a> and <a href="http://calswec.berkeley.edu/program-resources">Mental Health</a>. Others have been published as <a href="http://calswec.berkeley.edu/publications-calswecs-evaluation-research" title="publications, reports, and dissertations">publications, reports,&nbsp;and dissertations</a>.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-3 views-row-odd clearfix">
+    <div id="node-994" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../researchpractice-partnerships/index.html">Research/Practice Partnerships</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>University/practice partnerships were initiated&nbsp;for the purpose of evaluating emerging practices or programs to inform the development of curriculum and training products for the&nbsp;<a href="http://calswec.berkeley.edu/title-iv-e-stipend-program" title="Title IV-E Stipend">Title IV-E Stipend</a>&nbsp;and&nbsp;<a href="http://calswec.berkeley.edu/service-training-coordination" title="In-Service Training Coordination">In-Service Training Coordination&nbsp;</a>Programs.&nbsp;</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-4 views-row-even clearfix">
+    <div id="node-136" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../nhstec-national-human-services-training-evaluation-collaborative/index.html">NHSTEC (National Human Services Training Evaluation Collaborative)</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>CalSWEC has convened national experts in human services training evaluation regularly since 1998 to build knowledge in this emergent field. Members of the National Human Services Training Evaluation Collaborative participate in the annual National Human Services Training Evaluation Symposia and are part of the National Training Evaluation listserv.</p></div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-5 views-row-odd clearfix">
+    <div id="node-137" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../evaluating-standardized-child-welfare-training-california-common-core-and-supervisor-core/index.html">Evaluating Standardized Child Welfare Training in California (Common Core and Supervisor Core)</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>In collaboration with our&nbsp;<a href="../service-training-partners/index.html" target="_blank" title="In-Service Training Coordinating Partners">In-Service Training Coordinating Partners</a>, CalSWEC supports the development and implementation of a comprehensive strategic plan to evaluate the&nbsp;<a href="../california-common-core-curricula/index.html" target="_blank" title="California Common Core Curricula">California Common Core Curricula</a>&nbsp;and Supervisor Core Curricula.&nbsp;</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-6 views-row-even clearfix">
+    <div id="node-1263" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../research-award-msw-students/index.html">Research Award for MSW Students </a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="mailto:mdsumner@berkeley.edu">mdsumner@berkeley.edu</a>The&nbsp;Research Award for MSW Students, renamed the Research&nbsp;Capstone Award&nbsp;for MSW Students beginning in 2017,&nbsp;was established to encourage and support student research that will contribute to the evidence base for policy and practice in public human services.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-7 views-row-odd clearfix">
+    <div id="node-43" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../research-based-curriculum-products-funded-research-development-committee/index.html">Research-based Curriculum Products Funded by Research &amp; Development Committee</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>The&nbsp;<a href="../research-and-development-committee/index.html" title="Research &amp; Development Committee ">Research &amp; Development Committee</a>,&nbsp;based on its research priorities,&nbsp;has funded empirical-based curriculum development studies of interdisciplinary and interagency delivery systems.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-8 views-row-even clearfix">
+    <div id="node-1591" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../conducting-research-using-calswec-data/index.html">Conducting Research Using CalSWEC Data</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>Interested faculty may now use CalSWEC <a href="../sites/default/files/uploads/calswec_data_sets/index.pdf" title="datasets">datasets</a><a href="../sites/default/files/uploads/calswec-data-sets/index.html" title="datasets"> </a>for research projects.&nbsp;</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-9 views-row-odd clearfix">
+    <div id="node-48" class="node node-generic-page node-promoted node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../title-iv-e-child-welfare-stipend-program-evaluation/index.html">Title IV-E Child Welfare Stipend Program Evaluation</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>The Title IV-E Stipend Program evaluates the extent to which the goal is being met to increase the numbers of professionally educated social workers committed to careers in public child welfare serving disadvantaged children and families.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+  <div class="views-row views-row-10 views-row-even views-row-last clearfix">
+    <div id="node-47" class="node node-generic-page node-teaser ">
+
+  
+        <h2 class="node__title node-title"><a href="../child-welfare-service-training-evaluation/index.html">Child Welfare In-Service Training Evaluation</a></h2>
+    
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>A national leader in in-service training evaluation in the field of child welfare, CalSWEC has hosted the <a href="../nhstec-national-human-services-training-evaluation-collaborative/index.html" title="National Human Services Training Evaluation Symposium (NHSTES)">National Human Services Training Evaluation Symposium (NHSTES)</a> since 1998.&nbsp; It also leads the implementation of the <a href="../evaluating-standardized-child-welfare-training-california-common-core-and-supervisor-core/index.html" title="Common Core Curricula Evaluation">Common Core Curricula Evaluation</a> in collaboration with our <a href="../service-training-partners/index.html">in-service training partners</a>.</p>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-418d1c541aff2ebed98da8e9562ef87b">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img src="../sites/default/files/styles/medium/public/evaluation/index.png?itok=6RlQm0XG" width="300" height="175" alt="" /></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="index.html" title="Evaluation, Research &amp; Implementation" class="active-trail active">Evaluation, Research &amp; Implementation</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-953"><a href="../publications-calswecs-evaluation-research/index.html" title="Publications from CalSWEC&#039;s Evaluation &amp; Research" class="menu__link">Publications from CalSWEC&#039;s Evaluation &amp; Research</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-800"><a href="../other-research-and-evaluation-resources/index.html" title="Other Evaluation Resources" class="menu__link">Other Research and Evaluation Resources</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2482"><a href="../researchpractice-partnerships/index.html" title="Research/Practice Partnerships" class="menu__link">Research/Practice Partnerships</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-794"><a href="../nhstec-national-human-services-training-evaluation-collaborative/index.html" title="NHSTEC (National Human Services Training Evaluation Collaborative)" class="menu__link">NHSTEC (National Human Services Training Evaluation Collaborative)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-795"><a href="../evaluating-standardized-child-welfare-training-california-common-core-and-supervisor-core/index.html" title="Evaluating Standardized Child Welfare Training in California (Common Core)" class="menu__link">Evaluating Standardized Child Welfare Training in California (Common Core)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2467"><a href="../research-award-msw-students/index.html" title="Research Award for MSW Students" class="menu__link">Research Award for MSW Students</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-954"><a href="../research-based-curriculum-products-funded-research-development-committee/index.html" title="Research-based Curriculum Products Funded by Research &amp; Development Committee" class="menu__link">Research-based Curriculum Products Funded by Research &amp; Development Committee</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2453"><a href="../conducting-research-using-calswec-data/index.html" title="Conducting Research with CalSWEC Data" class="menu__link">Conducting Research with CalSWEC Data</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-501"><a href="../title-iv-e-child-welfare-stipend-program-evaluation/index.html" title="Title IV-E Child Welfare Stipend Program Evaluation" class="menu__link">Title IV-E Child Welfare Stipend Program Evaluation</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-502"><a href="../child-welfare-service-training-evaluation/index.html" title="Child Welfare In-Service Training Evaluation" class="menu__link">Child Welfare In-Service Training Evaluation</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-active is-active-trail is-parent is-leaf leaf has-children active-trail active menu-mlid-427"><a href="index.html" title="Evaluation, Research &amp; Implementation" class="menu__link is-active-trail is-active-trail active-trail active-trail active">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":203,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/evaluation-research-implementation by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 14:51:13 GMT -->
+</html>

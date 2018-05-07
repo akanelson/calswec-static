@@ -1,0 +1,416 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/message-executive-director-virginia-rondero-hernandez-0 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:21:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Message from Executive Director Virginia Rondero Hernandez | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"3RpFF90WjGPROImR72_OHAQecgq_GDi322OFnVpxZ2A","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/message-executive-director-virginia-rondero-hernandez-0":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-2243 node-type-generic-page section-message-executive-director-virginia-rondero-hernandez-0" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link is-active-trail active-trail">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/message-executive-director-virginia-rondero-hernandez-0" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-OYiy_Vv4qdZBHi7re2p-Wm4DRz65i0CAUDRcPhmQf0g" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../news/index.html" title="News">News</a> / </li><li><a href="../calswec-news-may-august-2017/index.html" title="CalSWEC News | May - August 2017" class="active-trail">CalSWEC News | May - August 2017</a> / </li><li>Message from Executive Director Virginia Rondero Hernandez</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Message from Executive Director Virginia Rondero Hernandez</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-2243" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><h4><strong><em>The California Child Welfare Core Practice Model: An Overview</em></strong></h4>
+
+<p><em>May 25, 2017</em></p>
+
+<p><em>Dear CalSWEC Community,</em></p>
+
+<p>In 2012, California’s child welfare practice community initiated a collective effort to improve its service delivery system and outcomes for the children, youth, and families it serves.</p>
+
+<p>On behalf of the <a href="http://www.cwda.org/" title="County Welfare Directors Association">County Welfare Directors Association</a> and in partnership with the California Social Work Education Center (CalSWEC) at UC Berkeley, the <a href="http://www.cfpic.org/" title="Child and Family Policy Institute of California (CFPIC)">Child and Family Policy Institute of California (CFPIC)</a> has facilitated a process designed to gain valuable feedback from county, community, and Tribal partners about how best to leverage the achievements of existing and emerging programs and practices and to develop an overarching practice model that can be used by all California county child welfare agencies to improve services and outcomes to the children and families they serve.&nbsp; <img alt="" src="../sites/default/files/uploads/virginia_cropped/index.png" style="border-style:solid; border-width:1px; float:right; height:302px; margin:8px 5px; width:250px" title="color head shot of CalSWEC Executive Director Virginia Rondero Hernandez" />&nbsp; &nbsp; &nbsp;&nbsp;</p>
+
+<p><strong>Providing an Overarching Framework </strong></p>
+
+<p>The <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">California Child Welfare Core Practice Model (CPM)</a> builds on the strengths and outcomes of previous initiatives adopted across the state, including Family to Family, the California Partners for Permanency (CAPP) project, Safety Organized Practice (SOP), and the Pathways to Permanency program (based on the Katie A. Settlement Agreement) all of which share the common goals of improving safety, permanency, and well-being of children and families involved with child welfare agencies. The<a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)"> CPM</a> functions as a “house” for these and other practices and programs by providing an overarching theoretical framework that guides and builds upon the collaborative and interactive practices social workers use with children, youth, and families.</p>
+
+<p>The framework of the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a> features several theories that help child welfare workers and leaders better understand those they serve and engage; social workers are familiar with most of them. This framework includes:</p>
+
+<ul>
+	<li>orienting theories related to historical trauma, attachment, and cultural differences;</li>
+	<li>bio-developmental theories that lend insight into the lifespan development and life transitions of children, youth, and families;</li>
+	<li>intervention theories that address when and how to intervene in order to address and sustain the safety, permanency, and wellness of children, youth, and families; and</li>
+	<li>organizational theories that further understanding about what is needed at the agency level to support and sustain the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">Model</a>.</li>
+</ul>
+
+<p>It also features values that guide the implementation of casework components that promote collaborative interactions with clients and practice elements that can be operationalized by social workers in their practice.</p>
+
+<p>A distinctive set of features of the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a> are the foundational behaviors, practice behaviors, and leadership behaviors assumed to be key to creating an environment that is conducive for its implementation in county child welfare agencies. The majority of these behaviors are already included in social work curricula.</p>
+
+<p><a href="http://bit.ly/CACorePracticeModel"><strong>RELATED: Read more about California Child Welfare Core Practice Model</strong></a></p>
+
+<p>Foundational behaviors include being willing to engage in open, honest, clear, and respectful communication, and to be held accountable for one’s practice and leadership. Practice behaviors reflect fundamental elements taught in social work practice courses, including engagement, assessment, teaming, service planning/delivery, and case transitions.</p>
+
+<p>Leadership behaviors also reflect elements of macro social work practice, including engaging colleagues and stakeholders in a supportive manner; inquiring and exploring how best to lead; teaming with colleagues, community partners, and other stakeholders to implement the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">Model</a>; advocating for inclusive processes and culturally responsive services to clients; and eliciting feedback about how to hold all parties accountable for the implementation, evaluation, and policy changes needed to sustain the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a> in an agency.</p>
+
+<p><strong>Engaging Child Welfare Leaders in Adoption of CPM</strong></p>
+
+<p>The collective effort to improve child welfare services delivery and outcomes for children, youth, and families has resulted in the adoption of the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a> by county child welfare agencies across the state and a commitment to learn what it takes to effectively implement a practice model that produces the intended results and beneficial outcomes for those they serve. In order to support this statewide agreement and commitment, the <a href="http://www.cfpic.org/" title="Child and Family Policy Institute of California (CFPIC)">CFPIC</a>, CalSWEC, and national experts on implementation science are partnering to host leadership institutes across the state over the next year for child welfare directors, managers, and supervisors.<a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" target="_blank"><img alt="" src="../sites/default/files/uploads/cpmodel/index.png" style="border-style:solid; border-width:1px; float:right; height:175px; margin:8px; width:300px" title="graphic of Core Practice Model" /></a></p>
+
+<p>The objectives are to:</p>
+
+<ul>
+	<li>demonstrate how the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a> aligns with existing agency practices and programs, such as SOP, structured decision making (SDM), and the Pathways to Permanency program, as well as emerging ones like the Continuum of Care Reform (CCR) and the Resource Family Approval process (RFA) currently being implemented by child welfare agencies across the state;</li>
+	<li>engage child welfare leaders in learning about the principles of implementation science; and&nbsp;</li>
+	<li>identify what agencies must do to leverage effective implementation of the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a> to achieve its intended outcomes.&nbsp;</li>
+</ul>
+
+<p>The institutes also provide the opportunity for child welfare leaders to assess and propose suggestions about how best to engage social workers, agency personnel, and community partners in the adoption of the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a> in order to produce the intended changes. A fundamental and egalitarian element of the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a> is that leadership lives at all levels of an agency, even though levels of responsibility and accountability differ.</p>
+
+<p><strong>Potential for Producing Profound Change</strong></p>
+
+<p>The <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">CPM</a>, whose “roll-out” is occurring as we speak, will continue to influence the way social workers and child welfare services leaders practice as time goes on, be it at the micro, mezzo or macro level. It has the potential to produce profound change by building on the strengths of county child welfare programs, creating a house for existing and emerging practices and programs, and aligning them so that they strive for similar outcomes for the children, youth, and families they serve.&nbsp;</p>
+
+<p>To ensure continuity in learning, the <a href="http://calswec.berkeley.edu/california-child-welfare-core-practice-model-0" title="California Child Welfare Core Practice Model (CPM)">Model</a>’s basic concepts have been woven into the fabric of the recently rolled-out Child Welfare Core Curriculum 3.0 for the state’s in-service training program, providing that the practice of newly hired social workers is informed by this new fundamental approach to child welfare work throughout California.</p>
+
+<p><em>Special thanks to Stuart Oppenheim and Danna Fabella from CFPIC for contributing to this message.</em></p>
+
+<p><em>Virginia</em></p>
+
+<p><a href="http://calswec.berkeley.edu/sites/default/files/uploads/v_rondero_hernandez_vitae_9-16-16-final.pdf" title="Virginia Rondero Hernandez">Virginia Rondero Hernandez</a><br />
+<a href="http://calswec.berkeley.edu/dr-virginia-rondero-hernandez-calswecs-new-executive-director" title="Executive Director and Principal Investigator, CalSWEC"><em>Executive Director and Principal Investigator, CalSWEC</em></a></p>
+
+
+
+
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-d2f11123a5e12ff3c4538a8dd77a41ca">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-4" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../news/index.html" title="News" class="active-trail">News</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-4 menu-name-menu-secondary-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-3473"><a href="../calswec-news-may-august-2017/index.html" title="CalSWEC News | May - August 2017" class="menu__link is-active-trail active-trail">CalSWEC News | May - August 2017</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-3472"><a href="../social-work-line-najeeb-kamils-commitment-service-and-social-justice/index.html" title="Social Work Is in Line with Najeeb Kamil’s Commitment to Service and Social Justice" class="menu__link">Social Work Is in Line with Najeeb Kamil’s Commitment to Service and Social Justice</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3474"><a href="../inaugural-calswec-title-iv-e-summit-unites-partners-and-students/index.html" title="Inaugural CalSWEC Title IV-E Summit Unites Partners and Students" class="menu__link">Inaugural CalSWEC Title IV-E Summit Unites Partners and Students</a></li>
+<li class="menu__item is-active is-active-trail is-leaf leaf active-trail active menu-mlid-3480"><a href="index.html" class="menu__link is-active-trail active-trail active">Message from Executive Director Virginia Rondero Hernandez</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3482"><a href="../marcy-hara-calswecs-director-service-training/index.html" title="Marcy Hara Is CalSWEC’s Director of In-Service Training" class="menu__link">Marcy Hara Is CalSWEC’s Director of In-Service Training</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3496"><a href="../three-calswec-staff-receive-uc-berkeleys-spot-awards/index.html" title="Three CalSWEC Staff  Receive UC Berkeley&#039;s Spot Awards" class="menu__link">Three CalSWEC Staff  Receive UC Berkeley&#039;s Spot Awards</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3499"><a href="../diamond-mcmillian-has-special-place-her-heart-foster-youth/index.html" title="Diamond McMillian Has a Special Place in Her Heart for Foster Youth" class="menu__link">Diamond McMillian Has a Special Place in Her Heart for Foster Youth</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3508"><a href="../humboldt-state-celebrates-graduation-its-original-iv-e-pathway-cohort/index.html" title="Humboldt State Celebrates Graduation of Its Original  IV-E Pathway Cohort" class="menu__link">Humboldt State Celebrates Graduation of Its Original IV-E Pathway Cohort</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3509"><a href="../national-training-evaluation-symposium-celebrates-20-year-milestone/index.html" title="National Training Evaluation Symposium Celebrates 20-Year Milestone" class="menu__link">National Training Evaluation Symposium Celebrates 20-Year Milestone</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3510"><a href="../quality-parenting-initiatives-just-time-training-library-continues-expand/index.html" title="Quality Parenting Initiative&#039;s Just in Time Training Library Continues to Expand" class="menu__link">Quality Parenting Initiative&#039;s Just in Time Training Library Continues to Expand</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3511"><a href="../introducing-elearning-common-cores-critical-new-component/index.html" title="Introducing ELearning, Common Core’s Critical New Component" class="menu__link">Introducing ELearning, Common Core’s Critical New Component</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3512"><a href="../kimberly-becksteads-loving-childhood-imbues-her-sense-purpose/index.html" title="Kimberly Beckstead’s Loving Childhood Imbues Her with a Sense of Purpose" class="menu__link">Kimberly Beckstead’s Loving Childhood Imbues Her with a Sense of Purpose</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3597"><a href="../calswec-welcomes-evaluation-and-research-specialist-dr-michael-sumner/index.html" title="CalSWEC Welcomes Evaluation and Research Specialist Dr. Michael Sumner" class="menu__link">CalSWEC Welcomes Evaluation and Research Specialist Dr. Michael Sumner</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3594"><a href="../calswec-releases-new-curriculum-competencies/index.html" title="CalSWEC Releases New Curriculum Competencies" class="menu__link">CalSWEC Releases New Curriculum Competencies</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3598"><a href="../toolkit-offers-training-psychotropic-meds-administration-foster-care-population/index.html" title="Toolkit Offers Training on Psychotropic Meds Administration to Foster Care Population" class="menu__link">Toolkit Offers Training on Psychotropic Meds Administration to Foster Care Population</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3599"><a href="../kyle-miller-committed-independence-and-empowerment-foster-youth/index.html" title="Kyle Miller Is Committed to Independence and Empowerment for Foster Youth" class="menu__link">Kyle Miller Is Committed to Independence and Empowerment for Foster Youth</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3617"><a href="../integrated-training-plan-advances-shared-practice-environment/index.html" title="&#039;Integrated Training Plan&#039; Advances Shared Practice Environment" class="menu__link">&#039;Integrated Training Plan&#039; Advances Shared Practice Environment</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3756"><a href="../calswec-news-january-april-2018/index.html" class="menu__link">CalSWEC News | January - April 2018</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3391"><a href="../calswec-news-january-april-2017/index.html" title="CalSWEC News | January - April 2017" class="menu__link">CalSWEC News | January - April 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3619"><a href="../calswec-news-september-december-2017/index.html" title="CalSWEC News | September - December 2017" class="menu__link">CalSWEC News | September - December 2017</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3087"><a href="../calswec-news-january-april-2016/index.html" title="CalSWEC News | January - April 2016" class="menu__link">CalSWEC News | January - April 2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3246"><a href="../calswec-news-may-august-2016/index.html" title="CalSWEC News | May - August  2016" class="menu__link">CalSWEC News | May - August  2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3359"><a href="../calswec-news-september-december-2016/index.html" title="CalSWEC News | September - December 2016" class="menu__link">CalSWEC News | September - December 2016</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2991"><a href="../calswec-news-january-april-2015/index.html" title="CalSWEC News: January - April 2015" class="menu__link">CalSWEC News: January - April 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3027"><a href="../calswec-news-may-august-2015/index.html" title="CalSWEC News: May - August 2015" class="menu__link">CalSWEC News: May - August 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-3086"><a href="../calswec-news-september-december-2015/index.html" title="CalSWEC News: September–December 2015" class="menu__link">CalSWEC News: September–December 2015</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2577"><a href="../calswec-news-january-april-2014/index.html" title="CalSWEC News: January - April 2014" class="menu__link">CalSWEC News: January - April 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2616"><a href="../calswec-news-may-august-2014/index.html" title="CalSWEC News: May - August 2014" class="menu__link">CalSWEC News: May - August 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2760"><a href="../calswec-news-september-december-2014/index.html" title="CalSWEC News: September - December 2014" class="menu__link">CalSWEC News: September - December 2014</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2202"><a href="../calswec-news-january-april-2013/index.html" title="CalSWEC News: January - April 2013" class="menu__link">CalSWEC News: January - April 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2303"><a href="../calswec-news-may-august-2013/index.html" title="CalSWEC News: May - August 2013" class="menu__link">CalSWEC News: May - August 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-2469"><a href="../calswec-news-september-december-2013/index.html" title="CalSWEC News: September - December 2013" class="menu__link">CalSWEC News: September - December 2013</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1546"><a href="../calswec-news-january-april-2012/index.html" title="CalSWEC News: January - April 2012" class="menu__link">CalSWEC News: January - April 2012</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1596"><a href="../calswec-news-may-august-2012/index.html" title="CalSWEC News: May - August 2012" class="menu__link">CalSWEC News: May - August 2012</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-2147"><a href="../calswec-news-september-december-2012/index.html" title="CalSWEC News: September - December 2012" class="menu__link">CalSWEC News: September - December 2012</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-active-trail is-parent is-leaf leaf has-children active-trail menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link is-active-trail is-active-trail active-trail active-trail">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":201,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/message-executive-director-virginia-rondero-hernandez-0 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:21:16 GMT -->
+</html>

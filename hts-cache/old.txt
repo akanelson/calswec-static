@@ -1,0 +1,2 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+11:46:01	0/-1	---M--	400	error ('Bad%20Request')	text/html		https://http://calswec-archive.berkeley.edu/title-iv-e-stipend-program-program-guide-2017-18	./calswec-archive.berkeley.edu/title-iv-e-stipend-program-program-guide-2017-18.0/index.delayed	(from )

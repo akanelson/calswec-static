@@ -1,0 +1,616 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/evidence-informed-webinar-series by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:30:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="../../www.w3.org/1999/xhtml/vocab.1/index.delayed">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="../node/1117/index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Evidence-Informed Webinar Series | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"mWm_wyeysFE0UNhkVPw29XalQrJqbEaWoNxQLcFCRT4","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/evidence-informed-webinar-series":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1117 node-type-generic-page section-evidence-informed-webinar-series" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/evidence-informed-webinar-series" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-eUO2VG6jPjttOt1hJG2rBb8Xk9AxkKc7zLi4F0Vjhs8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-7224d0e0f1e1662349988151cbd782c7">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../programs-initiatives/index.html">Programs &amp; Initiatives</a> / </li><li><a href="../child-welfare/index.html" class="active-trail">Child Welfare</a> / </li><li><a href="../service-training-coordination/index.html" title="In-Service Training Coordination" class="active-trail">In-Service Training Coordination</a> / </li><li><a href="../evidence-based-practice/index.html" title="Evidence-Based Practice" class="active-trail">Evidence-Based Practice</a> / </li><li>Evidence-Informed Webinar Series</li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Evidence-Informed Webinar Series</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-1117" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="http://calswec.berkeley.edu/sites/default/files/uploads/pdf/CalSWEC/presenterform-121515-final.pdf" target="_blank"><img alt="" src="../sites/default/files/uploads/webinars-present-form/index.html" style="border-style:solid; border-width:1px; float:left; height:237px; margin-left:8px; margin-right:8px; width:280px" title="Present Your Research block of text" /></a></p>
+
+<p>The Evidence-Informed Webinar Series is presented by the <a href="http://calswec.berkeley.edu/rtn" target="_blank" title="Research and Training Network (RTN)">Research and Training Network&nbsp;(RTN)</a>,&nbsp;a collaborative of California university and Human Services Agency representatives that promotes agency/university partnerships with the purpose of establishing a comprehensive strategy for practice-oriented research in the Human Services.</p>
+
+<p>Partners present their research, reports, curricula, and literature reviews in an effort to disseminate their research-based work to a larger audience. The webinars here highlight the work that is being done in California. &nbsp;</p>
+
+<p class="rteindent2"><strong>RELATED:&nbsp;Visit the&nbsp;<a href="http://calswec.berkeley.edu/rtn" target="_blank" title="Research and Training Network (RTN)">Research and Training Network (RTN)</a>&nbsp;page.<br />
+RELATED: Be a presenter!&nbsp;View or download the <a href="../sites/default/files/uploads/pdf/CalSWEC/presenterform-121515-final/index.html" title="Presenter Form">Presenter Form</a>.</strong><br />
+&nbsp;</p>
+
+<hr />
+<p><strong>CalYOUTH: Early Findings from the Youth Survey, Child Welfare Worker Survey, and Administrative Data Analyses<br />
+<em>Date:&nbsp;</em></strong>September 22, 2015<br />
+<strong><em>Presenter:&nbsp;</em></strong>Nathanael Okpych, <em>M.S.W., M.A., CalYOUTH Project Director<a href="https://vimeo.com/140361040" target="_blank"><img alt="" src="../sites/default/files/uploads/calyouth_0/index.html" style="border-style:solid; border-width:1px; float:right; height:198px; margin:5px; width:280px" title="Click opening slide of CalYOUTH: Early Findings from the Youth Survey, Child Welfare Worker Survey, and Administrative Data Analyses to hear archived recording" /></a><br />
+<strong>Description:</strong>&nbsp;</em>This webinar will incorporate key findings from existing data that have been collected by the CalYOUTH Study. Findings from the baseline youth survey and the first caseworker survey will cover topics such as youth outcomes in a number of domains (e.g., education, relationships and social support, mental health), the need for transitional living services in a number of domains, and attitudes toward extended care. Preliminary findings from&nbsp;administrative data analyses will examine if and how extended foster care has affected youths’ permanency outcomes by age 18 and rates of postsecondary enrollment by age 19.5. More information about the CalYOUTH study and written reports can be found at: &nbsp;<a href="http://www.chapinhall.org/research/report/findings-california-youth-transitions-adulthood-study-calyouth">http://www.chapinhall.org/research/report/findings-california-youth-transitions-adulthood-study-</a><a href="http://www.chapinhall.org/research/report/findings-california-youth-transitions-adulthood-study-calyouth">calyouth</a></p>
+
+<p><a href="https://vimeo.com/140361040" title="Archived Recording of CalYOUTH: Early Findings from the Youth Survey, Child Welfare Worker Survey, and Administrative Data Analyses">Archived Recording</a>; <a href="../sites/default/files/uploads/pdf/CalSWEC/2015.09.22_calswec_webinar_final/index.html" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><strong>Predictors and Health Consequences of Secondary Traumatic Stress among Public Child Welfare Workers<br />
+<em>Date: </em>September 17, 2015<br />
+<em>Presenters:</em>&nbsp;</strong>Holly Bowers, <em>Ph.D.,</em><em> Senior Academic Researcher, UC Davis Center for the Humanities, NCTA, </em>and&nbsp;Susan Brooks, <em>M.S.W., Director of the NCTA, University of California Davis Extension<a href="https://vimeo.com/140359940" target="_blank"><img alt="" src="../sites/default/files/uploads/predictors-trauma/index.html" style="border-style:solid; border-width:1px; float:right; height:198px; margin:5px; width:280px" title="Click on opening slide of Predictors and Health Consequences of Secondary Traumatic Stress among Public Child Welfare Workers for archived recording" /></a><br />
+<strong>Description:&nbsp;</strong></em>This webinar presents information obtained from&nbsp;public child welfare workers who self-selected to participate in a&nbsp;worker health survey examining the associations between&nbsp;secondary traumatic stress, individual and work&nbsp;factors, and&nbsp;general health outcomes. These public child welfare workers&nbsp;were surveyed during professional development training classes&nbsp;that took place in Northern California. Findings revealed &nbsp;that&nbsp;public child welfare workers experiencing higher levels of&nbsp;secondary traumatic symptoms is related to poorer health&nbsp;outcomes and having an increased desire to leave their current place of work. Stemming from these findings the NCTA is developing resources to deliver online training curricula and peer support in an effort to improve the physical and emotional health of public child welfare workers.</p>
+
+<p><a href="https://vimeo.com/140359940" title="Archived Recording of Predictors and Health Consequences of Secondary Traumatic Stress among Public Child Welfare Workers">Archived Recording</a>; <a href="../sites/default/files/uploads/pdf/CalSWEC/worker_health_and_sts_rtn_webinar_9_17_15_final/index.html" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><strong>Continuous Quality Improvement: Definitions, Key Components, and Emerging Developments in the Child Welfare Landscape<br />
+<em>Date: </em>June 17, 2015<br />
+<em><a href="https://vimeo.com/131438060" target="_blank"><img alt="" src="../sites/default/files/uploads/cqi-1/index.html" style="border-style:solid; border-width:0px; float:right; height:207px; margin-left:5px; margin-right:5px; width:278px" title="Click slide for recording of Continuous Quality Improvement webinar" /></a>Presenter:&nbsp;</em></strong>Daniel Webster, Ph.D., Research Specialist, Center for Social Services Research (CSSR), University of California, Berkeley&nbsp;<br />
+<strong><em>Description:&nbsp;</em></strong>This presentation will introduce participants to basic elements of Continuous Quality Improvement. The webinar will discuss the structure of an organization that supports CQI, as well as the cyclical process of identifying programmatic or policy strengths and weaknesses, planning, testing and applying evidence to evaluate solutions that promote system improvements.</p>
+
+<p><a href="https://vimeo.com/131438060" title="Archived Recording of Continuous Quality Improvement">Archived Recording</a>, <a href="../sites/default/files/uploads/cqi_orientation_rtn_webinar/index.html" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><strong>Removing the Cloak of Secrecy: Understanding the Clinical Needs of Adoption and Guardianship Families<br />
+<em>Date:</em>&nbsp;</strong>June 15, 2015<br />
+<em><strong><a href="https://vimeo.com/131026725" target="_blank"><img alt="" src="../sites/default/files/uploads/cloak-2/index.html" style="border-style:solid; border-width:1px; float:right; height:218px; margin-left:5px; margin-right:5px; width:288px" title="Click slide for recording of Removing the Cloak of Secrecy webinar" /></a>Presenters:</strong></em>&nbsp;Ruth McRoy, Ph.D., Donahue and DiFelice Endowed Professor, Boston College Graduate School of Social Work; Carol Bishop, LMFT, Statewide Adoption Policy Director, Seneca Family of Agencies/Kinship Center; Karen Gunderson, California Department of Social Services (CDSS); and Debbie Schugg, Consultant, National Center on Adoption and Permanency, Parent Recruiter, Kinship Center<br />
+<em><strong>Description:&nbsp;</strong></em>Children entering families through adoption and guardianship bring with them a history of grief, loss, and often trauma. This is especially true of children formerly in foster care. Recently, increasing attention is being paid to the special needs of these families and, in particular, how mental health and other support services tailored to adoptive families can effectively help children heal and achieve success at home, at school, and in the community.</p>
+
+<p>This webinar will focus on the history and research that have led to a more enlightened understanding of the clinical needs of adoption and guardianship families—why this is such a complex issue and what is being done to improve clinical and other support services. In addition, it will discuss training and practice models that are being developed or currently used to address the need for adoption-competent clinical services. Finally, the webinar will include a personal testimonial from one adoptive family who struggled to get access to appropriate services, as well as an overview of the AB1790 legislation that is propelling this issue forward in California.</p>
+
+<p><a href="https://vimeo.com/131026725" title="Archived recording of Removing the Cloak of Secrecy: Understanding the Clinical Needs of Adoption and Guardianship Families">Archived Recording</a>, <a href="../sites/default/files/uploads/mcroy_ruth_061515_final/index.html" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><strong>Organizational Change</strong><br />
+<em><strong>Date:</strong></em> March 26, 2015<br />
+<em><strong>Presenter: </strong></em>Tom Packard, D.S.W., Professor, San Diego State University<a href="https://vimeo.com/123657661" target="_blank" title="Click for recording of Organizational Change"><img alt="" src="../sites/default/files/uploads/orgchange/index.html" style="float:right; height:204px; margin-left:5px; margin-right:5px; width:288px" title="Click for recording of Organizational Change" /></a><br />
+<strong><em>Description:</em></strong> Expectations for organizational change are essentially constant in human service organizations.&nbsp;Examples include implementation of initiatives, including AB 12, Katie A./Pathways to Well-Being, Continuous Quality Improvement (CQI), and the California Core Practice Model, and implementation science processes.</p>
+
+<p>This webinar will present research including content analysis of the literature on organizational change and an evidence-based phase model of organizational change which covers organizational change tactics, change leadership roles, and organizational change methods. Case examples of organizational change processes will be presented.</p>
+
+<p>This webinar should be useful to human service organization executives, managers, consultants, analysts, and other staff support professionals as well as line workers interested in organizational change. It will be specifically designed for those serving in official roles as change leaders in their organizations.</p>
+
+<p><a href="https://vimeo.com/123657661" title="Archived Recording of Organizational Change">Archived Recording</a>, <a href="../sites/default/files/uploads/org_change_calswec_2015_final/index.html" title="PowerPoint Presentation of Organizational Change">PowerPoint Presentation</a></p>
+
+<hr />
+
+
+
+
+
+
+<p><strong>Child Welfare Information Gateway: Your Source for Child Welfare Resources, Tools and Information<br />
+<em>Date: </em></strong>March 5, 2015<br />
+<em><strong>Presenter:&nbsp;</strong></em>Elizabeth Mertinko,&nbsp;M.S.W., Operations Manager, Child Welfare Information Gateway<a href="https://vimeo.com/122123142" target="_blank"><img alt="home page of Child Welfare Information Gateway" src="../sites/default/files/uploads/cwig/index.html" style="border-style:solid; border-width:1px; float:right; height:183px; margin-bottom:8px; margin-top:8px; width:275px" title=" Click for recording of Child Welfare Information Gateway: Your Source for Child Welfare Resources, Tools and Information" /></a><br />
+<em><strong>Description:&nbsp;</strong></em>The Child Welfare Information Gateway connects child welfare and related professionals to comprehensive information and resources to help protect children and strengthen families. It features the latest on topics from prevention to permanency, including child abuse and neglect, foster care, and adoption.</p>
+
+<p>This webinar will present an introduction and overview of the new Child Welfare Information Gateway,https//<a href="http://www.childwelfare.gov/">www.childwelfare.gov/</a>. It will provide a short guided tour of the Information Gateway's new design ad enhanced navigation, streamlining how child welfare professional search and locate the tools, publications, and data they need.</p>
+
+<p><a href="https://vimeo.com/122123142" title="Archived recording of Child Welfare Information Gateway: Your Source for Child Welfare Resources, Tools and Information">Archived Recording</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/106983747" target="_blank" title=" Click for recording of CalYOUTH: Early Findings from the Child Welfare Worker Survey"><img alt="" id=" Click for recording of CalYOUTH: Early Findings from the Child Welfare Worker Survey" src="../sites/default/files/uploads/calyouth/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a></p>
+
+<p><strong>CalYOUTH: Early Findings from the Child Welfare Worker Survey</strong><br />
+<em><strong>Date: </strong></em>September 23, 2014<br />
+<em><strong>Presenter:</strong></em> Pajarita Charles, Ph.D., CalYOUTH Project Director, School of Social Service Administration, University of Chicago<br />
+<em><strong>Description:</strong></em> The California Youth Transitions to Adulthood Study (CalYOUTH) is an evaluation of the impact of AB 12, the California Fostering Connections to Success Act, on outcomes during the transition to adulthood for foster youth. The study includes a collection of information from transition-age youth and child welfare workers, as well as analysis of government program data. The study, directed by Dr. Mark Courtney from the University of Chicago and conducted in collaboration with the California Department of Social Services and County Welfare Directors Association, is being carried out over a 5-year period and is following youth ages 16-17 through age 21 using in-person interviews to complete three waves of surveys. To date, both a baseline child welfare worker survey and youth survey have been completed, in addition to qualitative interviews and observations of young people's living arrangements in foster care.</p>
+
+<div><a href="https://vimeo.com/106983747" target="_blank" title="Archived Recording of CalYOUTH: Early Findings from the Child Welfare Worker Survey">Archived Recording</a>, <a href="../sites/default/files/uploads/calyouth_caseworker_results_calswec_9_2014_final/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></div>
+
+<hr />
+<p><a href="https://vimeo.com/106539332" target="_blank" title=" Click for recording of Improving Outcomes for African American Males Involved with Child Welfare"><img alt="Improving Outcomes for African American Males Involved with Child Welfare" id="Improving Outcomes for African American Males Involved with Child Welfare" longdesc="../Improving%20Outcomes%20for%20African%20American%20Males%20Involved%20with%20Child%20Welfare/index.html" src="../sites/default/files/uploads/aa-males/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a><strong>Improving Outcomes for African American Males Involved with Child Welfare</strong><br />
+<em><strong>Date:</strong>&nbsp;</em>September 18, 2014<br />
+<em><strong>Presenters:&nbsp;</strong></em>Oronde A. Miller, Senior Associate, Center for the Study of Social Policy, and Erwin McEwen, Senior Director, Technical Assistance Unit, Casey Family Programs<br />
+<em><strong>Description: </strong></em>A growing number of child welfare agencies and organizations are working to understand and undo the pattern of racial disproportionality and disparate outcomes among children and families involved with this nation’s child welfare systems. Less attention, however, has been given to the particular experiences of African American boys and young men.</p>
+
+<p>This webinar will review what is known about the experiences of African American males involved with child welfare and the key elements of organizational and system improvement strategies aimed at improving their experiences and outcomes. System improvement strategies include those that are evidence-informed, with a focus on family-centered, trauma-informed, and strengths-based interventions with youth and their families, as well as organizational operation approaches that are culturally responsive and that respond to the experiences of race and racism in the lives of African American males and their families.</p>
+
+<p><a href="https://vimeo.com/106539332" target="_blank" title="Archived Recording of Improving Outcomes for African American Males Involved with Child Welfare">Archived Recording</a>,&nbsp;<a href="../sites/default/files/uploads/calswecwebinar_final/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/101666869" target="_blank" title=" Click for recording of Child Welfare Partnership for Research and Training "><img alt="Child Welfare Partnership for Research and Training " longdesc="../Child%20Welfare%20Partnership%20for%20Research%20and%20Training/index.html" src="../sites/default/files/uploads/cw-part-slide/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a></p>
+
+<p><strong>Child Welfare Partnership for Research and Training&nbsp;</strong><br />
+<em><strong>Date: </strong></em>July 24, 2014&nbsp;<br />
+<em><strong>Presenters: </strong></em>Laurie Drabble, Ph.D., Professor,San José State University School of Social Work, and Director,&nbsp;SJSU Institute for Community Partnered Research (ICPR); Barbara Watkins, M.S.W., Santa Clara County Social Services Agency; Darlene Da Silva, M.S.W.<br />
+<em><strong>Description:</strong> </em>The Child Welfare Partnership for Research and Training (CW-PART) is a collaborative project of the SJSU&nbsp;School of Social Work and two counties, Santa Clara and Santa Cruz.&nbsp;The model provides a situated learning environment for IV-E and other interested students where teams conduct applied research on issues of immediate relevance to the county or partnered agencies.&nbsp;</p>
+
+<p>This workshop describes core elements of the partnered research model, roles of different stakeholders, and "lessons learned" for adaptation to other county and university contexts.&nbsp;Findings from qualitative interviews and stakeholder surveys suggest that county partners perceive the partnership as valuable and that students in partnered research teams are more likely than other students to report researching a problem or issue that is&nbsp;directly relevant to the agency interested in being a part of research and evaluation in the future.&nbsp;The structure and impact of the partnered models will be illustrated through highlights from: a trauma-informed systems change initiative outcomes and processes in differential response services.</p>
+
+<p><a href="http://vimeo.com/101666869" target="_blank" title="Archived Recording of  Child Welfare Partnership for Research and Training">Archived Recording</a>, <a href="../sites/default/files/uploads/rtn_2014_draft_final/index.html" target="_blank" title="PowerPoint Presentation for Child Welfare Partnership for Research and Training">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/101107511" target="_blank" title="Click for recording of A Strengths-based Approach to Supervised Visitation in Child Welfare "><img alt="A Strengths-based Approach to Supervised Visitation in Child Welfare " longdesc="../A%20Strengths-based%20Approach%20to%20Supervised%20Visitation%20in%20Child%20Welfare/index.html" src="../sites/default/files/uploads/2014_jsprc_071514/index.html" style="border-style:solid; border-width:1px; float:right; height:169px; width:270px" /></a></p>
+
+<p><strong>A Strengths-based Approach to Supervised Visitation in Child Welfare&nbsp;</strong><br />
+<em><strong>Date: </strong></em>July 15, 2014<br />
+<em><strong>Presenters: </strong></em>&nbsp;Valerie Shapiro, Ph.D., Assistant Professor,&nbsp;School of Social Welfare, University of California, Berkeley, and Heidi Sims, Administrator of Family Preservation Department of SCAN (Stop Child Abuse &amp; Neglect),&nbsp;Fort Wayne, Indiana<br />
+<em><strong>Description:&nbsp;</strong></em>Supervised visitation gives parents accused of abuse or neglect the opportunity to spend time with children temporarily removed from their care. Although supervised visitation has the potential to be a tool for promoting successful reunification by maintaining or growing caregiver relationships with children, and pursuing and monitoring caregiver skill acquisition, the risk-management objective that underlies child protection services creates a challenging context for strengths-based approaches.</p>
+
+<p>This presentation will describe a strengths-based approach to supervised visitation within the child welfare system.&nbsp;It articulates a practice model that navigates the tension between the dual aims of child welfare services: risk management and fostering change that leads to a successful reunification. This model&nbsp;embraces resilience theory, grounded in strengths-based strategies to build protective factors.</p>
+
+<p>Moreover, this presentation describes the collaborative construction of the Joan Sherman Program for Resilient Children through the integration of insights from diverse stakeholders, research evidence, and strengths-based practice principles. Five aspects of the model will be described in depth: enhancing the visitation environment, strengths-based assessment, stable visitation routines, activities to promote resilience, and progress check-ups. The presentation will also describe the training program developed to build workforce capacity and support model implementation. It will conclude by reflecting upon the successes of, and challenges to, the implementation of a strengths-based approach to supervised visitation.</p>
+
+<p><a href="http://vimeo.com/101107511" target="_blank" title="Archived Recording of A Strengths-based Approach to Supervised Visitation in Child Welfare ">Archived Recording</a>, <a href="../sites/default/files/uploads/2014_jsprc_071514/index-2.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><span style="font-family:trebuchet ms,helvetica,sans-serif"><a href="http://vimeo.com/97343502" target="_blank" title="Click for recording of Promoting Highly Effective Foster Care: A Research Review "><img alt="Promoting Highly Effective Foster Care: A Research Review " id="Promoting Highly Effective Foster Care: A Research Review " longdesc="../Promoting%20Highly%20Effective%20Foster%20Care_%20A%20Research%20Review/index.html" src="../sites/default/files/uploads/parenting_plus/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a></span></p>
+
+<p><strong>Promoting Highly Effective Foster Care: A Research Review&nbsp;</strong><br />
+<em><strong>Date: </strong></em>June 3, 2014<br />
+<em><strong>Presenter: </strong></em>Jill Duerr Berrick, Ph.D., M.S.W., Professor, School of Social Welfare, University of California, Berkeley&nbsp;<br />
+<em><strong>Description:</strong></em> Foster care serves as the backbone of out-of-home care, yet relatively little research examines the qualities necessary to promote effective care.&nbsp;This webinar will review findings from various studies to highlight what is known about recruitment, screening, support, and retention of highly effective foster parents.&nbsp;Research, including a trans-national study of U.S. and Norwegian caregivers, highlights the characteristics of effective caregivers and the strategies agencies may employ to promote effective care.</p>
+
+<p><a href="http://vimeo.com/97343502" target="_blank" title="Archived Recording of Promoting Highly Effective Foster Care: A Research Review ">Archived Recording</a>,&nbsp;<a href="../sites/default/files/uploads/parenting_plus-6-3-14/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><span style="font-family:trebuchet ms,helvetica,sans-serif"><a href="https://vimeo.com/95003358" target="_blank" title="Click for recording of Child Welfare Workers' Views on Physical Punishment of Children"><img alt="Child Welfare Workers' Views on Physical Punishment of Children" id="Child Welfare Workers' Views on Physical Punishment of Children" longdesc="../Child%20Welfare%20Workers%27%20Views%20on%20Physical%20Punishment%20of%20Children/index.html" src="../sites/default/files/uploads/ccassc-webinar_5-6-14_final/index.html" style="border-style:solid; border-width:1px; float:right; height:220px; width:275px" /></a></span></p>
+
+<p><strong>Child Welfare Workers' Views on Physical Punishment of Children<br />
+<em>Date:</em></strong>&nbsp;May 8, 2014<br />
+<strong><em>Presenters:&nbsp;</em></strong>Elizabeth Breshears, Ph.D., Associatie Professor, CSU Stanislaus, and Leisa Baltz, 2nd year M.S.W. student, CSU Stanislaus<br />
+<em><strong>Description: </strong></em>The opinions of U.S. child welfare workers—which appear to parallel the general public’s belief—that physical punishment is sometimes “necessary” pose a challenge to child welfare agencies in addressing best practices in parenting. Research conducted over the last 60 years provides a robust body of evidence that physical punishment of children is antithetical to best child rearing practices and is a high-risk parenting strategy. The only U.S. group for whom physical punishment remains legal is children. Perhaps it is time for child welfare agencies to facilitate a cultural shift in how we nurture and parent children. This webinar will compare policies on physical punishment of children in the U.S. and other developed countries, examine the knowledge and opinions of Central Valley child welfare workers on this issue, and review the NASW’s policy position.</p>
+
+<p><a href="https://vimeo.com/95003358" target="_blank" title="Archived Recording of Child Welfare Workers' Views on Physical Punishment of Children">Archived Recording</a>, <a href="../sites/default/files/uploads/ccassc-webinar_5-6-14_final/index-2.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/93534217" target="_blank" title="Click for recording of Peer Mentors in Child Welfare: A Promising Practice toward Reunification "><img alt="Peer Mentors in Child Welfare: A Promising Practice toward Reunification " id="Peer Mentors in Child Welfare: A Promising Practice toward Reunification " longdesc="../Peer%20Mentors%20in%20Child%20Welfare_%20A%20Promising%20Practice%20toward%20Reunification/index.html" src="../sites/default/files/uploads/peers/index.html" style="border-style:solid; border-width:1px; float:right; height:205px; width:280px" /></a></p>
+
+<p><strong>Peer Mentors in Child Welfare: A Promising Practice toward Reunification&nbsp;<br />
+<em>Date: </em></strong>April 29, 2014<br />
+<em><strong>Presenter: </strong></em>Jill Duerr-Berrick, Ph.D., M.S.W., Professor, School of Social Welfare, University of California, Berkeley&nbsp;<br />
+<em><strong>Description: </strong></em>The frequent use of peer mentors in the fields of health and mental health is gaining traction in child welfare as well. This presentation will review what we know about the promise of peer mentors in child welfare, particularly in our efforts to engage families and to work toward reunification.&nbsp;The presenter’s research in Contra Costa County will be highlighted, drawing upon key informant interviews and a quasi-experimental study of reunification outcomes.&nbsp;Findings from the study are promising and suggest benefits that may be associated with the use of peer mentors.</p>
+
+<p><a href="http://vimeo.com/93534217" target="_blank" title="Archived Recording of Peer Mentors in Child Welfare: A Promising Practice toward Reunification ">Archived Recording</a>, <a href="../sites/default/files/uploads/peer_mentors_in_child_welfare_final/index.html" target="_blank" title="PowerPoint presentation">PowerPoint presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/90260914" target="_blank" title="Click for recording of Implementation Teams "><img alt="Implementation Teams " id="Implementation Teams " longdesc="../Implementation%20Teams/index.html" src="../sites/default/files/uploads/impteams/index.html" style="border-style:solid; border-width:1px; float:right; height:209px; width:280px" /></a></p>
+
+<p><strong>Implementation Teams </strong><br />
+<strong><em>Date:</em>&nbsp;</strong>March 27, 2014<br />
+<em><strong>Presenter: </strong></em>Lynne Marsenich, Western Implementation Research and Evaluation<br />
+<em><strong>Description:</strong></em> The webinar will focus on the role and function of implementation teams.&nbsp;Three different types&nbsp;of implementation teams will be discussed:</p>
+
+<ol>
+	<li>developers of evidence-based practices and programs;</li>
+	<li>intermediary organizations that help others implement a variety of evidence-based programs, and</li>
+	<li>community and/or organizational implementation teams. &nbsp;<br />
+	Information on two specific implementation team approaches will be presented: learning collaboratives and Community Development Team.</li>
+</ol>
+
+<p><a href="https://vimeo.com/90260914" target="_blank" title="Archived Recording of Implementation Teams ">Archived Recording</a>, <a href="../sites/default/files/uploads/implementation_teams_rev/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/85193645" target="_blank" title="Click for recording of The Real Meaning of Fidelity in Implementation Science"><img alt="The Real Meaning of Fidelity in Implementation Science" id="The Real Meaning of Fidelity in Implementation Science" longdesc="../The%20Real%20Meaning%20of%20Fidelity%20in%20Implementation%20Science/index.html" src="../sites/default/files/uploads/fidelity/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a></p>
+
+<p><strong>The Real Meaning of Fidelity in Implementation Science<br />
+<em>Date:</em></strong>&nbsp;January 23, 2014<br />
+<em><strong>Presenters:</strong></em>&nbsp;Dean Fixsen, Ph.D., &nbsp;and Sonja Schoenwald, Ph.D.<br />
+<em><strong>Desription:</strong></em>&nbsp;There is an increased focus on comparative effectiveness, accountability for outcomes, and consumer choice across public service sectors at the federal level, and in many states. At the same time, treatments and services with demonstrated effectiveness are increasingly becoming available in a variety of practice contexts.&nbsp;In this context, it is increasingly important to be able to answer the question&nbsp;"When we ask and pay for a service, how do we know that we are getting what we asked and paid for?"</p>
+
+<p>Fidelity is one indicator that a particular treatment or service is being implemented as intended with the particular populations that the treatment or service has been shown to benefit. Tools to measure fidelity can be used to improve implementation and outcomes. This webinar will focus on what<em> fidelity </em>means, what research tells us about why and how it matters, and what we know and have yet to learn about tools to measure and support it in community practice contexts.&nbsp;</p>
+
+<p><a href="http://vimeo.com/85193645" target="_blank" title="Archived Recording of The Real Meaning of Fidelity in Implementation Science">Archived Recording</a>, <a href="../sites/default/files/uploads/the_real_meaning_of_fidelity_schoenwald_fixsen_2014_wout_animation/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/83871396" target="_blank" title="Click for recording of California's Most Vulnerable Parents: A Population-Based Examination of Youth Involved with Child Protective Services"><img alt="California's Most Vulnerable Parents: A Population-Based Examination of Youth Involved with Child Protective Services" id="California's Most Vulnerable Parents: A Population-Based Examination of Youth Involved with Child Protective Services" longdesc="../California%27s%20Most%20Vulnerable%20Parents_%20A%20Population-Based%20Examination%20of%20Youth%20Involved%20with%20Child%20Protective%20Services/index.html" src="../sites/default/files/uploads/maltreat/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a></p>
+
+<p><strong>California's Most Vulnerable Parents: A Population-Based Examination of Youth Involved with Child Protective Services<br />
+<em>Date</em></strong><em>:</em>&nbsp;January 9, 2014&nbsp;<br />
+<em><strong>Presenters:&nbsp;</strong></em>Emily Putnam-Hornstein, Ph.D., Assistant Professor, USC School of Social Work, Principal Investigator at the Children's Data Network and Researcher at the CA Child Welfare Indicators Project, and Bryn King, Doctoral Candidate,&nbsp;UC Berkeley, School of Social Welfare, and Graduate Student Researcher,&nbsp;CA Child Welfare Indicators Project&nbsp;<br />
+<em><strong>Description:&nbsp;</strong></em>This webinar will describe and discuss findings to emerge from the recently released study on&nbsp;"California's Most Vulnerable Parents:&nbsp;A Population-Based Examination of Youth Involved with Children Protective Services." This research was funded by the Conrad N. Hilton Foundation and conducted by researchers at USC and UC Berkeley in collaboration with the California Department of Social Services.</p>
+
+<p>The project involved the linkage of roughly 1.4 million California birth records with 1 million child protection records to characterize the teen birth rates of adolescent girls with a history of maltreatment. Additional linkages allowed for the examination of maltreatment outcomes among children born to teen mothers. These new data document that 1 in 4 teens in foster care give birth before age 20 and as many as 40%&nbsp;of these young mothers have a second child during their teens. In the population overall, 4 in 10 teen mothers have been reported as alleged victims of abuse or neglect before pregnancy and 20%&nbsp;have a history of substantiated maltreatment. Children born to teens with a history of maltreatment victimization are abused and neglected at twice the rate of children whose teen mothers had no CPS involvement.</p>
+
+<p><a href="http://vimeo.com/83871396" target="_blank" title="Archived Recording of California's Most Vulnerable Parents: A Population-Based Examination of Youth Involved with Child Protective Services">Archived Recording</a>, <a href="../sites/default/files/uploads/rtn_presentation/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><strong><a href="https://vimeo.com/86741940" target="_blank" title="Click for recording of Implementation Science 101"><img alt="Implementation Science 101" id="Implementation Science 101" longdesc="../Implementation%20Science%20101/index.html" src="../sites/default/files/uploads/impscience/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a>Implementation Science 101</strong><br />
+<strong>Date:&nbsp;</strong>October 24, 2013<span style="font-family:trebuchet ms,helvetica,sans-serif">&nbsp;</span><br />
+<em><strong>Presenters: </strong></em>Stuart Oppenheim, M.S.W., Executive Director, Child and Family Policy Institute of California (CFPIC); Sevaughn Banks, Ph.D., Training and Evidence-Based Practice Specialist, California Social Work Education Center (CalSWEC); and Lynne Marsenich, LCSW, Western Implementation Research and Evaluation&nbsp;<br />
+<em><strong>Description:</strong></em>&nbsp;This webinar provides an overview of the link between evidence-based practice and the importance of implementation science (IS).&nbsp; It provides key features of three implementation science frameworks:</p>
+
+<ol>
+	<li>Consolidated Framework for Implementation Research (CFIR),</li>
+	<li>the National Implementation Research Network (NIRN), and</li>
+	<li>Exploration, Preparation, Implementation, and Sustainment (EPIS)</li>
+</ol>
+
+<p>It furtherprovides information about common concepts related to IS.&nbsp; The webinar provides tangible examples of application of IS principles in the field.&nbsp;In addition, attendees will become familiar with resources that are available for further study. &nbsp;&nbsp;</p>
+
+<p><a href="https://vimeo.com/86741940" target="_blank" title="Archived Recording of Implementation Science 101">Archived Recording</a>, <a href="../sites/default/files/uploads/implementationscience101_final/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><strong><a href="https://vimeo.com/86740679" target="_blank" title="Click for recording of Child Welfare Outcomes for Mexican and Vietnamese Immigrant Children "><img alt="Child Welfare Outcomes for Mexican and Vietnamese Immigrant Children " id="Child Welfare Outcomes for Mexican and Vietnamese Immigrant Children " longdesc="../Child%20Welfare%20Outcomes%20for%20Mexican%20and%20Vietnamese%20Immigrant%20Children/index.html" src="../sites/default/files/uploads/mexvietimmig/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a>Child Welfare Outcomes for Mexican and Vietnamese Immigrant Children </strong><br />
+<strong><em>Date:</em></strong>&nbsp;July 18, 2013<br />
+<em><strong>Presenters:</strong></em>&nbsp;Kathy Lemon, Associate Professor, Ph.D., and Meekyung Han, Ph.D., Associate Professor, both at San José State University&nbsp;School of Social Work<br />
+<em><strong>Description:</strong></em> This webinar will describe findings from a CalSWEC-funded study exploring the experiences of Mexican immigrant and Vietnamese immigrant children and families involved in the child welfare system, and factors that influence reunification among these populations. &nbsp;</p>
+
+<p><a href="https://vimeo.com/86740679" target="_blank" title="Archived Recording of Child Welfare Outcomes for Mexican and Vietnamese Immigrant Children ">Archived Recording</a>, <a href="../sites/default/files/uploads/webinar_immigrant_children_lemon_han_7.18.13/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/77091477" target="_blank" title="Click for recording of Communities of Practice and Motivational Interviewing"><img alt="Communities of Practice and Motivational Interviewing" id="Communities of Practice and Motivational Interviewing" longdesc="../Communities%20of%20Practice%20and%20Motivational%20Interviewing/index.html" src="../sites/default/files/uploads/communities-practice/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:279px" /></a></p>
+
+<p><strong>Communities of Practice and Motivational Interviewing<br />
+Date:&nbsp;</strong>April 24, 2013&nbsp;<br />
+<em><strong>Presenter:&nbsp;</strong></em>Melinda Hohman, Ph.D., Professor, San Diego State University&nbsp;School of Social Work&nbsp;<br />
+<em><strong>Description:&nbsp;</strong>&nbsp;</em>Implementation of Evidence-Based Practices remains a large issue within social services. Research has shown that skills are lost or not used at all after training. This webinar will review the research about implementation science with a particular focus on developing resources for coaching and feedback, either within an agency setting or as a self-run group composed of voluntary practitioners from the community. The use of Communities of Practice for Motivational Interviewing (MI) will be the specific example throughout this presentation.</p>
+
+<p><a href="https://vimeo.com/77091477" target="_blank" title="Archived Recording of Communities of Practice and Motivational Interviewing">Archived Recording</a>, <a href="../sites/default/files/uploads/communities_of_practice_and_mi/index.html" target="_blank" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/77091480" target="_blank" title="Click for recording of How the Perspective of Fathers Contributes to Disproportionality: A Real Discussion"><img alt="How the Perspective of Fathers Contributes to Disproportionality: A Real Discussion" id="How the Perspective of Fathers Contributes to Disproportionality: A Real Discussion" longdesc="../How%20the%20Perspective%20of%20Fathers%20Contributes%20to%20Disproportionality_%20A%20Real%20Discussion/index.html" src="../sites/default/files/uploads/dads-disproportion/index.html" style="border-style:solid; border-width:1px; float:right; height:200px; width:280px" /></a></p>
+
+<p><strong>How the Perspective of Fathers Contributes to Disproportionality: A Real Discussion</strong><br />
+<strong><em>Date:</em></strong>&nbsp;April 22, 2013<br />
+<em><strong>Presenters: </strong></em>Kilolo Brodie, Ph.D., CSU Stanislaus, and Natasha Paddock, Regional Director, Region C, NASW&nbsp;<br />
+<strong><em>Description:</em>&nbsp;</strong>A visible pattern in child welfare is the diminished role of fathers and marginalization of their importance. The purpose of this study was to exam barriers to father involvement, including institutional obstacles and gender bias (as the majority of child welfare workers are female). To obtain the perspective of fathers, researchers collected quantitative and qualitative data from men in a mandated parenting class in the Bay Area. All of the participants were men of color. Responses indicated that the majority did not feel they were treated the same as the mother of their children.</p>
+
+<p><a href="https://vimeo.com/77091480" target="_blank" title="Archived Recording of How the Perspective of Fathers Contributes to Disproportionality: A Real Discussion">Archived Recording</a>,&nbsp;<a href="../sites/default/files/uploads/fahood_webinar_042213_use_this_one/index.html" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/77091675" target="_blank" title="Click for recording of Use of Mental Health Services and Psychiatric Medications in Juvenile Detention Facilities and the Impact of State Placement Policy "><img alt="Use of Mental Health Services and Psychiatric Medications in Juvenile Detention Facilities and the Impact of State Placement Policy " id="Use of Mental Health Services and Psychiatric Medications in Juvenile Detention Facilities and the Impact of State Placement Policy " longdesc="../Use%20of%20Mental%20Health%20Services%20and%20Psychiatric%20Medications%20in%20Juvenile%20Detention%20Facilities%20and%20the%20Impact%20of%20State%20Placement%20Policy/index.html" src="../sites/default/files/uploads/psychmeds/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:280px" /></a></p>
+
+<p><strong>Use of Mental Health Services and Psychiatric Medications in Juvenile Detention Facilities and the Impact of State Placement Policy&nbsp;</strong><br />
+<strong><em>Date:</em></strong><em>&nbsp;</em>January 23, 2012&nbsp;<br />
+<strong><em>Presenter</em></strong> Edward Cohen, Ph.D., Associate Professor, San José State University&nbsp;School of Social Work&nbsp;<br />
+<em><strong>Description: </strong></em>The use of psychotropic medications is a significant factor in the overall effort to respond to detained youth with mental illness, who are over-represented in juvenile detention facilities. This presentation reports on the proportion of these youth who receive mental health services and psychotropic medications in California. Also covered is the impact on these proportions of the state’s juvenile justice realignment—the&nbsp;transfer of non-violent juvenile offenders from state placements to counties. Findings from a recent survey of counties will also be used to provide the context for the impact of this policy decision on county agencies.</p>
+
+<p><a href="https://vimeo.com/77091675" target="_blank" title="Archived Recording of Use of Mental Health Services and Psychiatric Medications in Juvenile Detention Facilities and the Impact of State Placement Policy ">Archived&nbsp;Recording</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/43930046" target="_blank" title="Click for recording of Race, Poverty, and Nativity: An Examination of Risk and Protective Factors for Child Welfare Involvement"><img alt="Race, Poverty, and Nativity: An Examination of Risk and Protective Factors for Child Welfare Involvement" id="Race, Poverty, and Nativity: An Examination of Risk and Protective Factors for Child Welfare Involvement" longdesc="../Race%2c%20Poverty%2c%20and%20Nativity_%20An%20Examination%20of%20Risk%20and%20Protective%20Factors%20for%20Child%20Welfare%20Involvement/index.html" src="../sites/default/files/uploads/race-poverty-side/index.html" style="border-style:solid; border-width:1px; float:right; height:194px; width:280px" /></a></p>
+
+<p><strong>Race, Poverty, and Nativity: An Examination of Risk and Protective Factors for Child Welfare Involvement<br />
+<em>Date:</em></strong>&nbsp;June 11, 2012&nbsp;<br />
+<strong><em>Presenters:</em></strong> Barbara Needell, Ph.D.,&nbsp;M.S.W., and Emily Putnam-Hornstein, Ph.D.,&nbsp;M.S.W.,&nbsp;Center for&nbsp;Social Services Research (CSSR)&nbsp;<br />
+<strong><em>Description:</em></strong>&nbsp;Race and ethnicity are widely viewed as markers for a complex interaction of economic, social, political, and environmental factors that influence the health of individuals and communities. This webinar explored differences in children’s risk of maltreatment by race/ethnicity, socioeconomic indicators, and maternal nativity. Racial disparities were examined in the areas of referrals received by CPS, substantiation rates, and entries to foster care. Participants learned about the newly developed racial disparity indices that incorporate race-specific poverty rates.</p>
+
+<p><a href="http://vimeo.com/43930046" target="_blank" title="Archived Recording of Race, Poverty, and Nativity: An Examination of Risk and Protective Factors for Child Welfare Involvement">Archived Recording</a>,&nbsp;<a href="../files/uploads/race_poverty_analysis_fairness_equity__rtn_webinar/index.html" title="PowerPoint Presentation">PowerPoint Presentation</a></p>
+
+<hr />
+<p><a href="http://calswec.berkeley.edu/files/uploads/final_child_abuse_and_neglect_fatalities-risk_factors_and_lessons_learned_ppt_6-2012.pdf" target="_blank" title="Click for preseentation of Child Maltreatment Fatalities—Risk Factors and Lessons Learned"><img alt="Child Maltreatment Fatalities—Risk Factors and Lessons Learned" id="Child Maltreatment Fatalities—Risk Factors and Lessons Learned" longdesc="../Child%20Maltreatment%20Fatalities%e2%80%94Risk%20Factors%20and%20Lessons%20Learned/index.html" src="../sites/default/files/uploads/cmi-slide/index.html" style="border-style:solid; border-width:1px; float:right; height:210px; width:288px" /></a></p>
+
+<p><strong>Child Maltreatment Fatalities—Risk Factors and Lessons Learned<br />
+<em>Date:</em></strong><em>&nbsp;</em>June 7, 2012&nbsp;<br />
+<strong><em>Presenters:</em> </strong>Donna Pence, B.S., and Karissa Hughes, M.S.W., Academy for Professional&nbsp;Excellence&nbsp;<br />
+<strong>Description:&nbsp;</strong>Attendees learned about common variables that may contribute to a higher probability of fatal child maltreatment, including: child risk factors, perpetrator profiles, social worker errors, environmental factors, etc. Lessons learned and practice recommendations were shared for how child welfare agencies can strengthen child fatality investigations and minimize placing children at risk of extreme harm.</p>
+
+<p><a href="../files/uploads/final_child_abuse_and_neglect_fatalities-risk_factors_and_lessons_learned_ppt_6-2012/index.html" target="_blank" title="PowerPoint presentation">PowerPoint presentation</a>,&nbsp;<a href="../files/uploads/child_fatality_research-2012_bibliography/index.html" target="_blank" title="Bibliography">Bibliography</a>,&nbsp;<a href="../files/uploads/child_maltreatment_fatalities_webinar_qa/index.html" title="Q&amp;A">Q&amp;A</a></p>
+
+<hr />
+<p><a href="http://calswec.berkeley.edu/files/uploads/calswec_webinar_mar_2012_2.pdf" target="_blank" title="Click for PowerPoint of Improving Reunification Service Delivery in California: Implications from Two Recent Studies"><img alt="Improving Reunification Service Delivery in California: Implications from Two Recent Studies" id="Improving Reunification Service Delivery in California: Implications from Two Recent Studies" longdesc="../Improving%20Reunification%20Service%20Delivery%20in%20California_%20Implications%20from%20Two%20Recent%20Studies/index.html" src="../sites/default/files/uploads/reunification-slide/index.html" style="border-style:solid; border-width:1px; float:right; height:208px; width:280px" /></a></p>
+
+<p><strong>Improving Reunification Service Delivery in California: Implications from Two Recent Studies<br />
+<em>Date:</em>&nbsp;</strong>March 29, 2012&nbsp;<br />
+Presenter:&nbsp;Amy D’Andrade, Ph.D., MSW, San José State University School of Social Work<br />
+<strong><em>Description:&nbsp;</em></strong>Attendees learned about why California needs better service delivery models and what innovative approaches are currently in use in counties.</p>
+
+<p><a href="../files/uploads/rtn_webinar_march_2012_outline/index.html" target="_blank" title="Agenda">Agenda</a>, <a href="../files/uploads/calswec_webinar_mar_2012_2/index.html" target="_blank" title="PowerPoint presentation">PowerPoint presentation</a></p>
+
+<hr />
+<p><a href="https://vimeo.com/41164045" target="_blank" title="Click for recording of Signs of Safety: Implementation and Evaluation"><img alt="Signs of Safety: Implementation and Evaluation" id="Signs of Safety: Implementation and Evaluation" longdesc="../Signs%20of%20Safety_%20Implementation%20and%20Evaluation/index.html" src="../sites/default/files/uploads/signsofsafety/index.html" style="border-style:solid; border-width:1px; float:right; height:200px; width:280px" /></a></p>
+
+<p><strong>Signs of Safety:&nbsp;Implementation and Evaluation</strong><br />
+<strong>Date:</strong>&nbsp;April 26, 2012&nbsp;<br />
+<em><strong>Presenter:&nbsp;</strong></em>Holly Hatton, Ph.D., Northern California Training Academy&nbsp;<br />
+<em><strong>Description: </strong></em>Attendees learned about what people in California are saying and doing to implement and evaluate Signs of Safety in child welfare.</p>
+
+<p><a href="https://vimeo.com/41164045" target="_blank" title="Archived Recording of Signs of Safety: Implementation and Evaluation">Archived Recording</a>,&nbsp;<a href="../files/uploads/orientiation_sop_4_26_12/index.html" target="_blank" title="PowerPoint presentation">PowerPoint presentation</a>,&nbsp;</p>
+
+
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-6889c767be3558edd17dce1eb8003273">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img src="../sites/default/files/styles/medium/public/webinars-cw_1/index.html?itok=a_qlkByp" width="300" height="175" alt="" /></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../programs-initiatives/index.html" class="active-trail">Programs &amp; Initiatives</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-436"><a href="../child-welfare/index.html" class="menu__link is-active-trail active-trail">Child Welfare</a><ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-483"><a href="../service-training-coordination/index.html" title="In-Service Training Coordination" class="menu__link is-active-trail active-trail">In-Service Training Coordination</a><ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-504"><a href="../evidence-based-practice/index.html" title="Evidence-Based Practice" class="menu__link is-active-trail active-trail">Evidence-Based Practice</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-1333"><a href="../californias-statewide-child-welfare-research-agenda/index.html" class="menu__link">California&#039;s Statewide Child Welfare Research Agenda</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-1334"><a href="../leadership-symposia-evidence-based-practices-ebp/index.html" title="Leadership Symposia on Evidence-Based Practices (EBP)" class="menu__link">Leadership Symposia on Evidence-Based Practices (EBP)</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-3037"><a href="../literature-reviews-0/index.html" title="Literature Reviews" class="menu__link">Literature Reviews</a></li>
+<li class="menu__item is-active is-active-trail is-leaf last leaf active-trail active menu-mlid-1783"><a href="index.html" title="Evidence-Informed Webinar Series" class="menu__link is-active-trail active-trail active">Evidence-Informed Webinar Series</a></li>
+</ul></li>
+<li class="menu__item is-leaf leaf menu-mlid-1330"><a href="../about-child-welfare-service-training-program/index.html" title="About the Child Welfare In-Service Training Program" class="menu__link">About the Child Welfare In-Service Training Program</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-515"><a href="../statewide-training-and-education-committee-stec-10/index.html" title="Statewide Education and Training Committee (STEC)" class="menu__link">Statewide Education and Training Committee (STEC)</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-766"><a href="../fairness-and-equity-issues-child-welfare-training/index.html" title="Fairness and Equity Issues in Child Welfare Training" class="menu__link">Fairness and Equity Issues in Child Welfare Training</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-2989"><a href="../california-child-welfare-core-practice-model-0/index.html" class="menu__link">California Child Welfare Core Practice Model</a></li>
+</ul></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-482"><a href="../title-iv-e-child-welfare-training-program/index.html" title="Title IV-E Child Welfare Training Program" class="menu__link">Title IV-E Child Welfare Training Program</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-437"><a href="../integrated-behavioral-health-program/index.html" class="menu__link">Integrated Behavioral Health Program</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-438"><a href="../aging/index.html" class="menu__link">Aging</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail is-active-trail active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":180,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/evidence-informed-webinar-series by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:30:34 GMT -->
+</html>

@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/student-petitions by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:11:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="shortlink" href="index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Student Petitions  | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_aqCstrAvHVr6QSiS4T6w7oxS9rWpCPAUHsI4mTyY1sg/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"qgkiUvNKqt1_wyZ0xayrnQ83CDtCuysbnHFqrTlbrG0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"urlIsAjaxTrusted":{"\/student-petitions":true}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1159 node-type-generic-page section-student-petitions" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="../index/index.html" title="Home" rel="home"><span>CalSWEC</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+            <div class="grid-8">
+              <div class="header__region region region-header">
+    <div id="block-menu-block-5" class="block block-menu-block first odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+<div id="block-search-form" class="block block-search last even " role="search">
+
+      
+<div class="content"> 
+    <form class="google-cse" action="http://calswec-archive.berkeley.edu/student-petitions" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+      <span class="label">Search</span>
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-tbYa6Qof_ymmdq1XX8TAavXxOeSrGVnjW1Q0m6GxlGc" />
+<input type="hidden" name="form_id" value="search_block_form" />
+
+</div>
+</div></form></div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+        <div class="region region-navigation">
+    <div id="block-menu-block-11" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-11 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+    </div>
+  </div><!-- /.section, /#navigation -->
+
+    <div id="highlight">
+        <div class="section container-12 ">
+              <div class="region region-highlighted">
+    <div id="block-views-programs-initiatives-block-1" class="block block-views first last odd ">
+
+      
+<div class="content"> 
+    <div class="view view-programs-initiatives view-id-programs_initiatives view-display-id-block_1 view-dom-id-90db578cc013daf60180028a2243366e">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first grid-4 clearfix">
+      
+          <a href="../child-welfare/index.html" class="title_link">Child Welfare</a>    </div>
+  <div class="views-row views-row-2 views-row-even grid-4 clearfix">
+      
+          <a href="../integrated-behavioral-health-program/index.html" class="title_link">Integrated Behavioral Health</a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last grid-4 clearfix">
+      
+          <a href="../aging/index.html" class="title_link">Aging</a>    </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+<div id="main" class=" with-navigation ">
+    <div class="section container-12 ">
+
+    <nav class="breadcrumb" role="navigation"><h2 class="element-invisible">You are here</h2><ol><li><a href="../programs-initiatives/index.html">Programs &amp; Initiatives</a> / </li><li><a href="../child-welfare/index.html" class="active-trail">Child Welfare</a> / </li><li><a href="../title-iv-e-child-welfare-training-program/index.html" title="Title IV-E Child Welfare Training Program" class="active-trail">Title IV-E Child Welfare Training Program</a> / </li><li>Student Petitions </li></ol></nav>
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Student Petitions </h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-1159" class="node node-generic-page view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>This section describes the process&nbsp;to be used when the student's progress in&nbsp;the program does not follow the expected course.&nbsp;</p>
+
+<p>While some issues may be resolved informally, some issues involving a potential breach of the Student&nbsp;Contract will require a formal process.&nbsp;This formal, Petition process is outlined in the Project&nbsp;Coordinator Petition Guide&nbsp;and described&nbsp;in the sections below.</p>
+
+<p><strong>After March 1, 2017, Project Coordinators and involved Principal Investigators should &nbsp;SCAN and SEND&nbsp;all Petition forms to the following e-mail address: <a href="mailto:iv-e_petitions@berkeley.edu">iv-e_petitions@berkeley.edu</a>.&nbsp;</strong>&nbsp;These forms should no longer be sent via US Mail. The relevant forms are identified below:</p>
+
+<p>Documents required for this process are available in the links below, and in the <a href="http://calswec.berkeley.edu/part-viii-templates-and-forms#studentdocs" title="Templates and Forms">Templates and Forms</a>&nbsp;section.</p>
+
+<ul>
+	<li><a href="../sites/default/files/uploads/program_completion_guide_iv-e_student_8.14.17/index.doc" title="Program Completion Guide Student/Graduate">PROGRAM COMPLETION GUIDE FOR STUDENTS/GRADUATES</a></li>
+	<li>S<a href="../sites/default/files/uploads/student-graduate-guide-petition-process_1/index.doc" title="Student/Graduate Guide to Petition Process">TUDENT/GRADUATE&nbsp;GUIDE TO&nbsp;PETITION PROCESS</a></li>
+	<li><a href="../sites/default/files/uploads/student_graduate_petition_form_final_3.6.17/index.doc" title="Student Graduate Petition Form">STUDENT/GRADUATE PETITION FORM</a></li>
+	<li><a href="../sites/default/files/uploads/student_graduate_request_to_university_3.6.17/index.docx" title="Student/Graduate Request to University">STUDENT/GRADUATE REQUEST TO UNIVERSITY</a></li>
+	<li><a href="../sites/default/files/uploads/project-coordinator-petition-guide/index.doc" title="PC Guide to IV-E Petition Process">PC GUIDE TO TITLE IV-E PETITION PROCESS</a></li>
+	<li><a href="../sites/default/files/uploads/pc_petition_recommendation_form_3.6.17/index.docx" title="PI/PC Petition Recommendation Form">PI and PC PETITION RECOMMENDATION FORM</a></li>
+</ul>
+
+<h4><strong>Program Issues Information for Students and Graduates</strong></h4>
+
+<p><em>To help students and graduates understand what to do if they have challenges meeting program requirements, CalSWEC strongly recommends that Project Coordinators (PCs) share the<a href="../sites/default/files/uploads/program-completion-guide-iv-e-stud-grad_6.17.14_1/index.doc" title="Program Completion Guide: IV-E Students &amp; Graduates"> </a></em><a href="../sites/default/files/uploads/program-completion-guide-iv-e-stud-grad_6.17.14_1/index.doc" title="Program Completion Guide: IV-E Students &amp; Graduates">Program&nbsp;Completion&nbsp;Guide&nbsp;for&nbsp;Students/Graduates</a><em>&nbsp;</em><strong>when<strong>&nbsp;</strong>the student&nbsp;enters&nbsp;the program. </strong></p>
+
+<p><em>By sharing the </em><a href="../sites/default/files/uploads/program-completion-guide-iv-e-stud-grad_6.17.14/index.doc" title="Program Completion Guide for Students/Graduates">guide</a><em> before problems&nbsp;arise, the PC may be able to prevent future difficulties.&nbsp;</em></p>
+
+<div>
+<hr /></div>
+
+<div>
+<p><strong><a name="The Petition Process">THE PETITION PROCESS</a></strong></p>
+
+<p class="rteindent1"><a href="#Time Limits" title="Time Limits">Time Limits</a>&nbsp;<br />
+<a href="#Required Evidence" title="Required Evidence">Required Evidence</a></p>
+
+<ul class="rteindent1">
+	<li><em><a href="#PETITION STEPS" title="PETITON STEPS">Petition Steps</a></em></li>
+</ul>
+
+<p>In all cases in which the school PC and PI consider a&nbsp;petition, the school:</p>
+
+<ol>
+	<li>&nbsp;Should determine whether the request is appropriate under the terms of the state contract, and</li>
+	<li>&nbsp;If&nbsp;the PC or PI is in doubt as to the merit of the student's petition, s/he should communicate with the IV-E Workforce Development Coordinator&nbsp;to discuss the matter.&nbsp;</li>
+</ol>
+
+<p>Whenever a&nbsp;<strong>delay or waiver</strong>&nbsp;is requested by a student&nbsp;for any reason, the&nbsp;<strong>school should immediately ask the student to sign a repayment&nbsp;agreement</strong>&nbsp;that will take effect if the student does not return or meet the prescribed conditions or if CalSWEC does not approve the delay or waiver. When a student requests delay <strong>in completing the academic program</strong>, s/he should complete not a Petition, but a <a href="../sites/default/files/uploads/student_graduate_request_to_university_0/index.docx" title="Student Request to the University">Request to the University</a>, which is empowered to grant a request &nbsp;for delay in completing the academic program for up to one year.&nbsp;A copy of the repayment agreement must be retained by the PC and the school’s student loans and collections office. Requests for delay or waiver in completing other requirements of the Program&nbsp;(e.g., job search, employment&nbsp;obligation)&nbsp;require a Petition.</p>
+
+<p><a name="Time Limits"><strong>Time Limits</strong></a></p>
+
+<ol>
+	<li>The student/graduate must return the completed Petition&nbsp;Form and supporting evidence to the PC&nbsp;<em>within 30 days of receipt of the form</em>.</li>
+	<li>The school must make its formal decision&nbsp;<em>within 30 days of receiving the petition</em>. The PC and PI &nbsp;Response or Recommendation Form should be <strong>scanned and sent via email&nbsp;to : &nbsp;<a href="mailto:iv-e_petitions@berkeley.edu?subject=IV-E%20petitions">iv-e_petitions@berkeley.edu</a>.</strong></li>
+	<li>If the PC and PI approve the Petition, CalSWEC then has up to 30 days to affirm&nbsp;or reverse&nbsp;the school's recommendation and to notify the school and petitioner.</li>
+</ol>
+
+<p><a name="Required Evidence"><strong>Required Evidence</strong></a></p>
+
+<p>A student or graduate petition involving completion of employment obligation must include evidence of a comprehensive employment search of all relevant agencies. Petitions involving allegations of hardship/disability must include evidence of hardship or disability.&nbsp;<em>&nbsp;PLEASE PASSWORD PROTECT ALL DOCUMENTS WITH SENSITIVE INFORMATION (</em><em>e.g., medical notes) AND REDACT SOCIAL SECURITY NUMBERS IN ALL&nbsp;EMAILS.</em></p>
+
+<p>Based on the above criteria, the steps to be followed in processing a student's petition are below:</p>
+</div>
+
+<div>
+<p><em><a id="PETITION STEPS" name="PETITION STEPS"><strong>Petition Steps</strong></a></em></p>
+
+<p><strong><em>Step One</em>:</strong>&nbsp;The completed Student/Graduate Petition&nbsp;Form is submitted to&nbsp; the Project Coordinator (PC) and Principal Investigator (PI). The student/graduate should submit all supporting documentation along with the form.</p>
+
+<p><strong><em>Step Two</em>:&nbsp;</strong>The PC and PI review the petition in light of the contract and regulations and submitted documentation.</p>
+
+<p><strong><em>Step Three</em>:</strong></p>
+
+<p class="rteindent1"><strong><em>Scenario a:</em></strong>&nbsp;If the PC and PI believe the petition should be&nbsp;<em>denied</em>, they s<strong>can and send their Decision Form to the petitioner and to <a href="mailto:iv-e_petitions@berkeley.edu?subject=IV-E%20petitions">iv-e_petitions@berkeley.edu</a>.&nbsp;</strong></p>
+
+<p class="rteindent1"><strong><em>Scenario b:</em></strong>&nbsp;If the PC and PI believe the petition should be&nbsp;<em>approved</em>, they <strong>scan and send their Decision Form via email to: <a href="mailto:iv-e_petitions@berkeley.edu?subject=IV-E%20Petition">iv-e_ petitions@berkeley.edu</a>.&nbsp;</strong></p>
+
+<p class="rteindent1">CalSWEC&nbsp;reviews the matter and informs the PC,PI,&nbsp;and petitioner of the decision to affirm or reverse the school's decision. The decision of CalSWEC is final.</p>
+
+
+
+<hr /></div>
+
+<p><strong><a id="Delay and Waiver: Formal Process Required" name="Delay and Waiver: Formal Process Required">TYPES OF PETITIONS: &nbsp;Delay or Waiver &nbsp;&nbsp;</a></strong></p>
+
+<p class="rteindent1"><a href="#Delay of Graduation, Employment Search, or Employment Obligation" title="Delay of Graduation, Employment Search, or Employment Obligation">Delay of Graduation, Employment Search,&nbsp;or Employment Obligation</a>&nbsp;<br />
+<a href="#Waiver of Employment Obligation" title="Waiver of Employment Obligation">Waiver of Employment Obligation</a>&nbsp;<br />
+<a href="#Special Cases" title="Special Cases">Special Cases</a>&nbsp;</p>
+
+<p class="rteindent2"><a href="#1. Employment Changes" title="1. Employment Changes ">1. Employment Changes</a>&nbsp;<br />
+<a href="#2. Part-Time Student Layoff" title="2. Part-Time Student Layoff">2. Part-Time Student Layoff</a>&nbsp;</p>
+
+<p><a id="Delay of Graduation, Employment Search, or Employment Obligation" name="Delay of Graduation, Employment Search, or Employment Obligation"><strong>Delay of Graduation, Employment Search, or&nbsp;Employment Obligation</strong></a></p>
+
+<p>If a student/graduate must interrupt his/her studies and/or delay graduation or required employment search/obligation due to personal hardship or disability, the student/graduate&nbsp;must notify the school and petition for the delay. The school may request permission from CalSWEC to <strong>delay</strong> the employment obligation&nbsp;requirement for no more than one year.</p>
+
+<p>In all cases for delay, the student files&nbsp;a petition form requesting the delay&nbsp;and the school writes a&nbsp;letter to the Director of the CalSWEC Stipend Program &nbsp;indicating&nbsp;when the student is expected to recommence and complete the program&nbsp;to allow CSIS to be updated.&nbsp;The circumstances must be fully documented, including the petition form from the student and other submitted evidence, e.g., medical notes, faculty notes, etc. <strong>These materials must be scanned and&nbsp;sent via email to: <a href="mailto:iv-e_petitions@berkeley.edu?subject=IV-E%20Petition">iv-e_petitions@berkeley.edu</a>.</strong> The student may also choose to repay the stipend amount received up to that point.</p>
+
+<p><a name="Waiver of Employment Obligation"><strong>Waiver of Employment Obligation</strong></a></p>
+
+<p>If hardship, such as death, personal illness, or permanent disability, results in circumstances that could allow a waiver of employment obligation, the student or his/her representative must complete a petition form for waiver. <strong>If the school recommends granting the petition for waiver, it must submit a written recommendation form to&nbsp;CalSWEC to waive the employment obligation</strong>. <strong>The petition and the school's recommendation must be scanned and sent via email to <a href="mailto:iv-e_petitions@berkeley.edu?subject=IV-E%20petition">iv-e_petitions@berkeley.edu</a>.</strong> The circumstances must be fully documented with evidence, e.g., medical notes, employer notes, etc. &nbsp;<em>PLEASE PASSWORD PROTECT ANY SENSITIVE DOCUMENTS (e.g., medical notes) SENT VIA EMAIL.</em></p>
+
+<p>With CalSWEC approval, and on written petition by the graduate or graduate’s legal representative, the university may waive the employment repayment obligations in the case of death, disability, or serious hardship. <u>See</u> 45 CFR 235.63 (b) (1).</p>
+
+<h4><a id="Special Cases" name="Special Cases"><strong>SPECIAL CASES</strong></a></h4>
+
+<p><a id="1. Employment Changes" name="1. Employment Changes"><strong>1. Employment Changes</strong></a></p>
+
+<p>Special requirements pertain to graduates who change positions during the period of their employment obligation. Failure to abide by the requirements below may result in a graduate's losing credit for work periods and/or becoming immediately liable for monetary repayment of support received.</p>
+
+<ul>
+	<li>A graduate who is already employed in a county or Tribal child welfare position or in the&nbsp;<a href="http://www.cdss.ca.gov/" target="_blank" title="California Department of Social Services (CDSS)">California Department of Social Services (CDSS)</a> must <strong>notify the PC and complete a petition form</strong> before leaving that position and/or accepting another qualifying CW position. <strong>The petition form must be scanned and sent via email to : <a href="mailto:iv-e_petitions@berkeley.edu?subject=IV-E%20petitions">iv-e _petitions@berkeley.edu</a>.</strong> The PC must notify&nbsp;CalSWEC of the change so CSIS data may be updated.</li>
+	<li>A graduate who has participated in the PT program as a county child welfare employee must have the <strong>permission of the employing county</strong> to transfer to a qualifying position in another county.</li>
+	<li>A graduate who has successfully petitioned to work in a specific qualified non-profit and is already thus employed must <strong>notify the PC and complete a petition form </strong>for permission to leave that position. T<strong>he petition must be scanned and sent via email to&nbsp;<a href="mailto:iv-e_petitions@berkeley.edu?subject=IV-E%20petition">iv-e_petitions@berkeley.edu</a></strong>:&nbsp;<strong>If the graduate does leave the position, s/he must resume a second, statewide search for CW positions pursuant to the job search guidelines. The search clock will resume&nbsp;at the point the graduate's prior search ended.</strong>&nbsp;If the graduate's search does not culminate in CW employment, s/he must petition a second time for permission to search for a non-profit position. The PC must notify CalSWEC of any employment changes to allow CSIS to be updated.</li>
+</ul>
+
+<p>The employment change petition process will have a short turnaround. The PC will review the petition and decide whether to grant the request. If the petitioner is dissatisfied with the decision, s/he may appeal to CalSWEC by filing an Appeal form along with relevant evidence.</p>
+
+<p><a name="2. Part-Time Student Layoff"><strong>2. Part-Time Student Layoff</strong></a></p>
+
+<p>If during the course of a part-time IV-E student's education, the student is laid off from county employment, s/he will be allowed to continue in the IV-E part-time program after&nbsp;the following review process:</p>
+
+<ol>
+	<li>The student informs the PC of the layoff as soon as possible after it occurs.</li>
+	<li>The student produces a formal lay-off notice from the county as soon as possible.</li>
+	<li>The PC reviews the documentation and makes a recommendation to the school Principal Investigator (PI).</li>
+	<li>If the documents are in order and approved by the PC and PI, the student may continue in the IV-E part-time program.</li>
+	<li>The PC and PI inform CalSWEC central of the decision by letter.</li>
+</ol>
+
+<p>If the student cannot produce a lay-off notice, s/he is no longer entitled to participate in the IV-E part-time program and is therefore ineligible to receive tuition, books, fees, and travel support from the program. The student then enters into a monetary payback agreement with the school.</p>
+
+<hr />
+<p><strong><a name="Conditions for Monetary Repayment">CONDITIONS FOR MONETARY REPAYMENT</a></strong></p>
+
+<p>If the student fails to fulfill the terms of the Student Contract, including failure to graduate because of termination of enrollment from the university for any reason, or if the student leaves the program for any reason, the student will pay the university or its fiscal agent, at an agreed-upon amount each month, the sum of all amounts received as support, together with all attorney’s fees and other costs and charges necessary for collection, including interest on the unpaid balance at the rate determined by the university or school. The period of repayment shall not exceed five years unless otherwise specified by the university.</p>
+
+<p>If the student/graduate<strong> fails to apply for or declines</strong> appropriate employment, <strong>fails to qualify</strong> for appropriate field placement or employment, <strong>is discharged</strong> from county employment under applicable County Civil Service rules or policies, or if <strong>unsatisfactory work performance</strong> results in termination prior to completion of the employment requirement, the student agrees to repay any support provided by university and costs incurred by university or its fiscal agent in securing repayment.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p><strong>Failure to qualify</strong> includes failing the interview, medical or psychological examination, and/or criminal background check. &nbsp;</p>
+
+<p><strong>Unsatisfactory work performance</strong> includes but is not limited to:</p>
+
+<ul>
+	<li>inadequate professional performance,</li>
+	<li>a felony conviction during program participation and/or employment obligation period,</li>
+	<li>conviction of a crime involving harm to children,</li>
+	<li>improper conduct as described by County Code/Merit System or Classified Personnel System, or</li>
+	<li>violation of the National Association of Social Workers (NASW) Code of Ethics.</li>
+</ul>
+
+<p>Should repayment not be received in a timely manner, the university or its fiscal agent may undertake, but is not limited to, the following measures: 1) block student records and withhold transcripts pursuant to university regulations; 2) use a collection agency to collect all monetary support received; 3) intercept the student’s tax returns and apply funds toward any amounts owed; and 4) report delinquent repayment status to the IRS and available credit bureaus.</p>
+
+<p>All collection costs and interest on the unpaid balance are not determined by CalSWEC but by the university programs then in effect.</p>
+
+<p><strong>To exercise</strong> <strong>the monetary repayment option, </strong>the student/graduate must execute the Title IV-E Social Work Training Program <a href="../sites/default/files/uploads/calswec_repayment_agreement_2017_0/index.docx" title="Repayment Agreement">Repayment Agreement</a> with the university.</p>
+
+<p>IN ALL CASES IN WHICH A STUDENT'S OR GRADUATE'S STATUS HAS CHANGED, CALSWEC MUST BE NOTIFIED TO ALLOW CSIS TO BE UPDATED.</p>
+
+<p><em>Reviewed &nbsp;August&nbsp;2017</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3>&nbsp;</h3>
+
+
+
+<h3>&nbsp;</h3>
+</div></div></div>  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-d0a6686d2aa7bee4392da9eb23bd2af1">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-1" class="block block-menu-block last even " role="navigation">
+
+        <h2 class="block__title block-title"><a href="../programs-initiatives/index.html" class="active-trail">Programs &amp; Initiatives</a></h2>
+    
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-2">
+  <ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-436"><a href="../child-welfare/index.html" class="menu__link is-active-trail active-trail">Child Welfare</a><ul class="menu"><li class="menu__item is-active-trail is-expanded first expanded active-trail menu-mlid-482"><a href="../title-iv-e-child-welfare-training-program/index.html" title="Title IV-E Child Welfare Training Program" class="menu__link is-active-trail active-trail">Title IV-E Child Welfare Training Program</a><ul class="menu"><li class="menu__item is-collapsed first collapsed menu-mlid-3595"><a href="../calswec-title-iv-e-summit/index.html" title="CalSWEC Title IV-E Summit" class="menu__link">CalSWEC Title IV-E Summit</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2933"><a href="../news-about-iv-e-stipend-schools/index.html" title="Newsletters about IV-E Stipend Schools" class="menu__link">News about  IV-E Stipend Schools</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-486"><a href="../title-iv-e-stipend-program/index.html" title="Stipend Program" class="menu__link">Stipend Program</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-746"><a href="../serve-indigenous-community-social-workers-change/index.html" title="SERVE (formerly American Indian Recruitment Program)" class="menu__link">SERVE: Indigenous Community Social Workers for Change (formerly American Indian Recruitment Program)</a></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-747"><a href="../field-instruction-initiative/index.html" title="Field Instruction Initiative" class="menu__link">Field Instruction Initiative</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3752"><a href="../calswec-graduate-and-alumni-stories-0/index.html" title="CalSWEC Graduate and Alumni Stories" class="menu__link">CalSWEC Graduate and Alumni Stories</a></li>
+</ul></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-483"><a href="../service-training-coordination/index.html" title="In-Service Training Coordination" class="menu__link">In-Service Training Coordination</a></li>
+</ul></li>
+<li class="menu__item is-collapsed collapsed menu-mlid-437"><a href="../integrated-behavioral-health-program/index.html" class="menu__link">Integrated Behavioral Health Program</a></li>
+<li class="menu__item is-collapsed last collapsed menu-mlid-438"><a href="../aging/index.html" class="menu__link">Aging</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer_navigation">
+        <div class="section container-12 ">
+          <div class="region region-footer-navigation">
+    <div id="block-menu-block-12" class="block block-menu-block first last odd " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-12 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-active-trail is-parent is-leaf first leaf has-children active-trail menu-mlid-425"><a href="../programs-initiatives/index.html" class="menu__link is-active-trail is-active-trail active-trail active-trail">Programs &amp; Initiatives</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-426"><a href="../curricula-competencies/index.html" class="menu__link">Curricula &amp; Competencies</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-427"><a href="../evaluation-research-implementation/index.html" title="Evaluation, Research &amp; Implementation" class="menu__link">Evaluation, Research &amp; Implementation</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-428"><a href="../events/index.html" class="menu__link">Events</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-430"><a href="../resources/index.html" title="Resources" class="menu__link">Resources</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-3306"><a href="../overview-documents/index.html" title="Overview Documents" class="menu__link">Overview Documents</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-9" class="block block-block grid-5 suffix-1 first odd ">
+
+      
+<div class="content"> 
+    <p>&nbsp;</p>
+
+<div>2850 Telegraph Ave., Suite 215 | Berkeley, CA 94705</div>
+
+<div>Phone: 510-642-9272 | FAX: 510-642-8573</div>
+
+<div><a href="http://berkeley.edu/" title="University of California, Berkeley">University of California, Berkeley</a> | <a href="http://socialwelfare.berkeley.edu/" title="Berkeley Social Welfare">Berkeley Social Welfare</a></div>
+
+<div>Copyright 2018 by the Regents of the University of California</div>
+
+<div><a href="../index/index.html">Terms of Service</a> | <a href="../index/index.html">Privacy Policy</a> | <a href="../index/index.html">Credits </a>| <a href="../user/index.html">Login</a></div>
+
+<p><a class="twitter" href="http://twitter.com/#!/calswec" title="Twitter">twitter</a><a class="facebook" href="http://www.facebook.com/CalSWEC" title="Facebook">facebook</a><a class="vimeo" href="http://vimeo.com/channels/572749" title="Vimeo">Vimeo</a></p>
+</div>
+
+</div><!-- /.block -->
+<div id="block-menu-block-8" class="block block-menu-block grid-3 last even " role="navigation">
+
+      
+<div class="content"> 
+    <div class="menu-block-wrapper menu-block-8 menu-name-menu-secondary-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="menu__item is-parent is-leaf first leaf has-children menu-mlid-424"><a href="../about/index.html" title="About" class="menu__link">About</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-753"><a href="../partners/index.html" title="Partners" class="menu__link">Partners</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-768"><a href="../students/index.html" title="For Students" class="menu__link">For Students</a></li>
+<li class="menu__item is-parent is-leaf leaf has-children menu-mlid-518"><a href="../news/index.html" title="News" class="menu__link">News</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2444"><a href="../project-coordinators-0/index.html" title="For Project Coordinators" class="menu__link">For Project Coordinators</a></li>
+<li class="menu__item is-leaf leaf menu-mlid-2571"><a href="../academy-training-evaluators/index.html" class="menu__link">For Academy Training Evaluators</a></li>
+<li class="menu__item is-leaf last leaf menu-mlid-563"><a href="../contact/index.html" title="" class="menu__link">Contact</a></li>
+</ul></div>
+</div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":193,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/student-petitions by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:11:18 GMT -->
+</html>

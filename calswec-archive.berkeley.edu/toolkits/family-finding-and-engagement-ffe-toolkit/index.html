@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr">
+
+
+<!-- Mirrored from calswec-archive.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:30:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head profile="../../../www.w3.org/1999/xhtml/vocab.1/index.delayed">
+  <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="../../sites/default/files/calswec-logo-color/index.png" type="image/png" />
+<link rel="next" href="home/index.html" />
+<link rel="canonical" href="index.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="../../node/1558/index.html" />
+  <title>Family Finding and Engagement (FFE) Toolkit | CalSWEC</title>
+  <link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_kShW4RPmRstZ3SpIC-ZvVGNFVAi0WEMuCnI0ZkYIaFw/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_QnDqumlAmBiA-LkPKOOEj-wMlRQlYuHQdMmPGFs03GQ/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_n2IdwK4pYHQTn4_QHVfLmrbg1BubAMGSfhiy63_6JSc/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_9NBHaEN4wqDcmaXFxT7r6LzXTYHomUUWOR0EEj_EMRI/index.html" media="all" />
+<style>.toolkits #header_left{background-color:#d62825;}.toolkits a{color:#d62825;}.toolkits .sidebar .block h2.block-title{background-color:#d62825;}
+</style>
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_mNZgy_j0IBKTUECmY2hlJI32Rbo-u22BqeL7j4R8ATA/index.css" media="all" />
+<link type="text/css" rel="stylesheet" href="../../sites/default/files/css/css_e0Oi8I1L8cGJ7KxcUbimLkO-ivlPDoZXuBZMWKAz5GY/index.css" media="print" />
+  <script src="../../sites/default/files/js/js_vDrW3Ry_4gtSYaLsh77lWhWjIC6ml2QNkcfvfP5CVFs/index.js"></script>
+<script src="../../sites/default/files/js/js_0qGD1CqGsDpO1yJ1qzckatKYx8lDESM0HyyA0gOUh_k/index.js"></script>
+<script src="../../sites/default/files/js/js_kRX5z6GS4iR82kLOtvuUJ0F9T7bMJKxIF7rtnqEyiCc/index.js"></script>
+<script>jQuery(document).ready(function(){jQuery(".accordion, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6").accordion({autoHeight:false,navigation:true,collapsible:true,active:false});});</script>
+<script src="../../sites/default/files/js/js_8oAm3-65gJIDBNt14Bz_2x3CU_UbbihDP5AuMTn_m_o/index.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fp_wireframe","theme_token":"sATZEFTwFMMdpE6J3L3F991JpMQN56MjDwmPBOWdZqc","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/ui\/jquery.ui.core.min.js":1,"misc\/ui\/jquery.ui.widget.min.js":1,"misc\/ui\/jquery.ui.accordion.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/google_cse\/google_cse.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"0":1,"sites\/all\/modules\/tc2014_widgets\/js\/tc2014_widgets.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.accordion.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/book\/book.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/tc2014_widgets\/css\/tc2014_widgets.css":1,"sites\/all\/themes\/fp_wireframe\/toolkits.css":1,"0":1,"sites\/all\/themes\/zen\/system.menus.css":1,"sites\/all\/themes\/fp_wireframe\/css\/html-reset.css":1,"sites\/all\/themes\/fp_wireframe\/css\/wireframes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/page-backgrounds.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tabs.css":1,"sites\/all\/themes\/fp_wireframe\/css\/pages.css":1,"sites\/all\/themes\/fp_wireframe\/css\/blocks.css":1,"sites\/all\/themes\/fp_wireframe\/css\/navigation.css":1,"sites\/all\/themes\/fp_wireframe\/css\/views-styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/nodes.css":1,"sites\/all\/themes\/fp_wireframe\/css\/comments.css":1,"sites\/all\/themes\/fp_wireframe\/css\/forms.css":1,"sites\/all\/themes\/fp_wireframe\/css\/tables.css":1,"sites\/all\/themes\/fp_wireframe\/css\/fields.css":1,"sites\/all\/themes\/fp_wireframe\/css\/960\/960.css":1,"sites\/all\/themes\/fp_wireframe\/styles.css":1,"sites\/all\/themes\/fp_wireframe\/css\/print.css":1}},"googleCSE":{"cx":"014796314361296242808:opqxfwkbezu","language":"","resultsWidth":600,"domain":"www.google.com","showWaterMark":true},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"}});</script>
+	<script src="http://static.getclicky.com/js" type="text/javascript"></script>
+    <script type="text/javascript">try{ clicky.init(100605855); }catch(e){}</script>
+    <noscript><p><img alt="Clicky" width="1" height="1" src="http://in.getclicky.com/100605855ns.gif" /></p></noscript>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1558 node-type-book section-toolkits toolkits" >
+  <div id="skip-link">
+    <a href="#main-menu" class="element-invisible element-focusable">Jump to Navigation</a>
+  </div>
+    
+<div id="page-wrapper"><div id="page">
+<div id="header">
+          <div id="site-name-toolkit">
+          <a href="../../index/index.html" title="Home" rel="home">
+            <span>CalSWEC</span>
+          </a>
+        </div>
+      <div class="section container-12 ">
+
+            <div id="header_left" class="grid-4">
+                            <a href="index.html" title="Home" rel="home" id="logo"><img src="../../sites/default/files/styles/toolkits/public/default_images/toolkits_2/index.html?itok=nqtkYbfv" alt="" /></a>
+                                        <div id="name-and-slogan">
+                
+                                            <div id="site-name">
+                            <strong><a href="index.html" title="Home" rel="home"><span>Family Finding and Engagement (FFE) Toolkit</span></a></strong>
+                        </div>
+                    
+               
+                
+                </div><!-- /#name-and-slogan -->
+
+            
+        </div><!-- /#header_left -->
+
+    
+    <!--     -->
+
+    
+    </div>
+</div><!-- /.section, /#header -->
+
+  <div id="navigation">
+    <div class="section container-12 ">
+          </div>
+  </div><!-- /.section, /#navigation -->
+
+<div id="main" class=" with-navigation no-breadcrumb">
+    <div class="section container-12 ">
+
+    
+    <div id="content" class="column grid-8 ">
+        <div class="section">
+
+            <a id="main-content"></a>
+
+            
+                        <h1 class="title" id="page-title">Family Finding and Engagement (FFE) Toolkit</h1>
+            
+            
+            
+            <div class="messages--warning messages warning">
+<h2 class="element-invisible">Warning message</h2>
+You are currently visiting the archived CalSWEC website. To return to the new CalSWEC website at any time, go to <a href="http://calswec.berkeley.edu/" target="_blank">https://calswec.berkeley.edu</a>.</div>
+
+            
+            
+            
+
+
+<div id="node-1558" class="node node-book view-mode-full ">
+
+  
+      
+  
+  
+  <div class="content">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p style="margin-top:7.5pt;margin-right:0in;margin-bottom:7.5pt;margin-left:
+0in;line-height:17.7pt;background:white"><span style="font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+color:#333333">The Family Finding and Engagement (FFE) implementation toolkit provides important information, documents, and materials about searching for and locating family members and other adults who will and can serve as long-term and permanent connections to children.&nbsp;&nbsp;</span></p>
+
+<p><strong>OVERVIEW</strong></p>
+
+<p>An implementation toolkit details the process of putting a new practice, program, or intervention into action in a county or organization.&nbsp;It is a set of practical tools, which can be used together or separately, to help implementers systematically execute and evaluate the new practice, program, or intervention. Toolkits can be tailored to meet stakeholder needs based on the parameters of their projects.</p>
+
+<hr />
+<p><strong>WHAT YOU WILL FIND ON THIS WEBSITE</strong></p>
+
+<p>Each link in the menu box connects you to an overview with a description of what you’ll find in that section. As you navigate the toolkit, you’ll find:</p>
+
+<ul>
+	<li>background information;</li>
+	<li>an explanation about why the new practice, program, or intervention is needed;</li>
+	<li>information about the target population;</li>
+	<li>important definitions and descriptions;</li>
+	<li>assessment tools;</li>
+	<li>planning tools to help with execution;</li>
+	<li>suggestions for an approach to evaluation; and</li>
+	<li>tangible resources.</li>
+</ul>
+
+<p>When possible, suggestions for implementation from start to finish are provided.</p>
+
+<hr />
+<p><strong>WHY FAMILY FINDING AND ENGAGEMENT (FFE) IS IMPORTANT</strong></p>
+
+<p>Early search and engagement efforts may reveal that family members (including fathers and paternal family members) can be safe and nurturing resources for children, thus preventing out-of-home placement at outset or decreased length of time in placement.&nbsp;FFE is also important because of its goals to:</p>
+
+<ul>
+	<li>build a critical network of support immediately;</li>
+	<li>eliminate the need for children to come into care;</li>
+	<li>reduce children’s length of stay in care; and</li>
+	<li>keep children connected to those who love them.&nbsp;</li>
+</ul>
+
+<p>Research shows and tells us that attachment and family connections are critical to overall success and well-being of children and adults.&nbsp;</p>
+
+<p>The&nbsp;<strong><a href="https://www.childwelfare.gov/" target="_blank" title="Child Welfare Information Gateway">Child Welfare Information Gateway</a></strong>&nbsp;also lists&nbsp;<strong><a href="https://www.childwelfare.gov/pubs/f_fam_engagement/f_fam_engagement1.cfm" target="_blank" title="The Benefits of Family Engagement">The Benefits of Family Engagement</a></strong>.&nbsp;</p>
+
+<p>The practice of FFE supports the realization of permanency by ensuring that all children have stable and nurturing formal and informal relationships&nbsp;with adults that endure over time.</p>
+
+<hr />
+<p><strong>HOW FAMILY FINDING AND ENGAGEMENT CAN BENEFIT ME, MY COUNTY, OR MY ORGANIZATION</strong></p>
+
+<p>Family Finding and Engagement (FFE) provides an opportunity to collaborate in new ways&nbsp;for:</p>
+
+<ul>
+	<li>social workers,</li>
+	<li>caregivers,</li>
+	<li>juvenile courts,</li>
+	<li>attorneys,</li>
+	<li>service providers,</li>
+	<li>community partners,</li>
+	<li>CASA, and</li>
+	<li>youth.</li>
+</ul>
+
+<p>We hope this new way of working together will lead to better outcomes for children in foster care.&nbsp;</p>
+
+<p>As we implement FFE, social workers and other human services staff will acquire new knowledge and learn new skills to do their jobs. You, we hope, will have support to develop permanent connections with related or non-related adults.&nbsp;</p>
+
+<p>Leaders in counties or organizations can support practice by providing the guidance, endorsement, and tangible tools necessary for implementation.&nbsp;</p>
+
+<p>FFE can be evaluated to discern if the new/different way of practice, in fact, improved outcomes for youth in foster care.&nbsp;</p>
+
+<hr />
+<p><strong>WHERE TO START</strong></p>
+
+<p>This toolkit provides information using two assumptions about Fostering Connections to Success:</p>
+
+<p><em>ASSUMPTION #1</em>—Toolkit users are trying to help learn about Family Finding and Engagement (FFE) in their county or region and don't know where to start, what to do, or who to ask, OR</p>
+
+<p><em>ASSUMPTION #2</em>—Toolkit users may have implemented some or all components of a an FFE initiative and need help with organizing specific components or pieces of their work.</p>
+
+<p>This toolkit can be useful in both of these situations. For users who don't know where to start,&nbsp;the&nbsp;<strong><a href="http://calswec.berkeley.edu/files/uploads/stages-of-implementation_0.docx" title="Stages of Implementation">Stages of Implementation</a></strong>&nbsp;provides suggestions from beginning to end, using the five (5) stages of implementation as a guide. Although, not exhaustive, the document provides a few case examples as well.</p>
+
+<p>If users want to choose the tools individually, they can select specific tools located in the following categories:</p>
+
+<p><a href="http://calswec.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit/what-family-finding-and-engagement" target="_blank" title="Definitional Tools"><strong>Definitional Tools</strong></a>—Definitional Tools describe the problem that the county or organization is trying to solve. They explain the logic and theory used in making a decision about a practice, program, or intervention. They define the practice, program, or intervention in ways that are concise and easily understandable and can be executed by using the tools that have been provided in the toolkit.&nbsp;They articulate the benefits for their target population.&nbsp;</p>
+
+<p><a href="http://calswec.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit/engagement-and-communication-tools" target="_blank" title="Engagement and Communication Tools" v=""><strong>Engagement and Communication Tools</strong></a>—Engagement and Communication Tools provide leaders with materials for communicating to stakeholders about the practice, program,&nbsp;or intervention. They might include informational statistics about the issue to be addressed, the vision for implementation, and promotional or advertisement items. Engagement and Communication Tools are used to send a message to staff and others about what the future direction of the county or organization related to the new practice, program, or intervention.&nbsp;The tools can be downloaded to lead focused discussions for a variety of audiences.&nbsp;</p>
+
+<p><a href="http://calswec.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit/assessment-and-planning-tools" target="_blank" title="Assessment and Planning Tools"><strong>Assessment and PlanningTools</strong></a>—Assessment and Planning Tools guide information-gathering from quantitative and qualitative sources. They assist in determining whether your county or organization is ready for the new practice, program, or intervention. The assessment tools contained in specific toolkits may be different depending on the practice. They can be tailored so that they meet county or organizational assessment needs.&nbsp;<span style="background-color: rgb(255, 255, 255);">&nbsp;Planning tools help implementers put their county or organizational goals into achievable, sequential action steps that enable measurement of progress toward full implementation.</span></p>
+
+<p><strong><a href="http://calswec.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit/training-coaching-and-transfer-learning-tol-tools" target="_blank" title="Training/Coaching and TOL Tools">Training/Coaching and TOL Tools</a></strong>—Training is one of the links between policy and practice. Training tools are helpful in teaching policies and procedures, imparting values and principles, modeling awareness, and conveying steps for implementation.&nbsp;The tools in this section can be used in transfer of knowledge and skills from the classroom to the field.</p>
+
+<p><a href="http://calswec.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit/policies-and-procedures-tools" target="_blank" title="Policies and Procedures Tools"><strong>Policies and Procedures Tools</strong></a>—These tools describe policies and procedures recommended or required for successful implementation of the initiative, program, or intervention. They are a set of documents that describe an organization’s policies/rules for operation and/or practice and the procedures necessary to fulfill those policies.</p>
+
+<p><a href="http://calswec.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit/evaluation-tools" target="_blank" title="Evaluation Tools"><strong>Evaluation Tools</strong></a>—Evaluation tools provide a framework for consideration in a county or organization, provide suggestions on how to extract or export data, and assist the county in knowing that other reports can be used to get results for their implementation efforts.&nbsp;The goal is to increase the fidelity of evaluation efforts by providing assistance in the form of the materials in this section.&nbsp;</p>
+
+<p><a href="http://calswec.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit/fiscal-and-funding-tools" target="_blank" title="Fiscal and Funding Tools"><strong>Fiscal and&nbsp;Funding Tools</strong></a>—In times of scarcity, finding money to fund new projects may be difficult because organizations are already taxed, and managers have to operate with stricter budget requirements and limits.&nbsp;This is particularly true for the child welfare system; the same or similar level of productivity is expected with less resource allocations. Potential funding sources may be available for your practice, program, or intervention. Potential funding sources may be available for your practice, program, or intervention.&nbsp; Sometimes, people have been able to secure funding in creative ways.</p>
+
+
+
+
+
+<p style="margin-top:7.5pt;margin-right:0in;margin-bottom:7.5pt;margin-left:
+0in;line-height:17.7pt;background:white"><span style="font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;;
+color:#333333"><o:p></o:p></span></p>
+</div></div></div>  <div id="book-navigation-1558" class="book-navigation">
+    <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="home/index.html" class="menu__link">Home</a></li>
+<li class="menu__item is-leaf leaf"><a href="what-family-finding-and-engagement/index.html" class="menu__link">What is Family Finding and Engagement?</a></li>
+<li class="menu__item is-leaf leaf"><a href="engagement-and-communication-tools/index.html" class="menu__link">Engagement and Communication Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="assessment-and-planning-tools/index.html" class="menu__link">Assessment and Planning Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="training-coaching-and-transfer-learning-tol-tools/index.html" class="menu__link">Training, Coaching, and Transfer of Learning (TOL) Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="evaluation-tools/index.html" class="menu__link">Evaluation Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="policies-and-procedures-tools/index.html" class="menu__link">Policies and Procedures Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="fiscal-and-funding-tools/index.html" class="menu__link">Fiscal and Funding Tools</a></li>
+<li class="menu__item is-leaf last leaf"><a href="resources/index.html" class="menu__link">Resources</a></li>
+</ul>
+        <div class="page-links clearfix">
+                          <a href="home/index.html" class="page-next" title="Go to next page">Home ›</a>
+          </div>
+    
+  </div>
+  </div>
+
+  
+  
+</div><!-- /.node -->
+
+            
+        </div>
+    </div><!-- /.section, /#content -->
+
+    
+            <div id="sidebar-right" class="column sidebar region grid-4">
+              <section class="region region-sidebar-second column sidebar">
+    <div id="block-views-toolkit-image-block" class="block block-views first odd ">
+
+      
+<div class="content"> 
+    <div class="view view-toolkit-image view-id-toolkit_image view-display-id-block view-dom-id-105e6ecaf2e4824c7035e123511c1994">
+        
+  
+  
+      <!--<div class="view-content">-->
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last clearfix">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><img src="../../sites/default/files/styles/medium/public/ffe/index.html?itok=BJSyTGTP" width="300" height="175" alt="" /></div>  </div>  </div>
+    <!--</div>-->
+  
+  
+  
+  
+  
+  
+</div> </div>
+
+</div><!-- /.block -->
+<div id="block-book-navigation" class="block block-book last even " role="navigation">
+
+        <h2 class="block__title block-title">Inside this Toolkit</h2>
+    
+<div class="content"> 
+    <ul class="menu"><li class="menu__item is-leaf first leaf"><a href="home/index.html" class="menu__link">Home</a></li>
+<li class="menu__item is-leaf leaf"><a href="what-family-finding-and-engagement/index.html" class="menu__link">What is Family Finding and Engagement?</a></li>
+<li class="menu__item is-leaf leaf"><a href="engagement-and-communication-tools/index.html" class="menu__link">Engagement and Communication Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="assessment-and-planning-tools/index.html" class="menu__link">Assessment and Planning Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="training-coaching-and-transfer-learning-tol-tools/index.html" class="menu__link">Training, Coaching, and Transfer of Learning (TOL) Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="evaluation-tools/index.html" class="menu__link">Evaluation Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="policies-and-procedures-tools/index.html" class="menu__link">Policies and Procedures Tools</a></li>
+<li class="menu__item is-leaf leaf"><a href="fiscal-and-funding-tools/index.html" class="menu__link">Fiscal and Funding Tools</a></li>
+<li class="menu__item is-leaf last leaf"><a href="resources/index.html" class="menu__link">Resources</a></li>
+</ul></div>
+
+</div><!-- /.block -->
+  </section>
+        </div>
+    
+    </div>
+</div><!-- /#main, /#main-wrapper -->
+    <div id ="footer">
+        <div class="section container-12 ">
+          <footer id="footer" class="region region-footer">
+    <div id="block-block-10" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <p><a href="../../index/index.html">CalSWEC home</a> | <a href="../index.html">Toolkits</a></p></div>
+
+</div><!-- /.block -->
+  </footer>
+        </div>
+    </div>
+
+</div></div><!-- #page, #page-wrapper -->
+    <div id ="bottom">
+        <div class="section container-12 ">
+              <div class="region region-bottom">
+    <div id="block-block-12" class="block block-block first last odd ">
+
+      
+<div class="content"> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57e1eb154cd6266f"></script>
+</div>
+
+</div><!-- /.block -->
+  </div>
+        </div>
+    </div>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"07af2d7db5","applicationID":"1848917","transactionName":"YFZVNUsAWRBRWxcPCVkcdgJNCFgNH1YMAgNoQ1YGXD5BClVP","queueTime":0,"applicationTime":149,"atts":"TBFWQwMaSh4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from calswec-archive.berkeley.edu/toolkits/family-finding-and-engagement-ffe-toolkit by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 May 2018 15:30:34 GMT -->
+</html>
